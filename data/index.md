@@ -19,21 +19,12 @@ Kurssi koostuu seitsemästä tehtäväsarjasta, ohjelmointiprojektista sekä kok
 
 Kurssin laskennallinen työkuorma on noin 135 tuntia. Kunkin tehtäväsarjan tekemiseen kannattaa varata noin 12 tuntia, projektiin ja siihen liittyviin vertaisarviointeihin noin 40 tuntia, ja kokeeseen kertaamiseen noin 8 tuntia. Varaamme oikeuden aikataulun ja aiheiden muutoksiin.
 
-Kurssin aikatulusta tulee tähän lisää myöhemmin
+Kurssilla ei ole viikkokohtaisia deadlineja. Kurssin suorittaminen on kuitenkin kohdennettava kolmeen vaihtoehtoiseen deadlineen. 
 
-<!--
-| Aikataulu | Julkaisu   | Deadline   |
-| ----------|------------|------------|
-| Osa 1     | 25.10.2019 | 04.11.2019 |
-| Osa 2     | 01.11.2019 | 11.11.2019 |
-| Osa 3     | 08.11.2019 | 18.11.2019 |
-| Osa 4     | 15.11.2019 | 25.11.2019 |
-| Osa 5     | 22.11.2019 | 02.12.2019 |
-| Osa 6     | 29.12.2019 | 09.12.2019 |
-| Osa 7     | 6.12.2019  | 16.12.2019 |
-
-**Määräajat ovat aina maanantaisin. Määräaikojen kellonajat ovat aina 23:59:00 – osan 1 tehtävät tulee palauttaa siis viimeistään 04.11.2019 klo 23:59:00. Virallisena määräaikana käytetään tehtäväpalvelimen kelloa, joka on Suomen ajassa. Huomaa, että oman koneesi kello voi olla jäljessä tai edellä, joten älä jätä tehtävien tekemistä ja palauttamista viime hetkeen.**
--->
+| Projekti deadline | Tentti | Vertaisarviointi deadline |
+| 4.5.2020 | 7.5.2020 | 11.5.2020 |
+| ???? | ???? | ??? |
+| 9.11.2020 | 12.11.2020 | 16.11.2020 |
 
 ## Ilmoittautuminen ##
 Katso tarkemmin sivulta "Arvostelu ja kokeet".

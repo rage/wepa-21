@@ -5,13 +5,13 @@ hidden: false
 information_page: true
 ---
 
-Kurssin arvostelu perustuu viikoittain julkaistavan materiaalin tehtäviin sekä laajempaan ohjelmointiprojektiin. Viikottaisten tehtävien painoarvo on 70% kurssin arvostelussa ja projektin sekä sen yhteydessä tehtävien vertaisarvioiden painoarvo on 30% kurssin arvostelussa.
+Kurssin arvostelu perustuu materiaalin tehtäviin sekä laajempaan ohjelmointiprojektiin. Tehtävien painoarvo on 70% kurssin arvostelussa ja projektin sekä sen yhteydessä tehtävien vertaisarvioiden painoarvo on 30% kurssin arvostelussa.
 
-Projekti julkaistaan 15.11. kurssin neljännen osan yhteydessä ja se tulee palauttaa viimeistään 16.12. klo 23:59. Palautus itse- ja vertaisarvioidaan -- itse- ja vertaisarviointimahdollisuus aukeaa 17.12. ja arvioinnit tulee tehdä viimeistään 23.12. klo 23:59.
+Projekti julkaistaan muutama viikko kurssin alkamisen jälkeen ja se tulee palauttaa ennen haluamaasi deadlinea. Palautus itse- ja vertaisarvioidaan -- itse- ja vertaisarviointimahdollisuus aukeaa deadlinesta seuraavana päivänä. Arvioinnit tulee tehdä viimeistään kahden viikon kuluttua projektin deadlinesta.
 
-Kurssin lopussa on koe, joka arvostellaan skaalalla hyväksytty / hylätty. Arvosana muodostuu tehdyistä tehtävistä ja projektista.
+Kurssin suorituksen lopussa on lisäksi koe, joka arvostellaan skaalalla hyväksytty / hylätty. Arvosana muodostuu tehdyistä tehtävistä ja projektista.
 
-Kurssin koe tehdään Moodlessa sekä kurssilla käytössä olevassa TMC-järjestelmässä. Kurssikoe järjestetään 20.12. Uusinnat järjestetään 31.1.2020 ja 28.2.2020. Kurssin koe kestää 4 tuntia ja sen voi tehdä tenttipäivänä välillä 10-20.
+Kurssin koe tehdään Moodlessa sekä kurssilla käytössä olevassa TMC-järjestelmässä. Kurssin koe kestää 4 tuntia ja sen voi tehdä tenttipäivänä välillä 10-20.
 
 Jokaisen osan kaikista tehtävistä (kyselyt, ohjelmointitehtävät, ...) saa tehtäväpisteitä -- kukin osa on kokonaisuudessaan 10% arvoinen kurssiarvostelussa. Löydät osan kaikki tehtävät valitsemalla kyseisen osan yleisnäkymästä "Lista osan tehtävistä". Näet tehtäväpisteesi kurssimateriaalin oikeassa alakulmassa olevasta pistevisualisaatiosta kohdan "Tehtäväpisteet yhteensä" kohdalta.
 
@@ -58,10 +58,12 @@ Kurssin arvosana muodostuu seuraavalla asteikolla:
 
 ## Ilmoittautuminen ja opintosuoritusmerkintä
 
-Kurssilla käytetään Moodlea keskustelualustana, kurssiprojektin palautus- ja vertaisarviointialustana, ja koealustana.
+Kurssille ilmottaudutaan vasta suorituksen lopussa. Ilmoittautuminen tapahtuu siis vasta kun olet palauttamassa projektia. Projekti palautetaan kurssin Moodle alustalle, jossa myös tehdään vertaisarvioinnit ja koe.
 
-Sinun tulee olla ilmoittautunut kurssille, jotta voit saada kurssista opintosuoritusmerkinnän Helsingin yliopiston opintorekisteriin, osallistua kurssin mahdollisiin verkkotentteihin tai keskusteluihin ja palauttaa tehtäviä verkko-oppimisympäristö Moodlessa. Huomiothan, että pääset kurssin Moodleen vasta ilmoittautumistasi seuraavana päivänä.
+Sinun tulee olla ilmoittautunut kurssille, jotta voit saada kurssista opintosuoritusmerkinnän Helsingin yliopiston opintorekisteriin, osallistua kurssin mahdollisiin verkkotentteihin ja palauttaa tehtäviä verkko-oppimisympäristö Moodlessa.
 
-Ilmoittautuminen koskee kaikkia kurssilaisia eli myös Helsingin yliopiston opiskelijoita. Avoimen opintoihin ilmoittaudutaan kurssin avoimen yliopiston opinto-ohjelman (=kurssisivun) kautta, josta löydät tarkemmat ohjeet ilmoittautumiseen, Moodlen kurssiavaimen ja lisätietoja opintosuorituksen rekisteröinnistä. Helsingin yliopiston opiskelijat voivat ilmoittautua kurssin vastaavaan ei-avoimeen versioon Weboodin kautta. Ilmoittautuminen on auki vain määritellyn ajan, joka on ilmoitettu kurssin opinto-ohjelmassa.
+**Huomiothan, että pääset kurssin Moodleen vasta ilmoittautumistasi seuraavana päivänä.** Tämä tarkoittaa, että sinun on ilmoittauduttava kurssille vähintään päivää ennen kuin haluamasi deadline on.
+
+Ilmoittautuminen koskee kaikkia kurssilaisia eli myös Helsingin yliopiston opiskelijoita. Avoimen opintoihin ilmoittaudutaan kurssin avoimen yliopiston opinto-ohjelman (=kurssisivun) kautta, josta löydät tarkemmat ohjeet ilmoittautumiseen, Moodlen kurssiavaimen ja lisätietoja opintosuorituksen rekisteröinnistä. Ilmoittautuminen on auki vain määritellyn ajan, joka on ilmoitettu kurssin opinto-ohjelmassa.
 
 Avoimen kurssin opinto-ohjelma: https://courses.helsinki.fi/fi/aytkt21007/129637264
