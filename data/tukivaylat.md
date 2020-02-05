@@ -40,7 +40,7 @@ Exactum-rakennuksen aulassa olevasta infonäytöstä löytää salin tarkemman s
 Kurssin osallistujilla on käytössä keskustelufoorumi, joka on Moodle-järjestelmässä. Moodleen ilmoittaudutaan sivulla [Arvostelu ja kokeet](/arvostelu-ja-kokeet) olevia ohjeita noudattaen. Helsingin yliopiston opiskelijoiden ei tarvitse ilmoittautua erikseen.
 Moodleen pääset osoitteessa [https://moodle.helsinki.fi/course/view.php?id=34052](https://moodle.helsinki.fi/course/view.php?id=34052). Moodle-alueen salasana on "websyksy2019".
 -->
-
+ 
 ## Vinkkejä avun kysymiseen
 
 Kun kysyt apua kurssiin liittyviin ongelmiin, pyri olemaan mahdollisimman tarkka ongelmaan liittyvässäsi kuvauksessasi. On parempi sanoa "Saan ohjelmassani rivillä X virheen Y" kuin "Ohjelmani ei toimi". Virheviestit löytyvät tyypillisesti ohjelmointiympäristön logeista.
