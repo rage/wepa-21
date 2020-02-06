@@ -22,6 +22,7 @@ Kurssin laskennallinen työkuorma on noin 135 tuntia. Kunkin tehtäväsarjan tek
 Kurssilla ei ole viikkokohtaisia deadlineja. Kurssin suorittaminen on kuitenkin kohdennettava kolmeen vaihtoehtoiseen deadlineen. 
 
 | Projekti deadline | Tentti | Vertaisarviointi deadline |
+|---|---|---|
 | 4.5.2020 | 7.5.2020 | 11.5.2020 |
 | ???? | ???? | ??? |
 | 9.11.2020 | 12.11.2020 | 16.11.2020 |
