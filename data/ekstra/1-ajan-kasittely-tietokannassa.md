@@ -5,7 +5,7 @@ hidden: false
 ---
 
 
-Tietoon liittyy usein aikamääreitä. Esimerkiksi kirjalla on julkaisupäivämäärä, henkilöllä on syntymäpäivä, elokuvalla on näytösaika jne. Javan kahdeksannessa versiossa julkaistiin [ajan käsittelyyn tarkoitettuja luokkia](https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html), joita tarkastellaan tässä seuraavaksi.
+Tietoon liittyy usein aikamääreitä. Esimerkiksi kirjalla on julkaisupäivämäärä, henkilöllä on syntymäpäivä, elokuvalla on näytösaika jne. Tarkastellaan seuraavaksi [ajan käsittelyyn tarkoitettuja luokkia](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/time/package-summary.html).
 
 Luokkaa [LocalDate](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDate.html) käytetään vuoden, kuukauden ja päivämäärän tallentamiseen. Luokka [LocalDateTime](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html) mahdollistaa taas vuoden, kuukauden ja päivämäärän lisäksi tuntien, minuuttien, sekuntien ja millisekuntien tallentamisen.
 
@@ -26,8 +26,8 @@ public class TimeTest {
 
 <sample-output>
 
-2017-10-15
-2017-10-15T22:11:10.433
+2020-02-11
+2020-02-11T09:49:08.392536
 
 </sample-output>
 
