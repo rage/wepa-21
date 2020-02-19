@@ -66,4 +66,4 @@ Sinun tulee olla ilmoittautunut kurssille, jotta voit saada kurssista opintosuor
 
 Ilmoittautuminen koskee kaikkia kurssilaisia eli myös Helsingin yliopiston opiskelijoita. Avoimen opintoihin ilmoittaudutaan kurssin avoimen yliopiston opinto-ohjelman (=kurssisivun) kautta, josta löydät tarkemmat ohjeet ilmoittautumiseen, Moodlen kurssiavaimen ja lisätietoja opintosuorituksen rekisteröinnistä. Ilmoittautuminen on auki vain määritellyn ajan, joka on ilmoitettu kurssin opinto-ohjelmassa.
 
-Avoimen kurssin opinto-ohjelma: https://courses.helsinki.fi/fi/aytkt21007/129637264
+Avoimen kurssin opinto-ohjelma: https://courses.helsinki.fi/fi/aytkt21007/133000902
