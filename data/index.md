@@ -19,7 +19,7 @@ Kurssi koostuu seitsemästä tehtäväsarjasta, ohjelmointiprojektista sekä kok
 
 Kurssin laskennallinen työkuorma on noin 135 tuntia. Kunkin tehtäväsarjan tekemiseen kannattaa varata noin 12 tuntia, projektiin ja siihen liittyviin vertaisarviointeihin noin 40 tuntia, ja kokeeseen kertaamiseen noin 8 tuntia. Varaamme oikeuden aikataulun ja aiheiden muutoksiin.
 
-Kurssilla ei ole viikkokohtaisia deadlineja. Kurssin suorittaminen on kuitenkin kohdennettava kolmeen vaihtoehtoiseen deadlineen. 
+Kurssilla ei ole viikkokohtaisia deadlineja. Kurssin suorittaminen on kuitenkin kohdennettava kolmeen vaihtoehtoiseen deadlineen. Voit siis tulla mukaan kurssille milloin vain tekemään tehtäviä ja oppimaan. Ilmoittautuminen tehdään vasta kun olet päässyt jo pidemmälle kurssissa.
 
 | Projekti deadline | Tentti | Vertaisarviointi deadline |
 |---|---|---|
