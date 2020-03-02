@@ -140,3 +140,4 @@ Jos Herokun PostgreSQL ei lähde edellä kuvatulla esimerkillä käyntiin, tarka
 
 
 <quiz id="bf73017a-a6e6-5415-b465-8173a8103f2e"></quiz>
+<quiz id="9fcc7cca-7f40-4a26-ae07-d33d15228491"></quiz>

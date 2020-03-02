@@ -4,7 +4,7 @@ const courseSettings = {
   siteUrl: "https://web-palvelinohjelmointi-20.mooc.fi",
   subtitle: "Opi tekemään verkossa toimivia sovelluksia",
   slug: "web-palvelinohjelmointi-20",
-  tmcCourse: "web-palvelinohjelmointi-20",
+  tmcCourse: "wepa-2020",
   quizzesId: "490d23d9-baa0-4daf-a505-c235f7dba170",
   tmcOrganization: "mooc",
   bannerPath: "banner.jpg",
@@ -30,7 +30,7 @@ const courseSettings = {
     { separator: true, title: "Web-palvelinohjelmointi Java" },
   ],
   sidebarFuturePages: [
-    { title: "Osa 1", tba: "10.03.20" },
+//    { title: "Osa 1", tba: "10.03.20" },
     { title: "Osa 2", tba: "10.03.20" },
     { title: "Osa 3", tba: "10.03.20" },
     { title: "Osa 4", tba: "24.03.20" },
