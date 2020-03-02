@@ -734,7 +734,7 @@ Vastaavasti sivu `tili.html` sisältäisi toiminnallisuuden tilin tietojen näyt
 </html>
 ```
 
-<quiz id="6e5a2b30-6d25-54fc-b6dd-4907c89943ea"></quiz>
+<quiz id="3d820bd3-aac4-5fbc-8464-c45745f9b40a"></quiz>
 
 <programming-exercise name='Airports and aircrafts (2 osaa)' tmcname='osa03-Osa03_03.AirportsAndAircrafts'>
 

@@ -11,9 +11,9 @@ Tässä osassa harjoittelit toistuvien sivurakenteiden määrittelyä sekä käy
 Vastaa lopuksi seuraavaan itsearviointikyselyyn ja keksi kurssimateriaalin kuudennesta osasta monivalintakysymys.
 
 
-<quiz id="1648b82d-20e9-5635-8a02-c8cd57b5d1d1"></quiz>
+<quiz id="b7904d85-ebfb-521a-a10f-c57153f92c51"></quiz>
 
-<quiz id="cc0dd76b-2768-54d8-8390-1708efb02cf7"></quiz>
+<quiz id="f32d3cf7-90dc-503a-aac4-b9805e87da7e"></quiz>
 
 #### Osan käsitteiden kertaus (bonus) - 1 piste
 

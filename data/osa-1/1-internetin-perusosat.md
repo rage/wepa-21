@@ -14,7 +14,7 @@ hidden: false
 
 </text-box>
 
-<quiz id="d985bdb0-bce9-5b9a-8809-df7eb787e59a"></quiz>
+<quiz id="7026d78f-cbae-5ec0-9ffc-d0aede12fa5f"></quiz>
 
 
 Internetin perustana ovat (1) palveluiden, palvelinohjelmistojen ja resurssien yksilöintiin käytetyt merkkijonomuotoiset osoitteet (URI, Uniform Resource Identifier) sekä näiden merkkijonomuotoisten osoitteiden verkko-osoitteiksi muuntamiseen käytettävä palvelu (DNS, Domain Name Services), (2) selainten ja palvelinten välisessä viestittelyssä käytettävä viestimuoto eli protokolla (HTTP, HyperText Transfer Protocol), sekä (3) yhteinen dokumenttien esityskieli (HTML, HyperText Markup Language).
@@ -64,7 +64,7 @@ polku/kohdedokumentti.paate?kyselyparametri=arvo&toinen=arvo#ankkuri
 Yhdessä edellisten avulla tunnistetaan protokolla ja kone sekä koneesta haettava resurssi.
 
 
-<quiz id="af9fc62f-27f9-524a-a465-1ff621166501"></quiz>
+<quiz id="5b77329a-1cc5-5472-8591-f9000add278e"></quiz>
 
 
 Kun käyttäjä kirjoittaa web-selaimen osoitekenttään osoitteen ja painaa enteriä, web-selain tekee kyselyn annettuun osoitteeseen. Koska tekstimuotoiset osoitteet ovat käytännössä vain ihmisiä varten, kääntää selain ensiksi halutun tekstimuotoisen osoitteen IP-osoitteeksi. Jos IP-osoite on jo tietokoneen tiedossa esimerkiksi aiemmin osoitteeseen tehdyn kyselyjen takia, selain voi ottaa yhteyden IP-osoitteeseen. Jos IP-osoite taas ei ole tiedossa, tekee selain ensin kyselyn <a href="https://fi.wikipedia.org/wiki/DNS" target="_blank">DNS</a>-palvelimelle (*Domain Name System*), jonka tehtävänä on muuntaa tekstuaaliset osoitteet IP-osoitteiksi (esim. Helsingin yliopiston kotisivu `https://www.helsinki.fi` on IP-osoitteessa `128.214.189.90`).
@@ -190,7 +190,7 @@ Lista lähes kaikista HTTP-statuskoodeista löytyy osoitteesta <a href="https://
 
 <br/>
 
-<quiz id="10c93f6d-505d-5924-ad4e-7b9a7d7207b9"></quiz>
+<quiz id="87cc7d9d-c63c-5c14-8a31-6c8b4f17956b"></quiz>
 
 ### HTTP-liikenteen testaaminen telnet-työvälineellä
 
@@ -297,7 +297,7 @@ Yksittäistä sivua avattaessa tehdään jokaista resurssia (kuva, tyylitiedosto
 
 </text-box>
 
-<quiz id="74ee9e59-7fd3-5700-ac1f-a645b8ee4ba9"></quiz>
+<quiz id="eea34cd9-1222-5355-8793-f97c45c376ce"></quiz>
 
 
 ### HTTP-protokollan pyyntötavat
@@ -341,7 +341,7 @@ Selaimen ja palvelimen välisessä kommunikoinnissa GET- ja POST-tyyppiset pyynn
 - *DELETE* pyytää resurssin poistamista
 - *HEAD* haluaa resurssiin liittyvät otsaketiedot, mutta ei resurssia
 
-<quiz id="432a44f8-fb07-50d9-b706-60b74093222d"></quiz>
+<quiz id="dbd77118-5e75-5ca4-a59c-30bb4b80df90"></quiz>
 
 <text-box variant='hint' name='HTTP/2 ja HTTP/3'>
 

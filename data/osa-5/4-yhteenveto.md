@@ -9,9 +9,9 @@ T채ss채 osassa tutustuttiin HTTP-protokollan tilattomuuteen sek채 ev채steiden k�
 
 Vastaa lopuksi seuraavaan itsearviointikyselyyn ja keksi kurssimateriaalin viidennest채 osasta monivalintakysymys.
 
-<quiz id="93ae8b14-33bc-54bb-9cd4-1c65ffcf26d7"></quiz>
+<quiz id="8815db1f-ac81-5779-8ea7-cc91179cfdb9"></quiz>
 
-<quiz id="1a3ab4b6-90c6-5ea0-ba32-e01524197d04"></quiz>
+<quiz id="12433076-5089-5247-be92-e1534f8ace56"></quiz>
 
 #### Osan k채sitteiden kertaus (bonus) - 1 piste
 

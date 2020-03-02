@@ -442,4 +442,4 @@ Toteuta luokkaan testi, jossa tehdään seuraavat askeleet:
 </programming-exercise>
 
 
-<quiz id='5c98ee47ddb6b814af32ab0d'></quiz>
+<quiz id="058dcdbf-86a8-5ba7-87f1-88733acb0ac9"></quiz>

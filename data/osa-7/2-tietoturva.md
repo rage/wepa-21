@@ -51,7 +51,7 @@ Listan ensimmäisellä sijalla -- eli yleisimpänä -- sijaitsee erilaiset injek
 
 Listan toisella sijalla on rikkinäinen autentikaatio, jonka kautta hyökkääjä pääsee käsiksi esimerkiksi salasanoihin, tai jonka kautta hyökkääjä voi esittäytyä jonain muuna käyttäjänä. Tämä on mahdollista muunmuassa mikäli käyttäjien tunnistamiseen käytetty komponentti on huonosti toteutettu, evästeet ovat arvattavissa ym.
 
-<quiz id="ec8b9e2f-504d-5682-9af3-2b60e1c4138d"></quiz>
+<quiz id="14dec734-338f-587e-9938-23cb32b71dee"></quiz>
 
 
 ## Oman sovelluksen suojaaminen

@@ -9,9 +9,9 @@ Tässä osassa harjoiteltiin useamman tietokantataulun luomista ja käyttöä se
 
 Vastaa lopuksi seuraavaan itsearviointikyselyyn ja keksi kurssimateriaalin kolmannesta osasta monivalintakysymys.
 
-<quiz id="c9556b2d-150f-5143-8bfc-14aa46f0cbbd"></quiz>
+<quiz id="f5fe54c0-07ae-58e4-9b32-485e1caeb44c"></quiz>
 
-<quiz id="00e1bf40-ec58-5a9f-bd44-32ce1a3c1ae7"></quiz>
+<quiz id="6d934dbc-7e46-54d8-8ddd-1d4d7f93e27e"></quiz>
 
 #### Osan käsitteiden kertaus (bonus) - 1 piste
 

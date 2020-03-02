@@ -9,9 +9,9 @@ Tässä osassa tutustuttiin selainohjelmistojen luomiseen ja tehtiin pyyntöjä 
 Vastaa lopuksi seuraavaan itsearviointikyselyyn ja keksi kurssimateriaalin seitsemännestä osasta monivalintakysymys.
 
 
-<quiz id="f8ddcfec-b566-5876-81d4-0f8cee62e674"></quiz>
+<quiz id="b5fc856b-a1ea-5c3e-80f9-6da9bad41b4d"></quiz>
 
-<quiz id="39b1a8a0-4310-5af2-80fc-8d795361309c"></quiz>
+<quiz id="d1861aee-7d9f-5b5d-91fb-cbb7f39589b4"></quiz>
 
 #### Osan käsitteiden kertaus (bonus) - 1 piste
 
