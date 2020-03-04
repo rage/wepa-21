@@ -64,6 +64,10 @@ Sinun tulee olla ilmoittautunut kurssille, jotta voit saada kurssista opintosuor
 
 **Huomiothan, että pääset kurssin Moodleen vasta ilmoittautumistasi seuraavana päivänä.** Tämä tarkoittaa, että sinun on ilmoittauduttava kurssille vähintään päivää ennen kuin haluamasi deadline on.
 
-Ilmoittautuminen koskee kaikkia kurssilaisia eli myös Helsingin yliopiston opiskelijoita. Avoimen opintoihin ilmoittaudutaan kurssin avoimen yliopiston opinto-ohjelman (=kurssisivun) kautta, josta löydät tarkemmat ohjeet ilmoittautumiseen, Moodlen kurssiavaimen ja lisätietoja opintosuorituksen rekisteröinnistä. Ilmoittautuminen on auki vain määritellyn ajan, joka on ilmoitettu kurssin opinto-ohjelmassa.
+Ilmoittautuminen koskee kaikkia kurssilaisia eli myös Helsingin yliopiston opiskelijoita.
+
+Avoimen yliopiston kurssi-ilmoittautumisen ohjeet saat kurssimateriaalin viimeisten osioiden yhteydessä. Kurssille siis ilmoittaudutaan vasta edettyäsi tehtävissä.
+
+<!-- Avoimen opintoihin ilmoittaudutaan kurssin avoimen yliopiston opinto-ohjelman (=kurssisivun) kautta, josta löydät tarkemmat ohjeet ilmoittautumiseen, Moodlen kurssiavaimen ja lisätietoja opintosuorituksen rekisteröinnistä. Ilmoittautuminen on auki vain määritellyn ajan, joka on ilmoitettu kurssin opinto-ohjelmassa. -->
 
 Avoimen kurssin opinto-ohjelma: https://courses.helsinki.fi/fi/aytkt21007/133000902
