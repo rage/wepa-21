@@ -5,7 +5,7 @@ const courseSettings = {
   subtitle: "Opi tekemään verkossa toimivia sovelluksia",
   slug: "web-palvelinohjelmointi-20",
   tmcCourse: "wepa-2020",
-  quizzesId: "490d23d9-baa0-4daf-a505-c235f7dba170",
+  quizzesId: "898a77e2-7997-4613-b294-815a48d0e64b",
   tmcOrganization: "mooc",
   bannerPath: "banner.jpg",
   sidebarEntries: [
