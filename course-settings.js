@@ -31,8 +31,8 @@ const courseSettings = {
   ],
   sidebarFuturePages: [
 //    { title: "Osa 1", tba: "10.03.20" },
-    { title: "Osa 2", tba: "10.03.20" },
-    { title: "Osa 3", tba: "10.03.20" },
+//    { title: "Osa 2", tba: "10.03.20" },
+//    { title: "Osa 3", tba: "10.03.20" },
     { title: "Osa 4", tba: "24.03.20" },
     { title: "Osa 5", tba: "24.03.20" },
     { title: "Osa 6", tba: "24.03.20" },
