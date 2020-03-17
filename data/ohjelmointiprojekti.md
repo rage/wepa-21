@@ -5,7 +5,7 @@ hidden: true
 information_page: true
 ---
 
-Kurssiin kuuluu ohjelmointiprojekti, jossa luodaan seuraus- ja kuvasovellus eli tuttavallisemmin vanhan kansan Twitter.
+Kurssiin kuuluu ohjelmointiprojekti, jossa luodaan ansioluettelo- ja työntekijähakusovellus eli tuttavallisemmin vanhan kansan LinkedIn.
 
 Sovellukselta odotetut ominaisuudet:
 
@@ -13,33 +13,33 @@ Sovellukselta odotetut ominaisuudet:
 
 Käyttäjä rekisteröityy sovellukseen kirjaamalla sovellukseen käyttäjätunnuksen, salasanan sekä nimen. Tämän lisäksi käyttäjältä kysytään profiilin näyttämisessä käytettävää merkkijonoa, jonka perusteella käyttäjän sivu voidaan löytää sovelluksesta. Esim. “https://sovellus.net/kayttajat/profiili-merkkijono”
 
-#### Käyttäjien etsiminen ja seuraaminen ####
+#### Käyttäjien etsiminen ja yhdistäminen ####
 
-Käyttäjä voi etsiä muita käyttäjiä nimen perusteella. Käyttäjä voi seurata muita järjestelmässä olevia käyttäjiä. Käyttäjä myös tietää keitä hän seuraa.
+Käyttäjä voi etsiä muita käyttäjiä nimen perusteella. Käyttäjä voi lisätä yhteyksiinsä toisen henkilön. Yhteyttä ei kuitenkaan hyväksytä ellei toinen osapuoli hyväksy sitä.
 
-#### Seuraajat ####
+#### Yhteydet ####
 
-Käyttäjä voi tarkastella omia seuraajiaan. Seurauksen yhteydessä näytetään seuraajan nimi sekä seurauksen aloitusaika. Seuraajan voi myös halutessaan torjua seuraamasta, tällöin seuraus ei näy kummankaan profiilissa.
-
-#### Kuva-albumi ####
-
-Jokaisella käyttäjällä on kuva-albumi. Käyttäjä voi lisätä albumiinsa kuvia ja myös poistaa niitä. Kunkin käyttäjän kuva-albumi voi sisältää korkeintaan 10 kuvaa. Jokaiseen kuvaan liittyy myös tekstimuotoinen kuvaus, joka lisätään kuvaan kuvan lisäyksen yhteydessä.
+Käyttäjä voi tarkastella omia yhteyksiään. Yhteyden ohessa näytetään toisen henkilön nimi joka toimii linkkinä henkilön profiiliin sekä painikkeet yhteyden hyväksyntään ja hylkäykseen. Mikäli yhteys on jo muodostettu, on tilalla painike yhteyden katkaisemiseksi.
 
 #### Profiilikuva ####
 
-Käyttäjä voi määritellä yhden kuva-albumissa olevan kuvan profiilikuvaksi.
+Käyttäjä voi määritellä profiilikuvan.
 
 #### Henkilökohtainen etusivu ####
 
-Jokaisella käyttäjällä on henkilökohtainen “seinä”, joka sisältää henkilön nimen sekä mahdollisesti määritellyn profiilikuvan. Vain käyttäjä voi lähettää seinälle tekstimuotoisia viestejä, mutta seinällä näkyy myös seurattavien henkilöiden omat viestit. Jokaisesta viestistä näytetään viestin lähettäjän nimi, viestin lähetysaika, sekä viestin tekstimuotoinen sisältö. Viestit näytetään seinällä niiden saapumisjärjestyksessä siten, että seinällä näkyy aina korkeintaan 25 uusinta viestiä.
+Jokaisella käyttäjällä on henkilökohtainen "seinä", joka sisältää yllä henkilön nimen sekä mahdollisesti määritellyn profiilikuvan. Tämän lisäksi seinällä on lista taidoista joita henkilöllä on. Käyttäjä voi lisätä taitoja omalta sivultaan. Muut käyttäjät voivat käydä kehumassa toisen käyttäjän taitoja hänen etusivullaan - tällöin taidon vieressä oleva kehujen lukumäärä kasvaa. Taidoista korostetaan 3 kaikkein kehuttua taitoa, ja loput ovat erillään.
 
-#### Tykkääminen ####
+#### Postaaminen ####
 
-Kirjautuneet käyttäjät voivat tykätä kuvista ja seinällä olevista viesteistä. Tykkääminen tapahtuu viestin ja kuvan yhteydessä olevaa tykkäysnappia painamalla. Kukin käyttäjä voi tykätä tietystä kuvasta ja tietystä viestistä korkeintaan kerran (sama käyttäjä ei saa lisätä useampaa tykkäystä tiettyyn kuvaan tai viestiin). Viestien ja kuvien näytön yhteydessä näytetään niihin liittyvä tykkäysten lukumäärä.
+Kirjautuneet käyttäjät voivat lähettää postauksia yhteisellä sivulla. Postaussivulla näkyy yhteydessä olevien henkilöiden postaukset. Jokaisesta viestistä näytetään viestin lähettäjän nimi, viestin lähetysaika, sekä viestin tekstimuotoinen sisältö. Viestit näytetään postauslistassa niiden saapumisjärjestyksessä siten, että postauslistassa näkyy aina korkeintaan 25 uusinta viestiä.
+
+### Postausten tykkääminen ###
+
+Kirjautuneet käyttäjät voivat tykätä postauksista. Tykkääminen tapahtuu viestin yhteydessä olevaa tykkäysnappia painamalla. Kukin käyttäjä voi tykätä tietystä viestistä korkeintaan kerran (sama käyttäjä ei saa lisätä useampaa tykkäystä tiettyyn viestiin). Viestien näytön yhteydessä näytetään niihin liittyvä tykkäysten lukumäärä.
 
 #### Kommentointi ####
 
-Seuraajat voivat kommentoida kuvia ja viestejä. Kommentointi tapahtuu viestin ja kuvan yhteydessä olevan kommentointikentän avulla. Kuvien ja viestien yhteydessä näytetään aina korkeintaan 10 uusinta kommenttia.
+Käyttäjät voivat kommentoida viestejä. Kommentointi tapahtuu viestin yhteydessä olevan kommentointikentän avulla. Viestien yhteydessä näytetään aina korkeintaan 10 uusinta kommenttia.
 
 #### Apuresursseja: ####
 
