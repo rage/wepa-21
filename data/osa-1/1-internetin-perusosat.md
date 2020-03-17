@@ -47,7 +47,7 @@ protokolla://isäntäkone:portti/
 
 - `protokolla`: kyselyssä käytettävä protokolla, esimerkiksi HTTP tai HTTPS.
 - `isäntäkone`: kone tai palvelin johon luodaan yhteys. Voi olla joko IP-osoite tai tekstuaalinen kuvaus (esim `mooc.fi` tai `www.hs.fi`).
-- `portti`: mikäli portin jättää osoitteesta pois, tehdään pyyntö tyypillisesti protokollan oletusporttiin -- esimerkiksi HTTP-protokollan portti on oletuksea 80. Salatun HTTP-protokollan (HTTPS) portti on onoletuksena 443.
+- `portti`: mikäli portin jättää osoitteesta pois, tehdään pyyntö tyypillisesti protokollan oletusporttiin -- esimerkiksi HTTP-protokollan portti on oletuksena 80. Salatun HTTP-protokollan (HTTPS) portti on on oletuksena 443.
 
 Osoitteissa voi olla lisäksi polku, tietoa haettavasta dokumentista, kyselyparametreja sekä ankkuri. Nämä kaikki, kuten myös portti, ovat valinnaisia.
 
