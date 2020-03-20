@@ -13,6 +13,10 @@ Vastaa lopuksi seuraavaan itsearviointikyselyyn ja keksi kurssimateriaalin viide
 
 <quiz id="12433076-5089-5247-be92-e1534f8ace56"></quiz>
 
+### Nyt on sopiva hetki ilmoittautua kurssille
+
+Käy lukemassa ohjeet täältä https://web-palvelinohjelmointi-20.mooc.fi/ilmoittautuminen
+
 #### Osan käsitteiden kertaus (bonus) - 1 piste
 
 Kurssin aikana tutustutaan moneen eri käsitteeseen. Voit oppimisen

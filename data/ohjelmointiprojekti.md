@@ -1,7 +1,7 @@
 ---
 path: "/projekti"
 title: "Projekti"
-hidden: true
+hidden: false
 information_page: true
 ---
 
@@ -53,12 +53,13 @@ Työ palautetaan TMC:hen, Moodleen ja Herokuun. Palautus TMC:hen tapahtuu TMC:n 
 
 Moodleen työstä palautetaan sekä linkki sovelluksen Herokussa toimivaan versioon että sovelluksen lähdekoodit sisältävä zip-paketti. Lähdekoodit sisältävä zip-paketti ei saa sisältää sovelluksen käännetyn version sisältävää target-kansiota.
 
-**Työ tulee palauttaa sekä Moodleen että TMC:hen deadline päivänä. klo 23:59 mennessä.** Huomaa, että työn palauttaminen sekä Moodleen että TMC:hen voi kestää, eli varaa pelkälle palautuksellekin aikaa. Moodleavain löytyy mm. osoitteesta https://web-palvelinohjelmointi-20.mooc.fi/tukivaylat
+**Työ tulee palauttaa sekä Moodleen että TMC:hen deadline päivänä. klo 23:59 mennessä.** Huomaa, että työn palauttaminen sekä Moodleen että TMC:hen voi kestää, eli varaa pelkälle palautuksellekin aikaa.
 
+Käy katsomassa projektin ilmoittautumis- ja palautusohjeita täältä https://web-palvelinohjelmointi-20.mooc.fi/ilmoittautuminen **Huomaa että kurssille on ilmoittauduttava ennen projektin palautusta ja ilmoittautuminen vie 24 tuntia. Sinun on siis ilmoittauduttava kurssille viimeistään päivää ennen deadlinea.**
 
 Arviointi
 
-Projekti itse- ja vertaisarvioidaan, jonka lisäksi kurssin henkilökunta arvioi projektit. Itse- ja vertaisarviointi tapahtuu Moodlen työpajatoiminnallisuudella ja se tulee tehdä **23.12. klo 23:59 mennessä**.
+Projekti itse- ja vertaisarvioidaan, jonka lisäksi kurssin henkilökunta arvioi projektit. Itse- ja vertaisarviointi tapahtuu Moodlen työpajatoiminnallisuudella. Tarkista deadlinet etusivulta https://web-palvelinohjelmointi-20.mooc.fi
 
 Arvioinnissa tarkastellaan sekä lähdekoodia että verkossa toimivaa sovellusta. Tarkastelussa kiinnitetään huomiota seuraaviin asioihin:
 
