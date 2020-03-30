@@ -3,7 +3,7 @@ import { accessToken } from "./moocfi"
 
 const BASE_URL = "https://concepts.cs.helsinki.fi"
 const PROJECT_ID = "ck2lplhbo0zwh0786hikmj9ai"
-const COURSE_ID = "ck2lpqk3a132s0786mqjqedvz"
+const COURSE_ID = "ck8e7v5n11soh0790drl44xso"
 
 export async function fetchConceptsProgress() {
   const res = await axios.get(
