@@ -13,7 +13,7 @@ Vastaa lopuksi seuraavaan itsearviointikyselyyn ja keksi kurssimateriaalin kolma
 
 <quiz id="6d934dbc-7e46-54d8-8ddd-1d4d7f93e27e"></quiz>
 
-#### Osan käsitteiden kertaus (bonus) - 1 piste
+#### Osan käsitteiden kertaus (bonus)
 
 Kurssin aikana tutustutaan moneen eri käsitteeseen. Voit oppimisen
 tehostamiseksi kerrata käsitteitä lisäämällä niitä Concepts-työkaluun.
@@ -21,13 +21,13 @@ tehostamiseksi kerrata käsitteitä lisäämällä niitä Concepts-työkaluun.
 **Linkki työkaluun: https://concepts.cs.helsinki.fi/join/pcaezzU0s6LGP7c0tIta3lypV**
 
 Kirjaudu sisään mooc.fi tunnuksilla, joita käytit kurssilla. Käsitteiden
-lisäämisestä saa pisteitä. Jokaisesta yhdestä lisäämästäsi käsitteestä saat 0.25 bonuspistettä ja maksimissaan 1 bonuspiste per osa. Halutessasi voit piirtää yhteyksiä käsitteiden ja
-niiden esitietona olevien käsitteiden välille "mapper"-näkymässä, ja tutkia
-niistä muodostuvaa verkkoa "graph"-näkymässä.
+lisäämisestä saa pisteitä. Jokaisesta yhdestä lisäämästäsi käsitteestä saat 0.25
+bonuspistettä, maksimissaan 5 pistettä kurssin aikana. Halutessasi voit piirtää
+yhteyksiä käsitteiden ja niiden esitietona olevien käsitteiden välille mapper-näkymissä,
+ja tutkia niistä muodostuvaa verkkoa graph-näkymässä.
 
-Tämä tehtävä toistuu myös kurssin seuraavissa osissa, eli jos lisäät jokaisen
-osan aikana käsitteitä, voit saada yhteensä 5 bonuspistettä. Viimeisen osan
-jälkeen on myös palautekysely. Jos haluat antaa palautetta ennen viimeistä
-osaa, voit lähettää sähköpostia mooc@cs.helsinki.fi, avata issuen
-[GitHubissa](https://github.com/rage/concepts) tai pingata @tulir tai @peterzon
-kurssin telegram-kanavalla.
+Tämä tehtävä toistuu myös kurssin seuraavissa osissa. Suositus on, että lisäät
+käsitteitä kurssin aikana sitä mukaan, kun opit niitä. Viimeisen osan jälkeen
+on myös palautekysely. Jos haluat antaa palautetta ennen viimeistä osaa, voit
+lähettää sähköpostia mooc@cs.helsinki.fi, avata issuen [GitHubissa](https://github.com/rage/concepts)
+tai pingata @tulir kurssin telegram-kanavalla.

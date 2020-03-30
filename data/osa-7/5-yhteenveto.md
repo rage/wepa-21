@@ -17,7 +17,7 @@ Vastaa lopuksi seuraavaan itsearviointikyselyyn ja keksi kurssimateriaalin seits
 
 Mikäli et ole vielä ilmoittautunut, ohjeet täällä https://web-palvelinohjelmointi-20.mooc.fi/ilmoittautuminen
 
-#### Osan käsitteiden kertaus (bonus) - 1 piste
+#### Osan käsitteiden kertaus (bonus)
 
 Kurssin aikana tutustutaan moneen eri käsitteeseen. Voit oppimisen
 tehostamiseksi kerrata käsitteitä lisäämällä niitä Concepts-työkaluun.
@@ -34,8 +34,8 @@ ovat hyvin tervetulleita.
 
 Palautetta voi myös lähettää sähköpostitse mooc@cs.helsinki.fi, avaamalla
 issuen [GitHubissa](https://github.com/rage/concepts) tai pingaamalla @tulir
-tai @peterzon kurssin telegram-kanavalla.
+kurssin telegram-kanavalla.
 
-Jos lomake ei näy alla, käytä seuraavaa linkkiä: https://forms.gle/7tLS31X3xXAmhxgm6
+Jos lomake ei näy alla, käytä seuraavaa linkkiä: https://forms.gle/UL7eqrBH3nSgr2Zx6
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfrfLx1y4kHu4aQP3No8VrSjcc8gPwFA_UybjwIwCpw0LRsdQ/viewform?embedded=true" width="100%" height="2000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd4kjLSx4aWbkPG4IBpDaeaj4QDJdkYAQNwbHlsF1p0IV6jww/viewform?embedded=true" width="100%" height="2000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>

@@ -13,7 +13,7 @@ Vastaa lopuksi seuraavaan itsearviointikyselyyn ja keksi kurssimateriaalin nelj�
 
 <quiz id="d6ff9008-62e1-509a-9eb0-5240da4d06e8"></quiz>
 
-#### Osan käsitteiden kertaus (bonus) - 1 piste
+#### Osan käsitteiden kertaus (bonus)
 
 Kurssin aikana tutustutaan moneen eri käsitteeseen. Voit oppimisen
 tehostamiseksi kerrata käsitteitä lisäämällä niitä Concepts-työkaluun.
@@ -24,9 +24,8 @@ Jos teit tehtävän myös edellisellä viikolla, pääset linkin kautta jatkamaa
 luomasi työtilan täyttöä työkalussa. Muutoin voit katsoa tehtävän alkutoimet
 osan 3 yhteenvedosta.
 
-Tämä tehtävä toistuu myös kurssin seuraavissa osissa, eli jos lisäät jokaisen
-osan aikana käsitteitä, voit saada yhteensä 5 bonuspistettä. Jokaisesta yhdestä lisäämästäsi käsitteestä saat 0.25 bonuspistettä ja maksimissaan 1 bonuspiste per osa. Viimeisen osan
-jälkeen on myös palautekysely. Jos haluat antaa palautetta ennen viimeistä
-osaa, voit lähettää sähköpostia mooc@cs.helsinki.fi, avata issuen
-[GitHubissa](https://github.com/rage/concepts) tai pingata @tulir tai @peterzon
-kurssin telegram-kanavalla.
+Tämä tehtävä toistuu myös kurssin seuraavissa osissa. Suositus on, että lisäät
+käsitteitä kurssin aikana sitä mukaan, kun opit niitä. Viimeisen osan jälkeen
+on myös palautekysely. Jos haluat antaa palautetta ennen viimeistä osaa, voit
+lähettää sähköpostia mooc@cs.helsinki.fi, avata issuen [GitHubissa](https://github.com/rage/concepts)
+tai pingata @tulir kurssin telegram-kanavalla.
