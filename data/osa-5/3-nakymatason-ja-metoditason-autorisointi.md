@@ -49,9 +49,13 @@ Tämä pätee oikeastaan kaikkeen selainpuolen toiminnallisuuteen. Web-sivuilla 
 
 Pelkän näkymätason autorisoinnin ongelmana on se, että usein toimintaa halutaan rajoittaa tarkemmin -- esimerkiksi siten, että tietyt operaatiot (esim. poisto tai lisäys) mahdollistetaan vain tietyille käyttäjille tai käyttäjien oikeuksille. Käyttöliittymän näkymää rajoittamalla ei voida rajoittaa käyttäjän tekemiä pyyntöjä, sillä pyynnöt voidaan tehdä myös "käyttöliittymän ohi" -- kukaan ei estä käyttäjää lähettämästä tietoa palvelimelle vaikkapa omaa ohjelmaa tai [Postmania](https://www.getpostman.com/downloads/) käyttäen.
 
-Saamme sovellukseemme käyttöön myös metoditason autorisoinnin. Lisäämällä tietoturvakonfiguraatiotiedostoon annotaation `@EnableGlobalMethodSecurity(securedEnabled = true, proxyTargetClass = true)`, Spring Security etsii metodeja, joissa käytetään sopivia annotaatioita ja suojaa ne. Suojaus tapahtuu käytännössä siten, että metodeihin luodaan proxy-metodit; aina kun metodia kutsutaan, kutsutaan ensin tietoturvakomponenttia, joka tarkistaa onko käyttäjä kirjautunut.
+<text-box variant='hint' name='Näkymän muutokset liittyvät käytettävyyteen'>
+    
+Sovelluksen konfiguraatioista riippuen saatamme joskus joutua ottamaan `@Secured`-annotaation erikseen käyttöön. Harjoitustehtävissä tätä annotaatiota ei tarvitse erikseen ottaa käyttöön. Lisäämällä tietoturvakonfiguraatiotiedostoon annotaation `@EnableGlobalMethodSecurity(securedEnabled = true, proxyTargetClass = true)`, Spring Security etsii metodeja, joissa käytetään sopivia annotaatioita ja suojaa ne. Suojaus tapahtuu käytännössä siten, että metodeihin luodaan proxy-metodit; aina kun metodia kutsutaan, kutsutaan ensin tietoturvakomponenttia, joka tarkistaa onko käyttäjä kirjautunut.
 
-Kun konfiguraatiotiedostoon on lisätty annotaatio, on käytössämme muunmuassa annotaatio [@Secured](https://docs.spring.io/spring-security/site/docs/current/reference/html/jc.html#jc-method). Annotaation avulla voidaan määritellä roolit (tai oikeudet), joiden kohdalla annotoidun metodin kutsuminen on sallittua. Alla olevassa esimerkissä `post`-metodin käyttöön vaaditaan "ADMIN"-oikeudet.
+</text-box>
+
+Saamme sovellukseemme käyttöön myös metoditason autorisoinnin. Kun konfiguraatiotiedostoon on lisätty annotaatio, on käytössämme muunmuassa annotaatio [@Secured](https://docs.spring.io/spring-security/site/docs/current/reference/html/jc.html#jc-method). Annotaation avulla voidaan määritellä roolit (tai oikeudet), joiden kohdalla annotoidun metodin kutsuminen on sallittua. Alla olevassa esimerkissä `post`-metodin käyttöön vaaditaan "ADMIN"-oikeudet.
 
 
 ```java
