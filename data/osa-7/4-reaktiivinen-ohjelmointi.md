@@ -36,7 +36,7 @@ public TvOhjelma annaTvOhjelma(Opas opas, Kanava kanava) {
 }
 ```
 
-Ylläolevan metodin palauttamaan arvoon vaikuttaa aika, eli sen arvo ei määräydy vain annettujen parametrien perusteella. Metodin testaaminen on vaikeaa, sillä aika muuttuu jatkuvasti. Jos määrittelemme myös ajna metodin parametriksi, paranee testattavuus huomattavasti.
+Ylläolevan metodin palauttamaan arvoon vaikuttaa aika, eli sen arvo ei määräydy vain annettujen parametrien perusteella. Metodin testaaminen on vaikeaa, sillä aika muuttuu jatkuvasti. Jos määrittelemme myös ajan metodin parametriksi, paranee testattavuus huomattavasti.
 
 ```java
 public TvOhjelma annaTvOhjelma(Opas opas, Kanava kanava, Date aika) {
