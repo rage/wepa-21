@@ -202,7 +202,7 @@ Kun oma UserDetailsService-luokka on toteutettu, voimme ottaa sen käyttöön Se
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Autowired
-    private UserDetailsService userDetailsService;
+    private CustomUserDetailsService userDetailsService;
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
