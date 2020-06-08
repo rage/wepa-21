@@ -45,7 +45,7 @@ Jos selaimen käyttäjä käyttää sovellusta avoimen (salasanattoman) langatto
 
 [Open Web Application Security Project (OWASP)](https://www.owasp.org/index.php/Main_Page) on kansainvälinen voittoa tavoittelematon  organisaatio (engl. non-profit organization), jonka pyrkimyksenä on sovelluksiin liittyvän tietoturvatietoisuuden kasvattaminen. OWASP pitää yllä web-sovelluksiin liittyvien tietoturvauhkien [Top 10](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)-listaa.
 
-Vuoden 2017 lista löytyy [tästä linkistä](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf). Vuoden 2013 ja 2017 versiossa osa top 10 -listan tietoturvauhkista on muuttunut, mutta ensimmäisellä ja toisella sijalla ovat yhä samat tietoturvauhkat.
+Vuoden 2017 lista löytyy [tästä linkistä](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_Top_10.html). Vuoden 2013 ja 2017 versiossa osa top 10 -listan tietoturvauhkista on muuttunut, mutta ensimmäisellä ja toisella sijalla ovat yhä samat tietoturvauhkat.
 
 Listan ensimmäisellä sijalla -- eli yleisimpänä -- sijaitsee erilaiset injektiohyökkäykset. Tällaisia ovat esimerkiksi SQL:n syöttäminen osaksi tietokantaan syötettävää lomakedataa (toimii mikäli SQL-injektioihin ei ole varauduttu). Valmiita tietokanta-abstraktioita käytettäessä riski SQL-injektioiden onnistumiseen on pienempi kuin mikäli tietokanta-abstraktiot toteuttaa itse -- olemassaolevien tietokanta-abstraktioiden tietoturvaa [tarkastelevat myös muut](https://pivotal.io/security/cve-2016-6652), mikä edesauttaa ongelmien löytymistä.
 
