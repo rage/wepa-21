@@ -439,7 +439,7 @@ Parametrin arvon voi luonnollisesti antaa myös muuttujana. Alla olevassa esimer
         <title>Otsikko</title>
     </head>
     <body>
-        <div th:replace="fragments/layout :: header(text='${otsikko}')"></div>
+        <div th:replace="fragments/layout :: header(text=${otsikko})"></div>
 
         <main>
             <ul>
