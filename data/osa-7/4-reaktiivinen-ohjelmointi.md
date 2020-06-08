@@ -123,6 +123,16 @@ Huom! Oppaassa pakkauksena käytetään pakkausta *hello*. Käytä tehtävässä
 
 Tehtävään ei ole automaattisia testejä, mutta toteutat tehtävässä testejä.
 
+**Päivitys**: Linkin takana olevan materiaalin päivityksen myötä osa tehtävästä saattaa olla toimimatta. Mikäli testi ei toimi niin voit vaihtaa importit seuraavasti:
+
+```java
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.junit4.SpringRunner;
+```
+
+sekä vaihtaa `ExtendWith` rivi seuraavaksi `@RunWith(SpringRunner.class)`. Syynä päivittynyt JUnit versio, lisää täällä [https://stackoverflow.com/questions/55276555/when-to-use-runwith-and-when-extendwith](https://stackoverflow.com/questions/55276555/when-to-use-runwith-and-when-extendwith).
+
 </programming-exercise>
 
 

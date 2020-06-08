@@ -29,5 +29,17 @@ Kurssilla ei ole viikkokohtaisia deadlineja. Kurssin suorittaminen on kuitenkin 
 
 Huomioithan työmäärän ja projektin deadlinen suunnitellessasi omaa aikatauluasi kurssin osalta. Huomioi myös toisen deadlinen lyhyempi vertaisarvioinnin aikataulu. **DEFA**n vuoksi deadline on jo 29.6 ja suoritus tullaan kirjaamaan tälle päivälle.
 
+## Arvosanan korottaminen ##
+
+**Lisätty materiaaliin 8.6.2020**
+
+Kurssin vapaampimuotoisemman aikataulutuksen myötä on herännyt useita kysymyksiä korottamisesta ja suoritusjärjestyksestä.
+
+Opintosuorituksen on päätyttävä tenttiin tai projektipalautukseen, joten arvosanan korotus pelkästään lisätehtäviä tekemällä ei ole mahdollista. Voit kuitenkin tehdä lisätehtäviä ja palauttaa parannellun projektin + vertaisarvionnin tai vaihtoehtoisesti tehdä uusintatentin, vaikka edellinen olisi jo hyväksytty. 
+
+Kurssi arvioidaan kokonaisuutena, eli tehdessäsi uuden loppupalautuksen lasketaan uudestaan tehtävistä, projektista ja sen vertaisarvioinnista saadut pisteet. Uusi pistemäärä ei voi laskea kurssin arvosanaasi. **HUOM**: Projekti arvioidaan kokonaisuutena vertaisarvioinnin kanssa (yhteensä 30% pisteistä), eli mikäli palautat projektin paranneltuna uudestaan on syytä myös tehdä uusi vertaisarviointi.
+
+Mikäli olet korottamassa arvosanaa kurssin aiemmasta versiosta, esimerkiksi keväältä 2019, joudut palauttamaan kaiken uudestaan. Voit kuitenkin uusiokäyttää aiemman projektipalautuksesi lähdekoodia ja submitoida vanhoja tehtäväsuorituksia, joten ei ole tarpeellista tehdä aivan kaikkea uudestaan.
+
 ## Ilmoittautuminen ##
 Katso tarkemmin sivulta "Arvostelu ja kokeet".
