@@ -110,7 +110,7 @@ Tiedoston lähetys kontrollerista onnistuu vastaavasti. Tässä tapauksessa olet
 @GetMapping(path = "/files/{id}", produces = "image/png")
 @ResponseBody
 public byte[] get(@PathVariable Long id) {
-    return fileObjectRepository.findOne(id).getContent();
+    return fileObjectRepository.getOne(id).getContent();
 }
 ```
 
@@ -214,10 +214,10 @@ Nyt tietokantaan tallennettu olio tietää myös siihen liittyvän mediatyypin. 
 ```java
 @GetMapping("/files/{id}")
 public ResponseEntity<byte[]> viewFile(@PathVariable Long id) {
-    FileObject fo = fileObjectRepository.findOne(id);
+    FileObject fo = fileObjectRepository.getOne(id);
 
     final HttpHeaders headers = new HttpHeaders();
-    headers.setContentType(MediaType.parseMediaType(fo.getContentType()));
+    headers.setContentType(MediaType.parseMediaType(fo.getMediaType()));
     headers.setContentLength(fo.getSize());
 
     return new ResponseEntity<>(fo.getContent(), headers, HttpStatus.CREATED);
@@ -233,10 +233,10 @@ Edeltävä esimerkki ei ota kantaa tiedoston nimeen tai siihen, miten se ladataa
 ```java
 @GetMapping("/files/{id}")
 public ResponseEntity<byte[]> viewFile(@PathVariable Long id) {
-    FileObject fo = fileObjectRepository.findOne(id);
+    FileObject fo = fileObjectRepository.getOne(id);
 
     final HttpHeaders headers = new HttpHeaders();
-    headers.setContentType(MediaType.parseMediaType(fo.getContentType()));
+    headers.setContentType(MediaType.parseMediaType(fo.getMediaType()));
     headers.setContentLength(fo.getSize());
     headers.add("Content-Disposition", "attachment; filename=" + fo.getName());
 
