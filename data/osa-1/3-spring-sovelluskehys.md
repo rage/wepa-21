@@ -43,7 +43,7 @@ Uudet Spring Boot -projektit luodaan tyypillisesti <a href="https://start.spring
 
 <br/>
 
-Käytämme kurssilla sovellusten kääntämiseen Mavenia ja ohjelmointikielenä Javaa. Käytössämme on Spring Bootin versio 2.1.3. Projektiemme käyttämät komponentit kasvavat projektiemme myötä.
+Käytämme kurssilla sovellusten kääntämiseen Mavenia ja ohjelmointikielenä Javaa. Käytössämme on Spring Bootin versio 2.3.2. Projektiemme käyttämät komponentit kasvavat projektiemme myötä.
 
 
 ### Maven ja projektipohja

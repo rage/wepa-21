@@ -14,9 +14,6 @@ hidden: false
 
 </text-box>
 
-<quiz id="7026d78f-cbae-5ec0-9ffc-d0aede12fa5f"></quiz>
-
-
 Internetin perustana ovat (1) palveluiden, palvelinohjelmistojen ja resurssien yksilöintiin käytetyt merkkijonomuotoiset osoitteet (URI, Uniform Resource Identifier) sekä näiden merkkijonomuotoisten osoitteiden verkko-osoitteiksi muuntamiseen käytettävä palvelu (DNS, Domain Name Services), (2) selainten ja palvelinten välisessä viestittelyssä käytettävä viestimuoto eli protokolla (HTTP, HyperText Transfer Protocol), sekä (3) yhteinen dokumenttien esityskieli (HTML, HyperText Markup Language).
 
 Näiden kolmen peruspilarin -- URI, HTTP ja HTML -- lisäksi internetin mahdollistaa verkkoliikenne sekä siihen liittyvät protokollat kuten TCP ja TCP/IP. Jälkimmäisiin syvennytään tarkemmin kurssilla Tietoliikenteen perusteet (TKT-20004).

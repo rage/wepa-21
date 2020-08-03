@@ -14,9 +14,6 @@ hidden: false
 
 </text-box>
 
-<quiz id="a9231650-4e84-598e-80f7-6d8aaac989e8"></quiz>
-
-
 Sovelluksemme ovat vastaanottaneet tiettyyn polkuun tulevan pyynnön ja palauttaneet käyttäjälle merkkijonomuodossa olevaa tietoa. Palvelin voi myös luoda käyttäjälle näkymän, jonka selain lopulta näyttää käyttäjälle.
 
 Näkymät luodaan tyypillisesti apukirjastojen avulla siten, että ohjelmoija luo HTML-näkymät ja upottaa HTML-koodiin kirjastospesifejä komentoja. Nämä komennot mahdollistavat mm. tiedon lisäämisen sivuille. Tällaisia HTML-sivuja, joihin on upotettu kirjastokohtaisia tiedon lisäämiseen tarkoitettuja komentoja kutsutaan näkymä-templateiksi (jatkossa template).

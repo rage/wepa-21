@@ -295,13 +295,13 @@ Tarkastellaan FluentLeniumin käyttöä lyhyesti. Alla on listattuna FluentLeniu
 <dependency>
     <groupId>org.fluentlenium</groupId>
     <artifactId>fluentlenium-junit</artifactId>
-    <version>3.7.1</version>
+    <version>4.3.1</version>
     <scope>test</scope>
 </dependency>
 <dependency>
     <groupId>org.fluentlenium</groupId>
     <artifactId>fluentlenium-assertj</artifactId>
-    <version>3.7.1</version>
+    <version>4.3.1</version>
     <scope>test</scope>
 </dependency>
 <dependency>
