@@ -35,7 +35,17 @@ Sovitaan että henkilötunnus ei saa koskaan olla tyhjä ja sen tulee olla tasan
 
 Tämä onnistuu seuraavilla annotaatioilla. Annotaatio `@NotEmpty` varmistaa ettei annotoitu attribuutti ole tyhjä -- lisätään se kaikkiin kenttiin. Annotaatiolla `@Size` voidaan määritellä pituusrajoitteita muuttujalle, ja annotaatiolla `@Email` varmistetaan, että attribuutin arvo on varmasti sähköpostiosoite.
 
-Annotaatiot löytyvät pakkauksesta `javax.validation.constraints`.
+Kun lisäämme `dependencies`-osioon riippuvuuden `spring-boot-starter-validation`, pääsemme käyttämään validaatioita.
+
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-validation</artifactId>
+</dependency>
+```
+
+Annotaatiot löytyvät tällöin pakkauksesta `javax.validation.constraints`.
 
 
 ```java
