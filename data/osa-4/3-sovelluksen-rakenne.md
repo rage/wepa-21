@@ -37,7 +37,7 @@ Web-sovelluksissa käsittelijän ohjelmakoodia suoritetaan vain kun selain lähe
 
 MVC-mallin perusidean noudattamisesta on useita hyötyjä. Käyttöliittymien (näkymien) suunnittelu ja toteutus voidaan eriyttää sovelluslogiikan toteuttamisesta, jolloin niitä voidaan työstää rinnakkain. Samalla ohjelmakoodi selkenee, sillä komponenttien vastuut ovat eriteltyjä -- näkymät eivät sisällä sovelluslogiikkaa, kontrollerin tehtävänä on käsitellä pyynnöt ja ohjata niitä eteenpäin, ja mallin vastuulla on tietoon liittyvät operaatiot. Tämän lisäksi sovellukseen voidaan luoda useampia käyttöliittymiä, joista jokainen käyttää samaa sovelluslogiikkaa, ja pyynnön kulku sovelluksessa selkiytyy.
 
-<quiz id="e932a4f9-333a-5cce-9950-056b9de8dba5"></quiz>
+<quiz id="bf6ce636-d881-596d-871f-49cd5db996dc"></quiz>
 
 
 ###  Kerrosarkkitehtuuri
@@ -282,4 +282,4 @@ Tiedon esittämiseen liittyvät oliot elävät kerrosarkkitehtuurissa kerrosten 
 Sovellusten kehittämisessä näkee välillä myös jaon useampaan erilaiseen tietoa sisältävään oliotyyppiin. Entiteettejä käytetään tietokantatoiminnallisuudessa, mutta välillä näkymien käsittelyyn palautettavat oliot pidetään erillisinä entiteeteistä. Tähän ei ole oikeastaan yhtä oikeaa tapaa: lähestymistapa valitaan tyypillisesti ohjelmistokehitystiimin kesken.
 
 
-<quiz id="a2eb2e24-728c-5016-90b6-a6fc6cfc7dc6"></quiz>
+<quiz id="17d42d64-29ce-5675-b4e2-dcb67f030eca"></quiz>

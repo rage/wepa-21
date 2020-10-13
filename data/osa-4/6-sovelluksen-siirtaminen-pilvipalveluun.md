@@ -139,5 +139,5 @@ Jos Herokun PostgreSQL ei lähde edellä kuvatulla esimerkillä käyntiin, tarka
 </text-box>
 
 
-<quiz id="bf73017a-a6e6-5415-b465-8173a8103f2e"></quiz>
-<quiz id="9fcc7cca-7f40-4a26-ae07-d33d15228491"></quiz>
+<quiz id="b333533d-5c02-5bdd-b568-08fb0cd71fbd"></quiz>
+<quiz id="b5fa2ce8-c33d-5ed6-842f-ad6193ac0366"></quiz>

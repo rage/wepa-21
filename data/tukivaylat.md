@@ -5,7 +5,9 @@ hidden: false
 information_page: true
 ---
 
-Kurssilla on vertaistukeen perustuva keskustelukanava, jonka lisäksi kaikilla kurssilaisilla on mahdollisuus ohjaukseen Helsingin yliopiston kumpulan kampuksella.
+Kurssilla on vertaistukeen perustuva keskustelukanava.
+
+<!--, jonka lisäksi kaikilla kurssilaisilla on mahdollisuus ohjaukseen Helsingin yliopiston kumpulan kampuksella. -->
 
 ## Keskustelukanava
 

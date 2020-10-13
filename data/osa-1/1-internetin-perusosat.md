@@ -61,7 +61,7 @@ polku/kohdedokumentti.paate?kyselyparametri=arvo&toinen=arvo#ankkuri
 Yhdessä edellisten avulla tunnistetaan protokolla ja kone sekä koneesta haettava resurssi.
 
 
-<quiz id="5b77329a-1cc5-5472-8591-f9000add278e"></quiz>
+<quiz id="b001d00e-bbd2-5987-a225-deeeb86f9e18"></quiz>
 
 
 Kun käyttäjä kirjoittaa web-selaimen osoitekenttään osoitteen ja painaa enteriä, web-selain tekee kyselyn annettuun osoitteeseen. Koska tekstimuotoiset osoitteet ovat käytännössä vain ihmisiä varten, kääntää selain ensiksi halutun tekstimuotoisen osoitteen IP-osoitteeksi. Jos IP-osoite on jo tietokoneen tiedossa esimerkiksi aiemmin osoitteeseen tehdyn kyselyjen takia, selain voi ottaa yhteyden IP-osoitteeseen. Jos IP-osoite taas ei ole tiedossa, tekee selain ensin kyselyn <a href="https://fi.wikipedia.org/wiki/DNS" target="_blank">DNS</a>-palvelimelle (*Domain Name System*), jonka tehtävänä on muuntaa tekstuaaliset osoitteet IP-osoitteiksi (esim. Helsingin yliopiston kotisivu `https://www.helsinki.fi` on IP-osoitteessa `128.214.189.90`).
@@ -187,7 +187,7 @@ Lista lähes kaikista HTTP-statuskoodeista löytyy osoitteesta <a href="https://
 
 <br/>
 
-<quiz id="87cc7d9d-c63c-5c14-8a31-6c8b4f17956b"></quiz>
+<quiz id="3c73ddc8-dbe6-5cd9-8354-c8b263d116d9"></quiz>
 
 ### HTTP-liikenteen testaaminen telnet-työvälineellä
 
@@ -294,7 +294,7 @@ Yksittäistä sivua avattaessa tehdään jokaista resurssia (kuva, tyylitiedosto
 
 </text-box>
 
-<quiz id="eea34cd9-1222-5355-8793-f97c45c376ce"></quiz>
+<quiz id="cb69a834-1132-5833-9e50-3dbc7d0655bd"></quiz>
 
 
 ### HTTP-protokollan pyyntötavat
@@ -338,7 +338,7 @@ Selaimen ja palvelimen välisessä kommunikoinnissa GET- ja POST-tyyppiset pyynn
 - *DELETE* pyytää resurssin poistamista
 - *HEAD* haluaa resurssiin liittyvät otsaketiedot, mutta ei resurssia
 
-<quiz id="dbd77118-5e75-5ca4-a59c-30bb4b80df90"></quiz>
+<quiz id="01112bc7-37ce-5992-a251-7b5ed2d038f1"></quiz>
 
 <text-box variant='hint' name='HTTP/2 ja HTTP/3'>
 

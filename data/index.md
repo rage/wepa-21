@@ -20,4 +20,5 @@ Kurssi koostuu seitsemästä tehtäväsarjasta, ohjelmointiprojektista sekä kok
 Kurssin laskennallinen työkuorma on noin 135 tuntia. Kunkin tehtäväsarjan tekemiseen kannattaa varata noin 12 tuntia, projektiin ja siihen liittyviin vertaisarviointeihin noin 40 tuntia, ja kokeeseen kertaamiseen noin 8 tuntia. Varaamme oikeuden aikataulun ja aiheiden muutoksiin.
 
 ## Ilmoittautuminen ##
+
 Katso tarkemmin sivulta "Arvostelu ja kokeet".

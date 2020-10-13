@@ -105,7 +105,7 @@ class Footer extends React.Component {
             <StyledCardContent>
               <GithubContainer>
                 <OutboundLink
-                  href="https://github.com/rage/wepa-20"
+                  href="https://github.com/rage/wepa-s20"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

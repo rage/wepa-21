@@ -135,4 +135,4 @@ Tehtävässä ei ole testejä. Palauta tehtävä kun ohjelma toimii tehtävänan
 
 </programming-exercise>
 
-<quiz id="cecadaab-edee-5d62-95bf-158e1cba715b"></quiz>
+<quiz id="69101ad7-4c33-58fa-aefa-cb4b46dba211"></quiz>

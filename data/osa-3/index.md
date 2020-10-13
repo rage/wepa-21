@@ -2,7 +2,7 @@
 path: '/osa-3'
 title: 'Osa 3'
 overview: true
-hidden: false
+hidden: true
 ---
 
 Kolmannen osan jälkeen osaat luoda useampia tietokantatauluja sisältäviä ja käsitteleviä web-sovelluksia. Osaat määritellä yhdestä moneen ja monesta moneen -yhteyksiä luokkien välille ja tiedät miten näihin yhteyksiin lisätään tietoa sovelluksessa. Tiedät miten sovelluksessa voidaan määritellä tietokantatransaktio.  Tunnet N+1 kyselyn ongelman ja tiedät joitakin menetelmiä sen välttämiseen. Osaat järjestää ja rajata tietokannasta haettavaa tietoa.

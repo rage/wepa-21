@@ -9,25 +9,6 @@ Tässä osassa harjoiteltiin useamman tietokantataulun luomista ja käyttöä se
 
 Vastaa lopuksi seuraavaan itsearviointikyselyyn ja keksi kurssimateriaalin kolmannesta osasta monivalintakysymys.
 
-<quiz id="f5fe54c0-07ae-58e4-9b32-485e1caeb44c"></quiz>
+<quiz id="a48d9eeb-a3a4-5807-b88e-4390e24ac98d"></quiz>
 
-<quiz id="6d934dbc-7e46-54d8-8ddd-1d4d7f93e27e"></quiz>
-
-#### Osan käsitteiden kertaus (bonus)
-
-Kurssin aikana tutustutaan moneen eri käsitteeseen. Voit oppimisen
-tehostamiseksi kerrata käsitteitä lisäämällä niitä Concepts-työkaluun.
-
-**Linkki työkaluun: https://concepts.cs.helsinki.fi/join/pcaezzU0s6LGP7c0tIta3lypV**
-
-Kirjaudu sisään mooc.fi tunnuksilla, joita käytit kurssilla. Käsitteiden
-lisäämisestä saa pisteitä. Jokaisesta yhdestä lisäämästäsi käsitteestä saat 0.25
-bonuspistettä, maksimissaan 5 pistettä kurssin aikana. Halutessasi voit piirtää
-yhteyksiä käsitteiden ja niiden esitietona olevien käsitteiden välille mapper-näkymissä,
-ja tutkia niistä muodostuvaa verkkoa graph-näkymässä.
-
-Tämä tehtävä toistuu myös kurssin seuraavissa osissa. Suositus on, että lisäät
-käsitteitä kurssin aikana sitä mukaan, kun opit niitä. Viimeisen osan jälkeen
-on myös palautekysely. Jos haluat antaa palautetta ennen viimeistä osaa, voit
-lähettää sähköpostia mooc@cs.helsinki.fi, avata issuen [GitHubissa](https://github.com/rage/concepts)
-tai pingata @tulir kurssin telegram-kanavalla.
+<quiz id="3e43005d-9012-5c85-8678-6936752b402e"></quiz>

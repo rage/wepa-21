@@ -466,7 +466,7 @@ Näistä lisää mm. seuraavissa osoitteissa:
 </text-box>
 
 
-<quiz id="4022a0e6-4495-56cf-8341-5a9223201446"></quiz>
+<quiz id="e7442856-08d9-5d85-bdf3-ff02a2ea2965"></quiz>
 
 
 <programming-exercise name='Playlists' tmcname='osa06-Osa06_02.Playlists'>

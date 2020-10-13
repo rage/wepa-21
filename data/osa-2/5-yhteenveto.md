@@ -8,6 +8,6 @@ Tässä osassa tutustuttiin näkymätemplatejen luomiseen sekä palvelimella ole
 
 Vastaa lopuksi seuraavaan itsearviointikyselyyn ja keksi kurssimateriaalin toisesta osasta monivalintakysymys.
 
-<quiz id="428737da-32e7-5113-a4f5-ce5b2ab14c53"></quiz>
+<quiz id="629a2e35-3965-5398-a6a4-2a2397ceb14f"></quiz>
 
-<quiz id="92829688-117d-5f16-b965-614bc5c3c3de"></quiz>
+<quiz id="bc0c2cd5-47da-5c9d-a555-fd128f28748e"></quiz>

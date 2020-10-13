@@ -136,4 +136,4 @@ sekä vaihtaa `ExtendWith` rivi seuraavaksi `@RunWith(SpringRunner.class)`. Syyn
 </programming-exercise>
 
 
-<quiz id="bd806849-fafb-581c-8785-82097c9143be"></quiz>
+<quiz id="6e452256-2a4b-5991-94e1-df39d3b2026f"></quiz>

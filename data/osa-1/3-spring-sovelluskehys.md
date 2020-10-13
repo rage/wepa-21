@@ -425,4 +425,4 @@ Palauta tehtävä TMC:lle kun olet valmis.
 </programming-exercise>
 
 
-<quiz id="0307e994-bdb0-515f-8574-483f8cc06869"></quiz>
+<quiz id="d4a35c5a-0df4-59cc-846d-4ee4d098f002"></quiz>
