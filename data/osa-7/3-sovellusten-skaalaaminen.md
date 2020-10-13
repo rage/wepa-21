@@ -30,7 +30,7 @@ Sovelluksen ongelmakohdat löytyvät usein sovelluksen toimintaa profiloimalla. 
 </text-box>
 
 
-Miäli sovelluksen konfiguraatio on kunnossa, sovelluksen skaalautumisen edistämiseen on useampia lähtökohtia: (1) olemassaolevien resurssien käytön tehostaminen esimerkiksi välimuistitoteutusten ja palvelintehon kasvattamisen avulla, (2) resurssien määrän kasvattaminen esimerkiksi uusia palvelimia hankkimalla, ja (3) toiminnallisuuden jakaminen pienempiin vastuualueisiin ja palveluihin sekä näiden määrän kasvattaminen.
+Mikäli sovelluksen konfiguraatio on kunnossa, sovelluksen skaalautumisen edistämiseen on useampia lähtökohtia: (1) olemassaolevien resurssien käytön tehostaminen esimerkiksi välimuistitoteutusten ja palvelintehon kasvattamisen avulla, (2) resurssien määrän kasvattaminen esimerkiksi uusia palvelimia hankkimalla, ja (3) toiminnallisuuden jakaminen pienempiin vastuualueisiin ja palveluihin sekä näiden määrän kasvattaminen.
 
 Sovellukset eivät tyypillisesti skaalaudu lineaarisesti ja skaalautumiseen liittyy paljon muutakin kuin resurssien lisääminen. Jos yksi palvelin pystyy käsittelemään tuhat pyyntöä sekunnissa, emme voi olettaa, että kahdeksan palvelinta pystyy käsittelemään kahdeksantuhatta pyyntöä sekunnissa.
 
