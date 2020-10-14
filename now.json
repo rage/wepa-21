@@ -11,5 +11,5 @@
     { "handle": "filesystem" },
     { "src": "/.*", "status": 404, "dest": "404.html" }
   ],
-  "alias": "web-palvelinohjelmointi-20.mooc.fi"
+  "alias": "web-palvelinohjelmointi-s20.mooc.fi"
 }
