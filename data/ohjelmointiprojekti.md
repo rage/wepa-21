@@ -5,45 +5,45 @@ hidden: true
 information_page: true
 ---
 
-Kurssiin kuuluu ohjelmointiprojekti, jossa luodaan ansioluettelo- ja työntekijähakusovellus eli tuttavallisemmin vanhan kansan LinkedIn.
+Kurssiin kuuluu ohjelmointiprojekti, jossa luodaan kaveri- ja kuvasovellus eli tuttavallisemmin vanhan kansan Facebook. 
 
 Sovellukselta odotetut ominaisuudet:
 
-#### Käyttäjien rekisteröityminen ####
+**Käyttäjien rekisteröityminen**
 
 Käyttäjä rekisteröityy sovellukseen kirjaamalla sovellukseen käyttäjätunnuksen, salasanan sekä nimen. Tämän lisäksi käyttäjältä kysytään profiilin näyttämisessä käytettävää merkkijonoa, jonka perusteella käyttäjän sivu voidaan löytää sovelluksesta. Esim. “https://sovellus.net/kayttajat/profiili-merkkijono”
 
-#### Käyttäjien etsiminen ja yhdistäminen ####
+**Käyttäjien etsiminen ja kaveripyynnön tekeminen**
 
-Käyttäjä voi etsiä muita käyttäjiä nimen perusteella. Käyttäjä voi lisätä yhteyksiinsä toisen henkilön. Yhteyttä ei kuitenkaan hyväksytä ellei toinen osapuoli hyväksy sitä.
+Käyttäjä voi etsiä muita käyttäjiä nimen perusteella. Käyttäjä voi lähettää kaveripyyntöjä muille järjestelmässä oleville käyttäjille. Käyttäjä myös tietää kaverinsa.
 
-#### Yhteydet ####
+**Kaveripyynnön hyväksyntä**
 
-Käyttäjä voi tarkastella omia yhteyksiään. Yhteyden ohessa näytetään toisen henkilön nimi joka toimii linkkinä henkilön profiiliin sekä painikkeet yhteyden hyväksyntään ja hylkäykseen. Mikäli yhteys on jo muodostettu, on tilalla painike yhteyden katkaisemiseksi.
+Käyttäjä voi tarkastella saamiaan kaveripyyntöjä. Kaveripyynnön yhteydessä näytetään kaveripyynnön tekijän nimi sekä kaveripyynnön tekoaika. Mikäli kaveripyyntö hyväksytään, kaveripyynnön tekijä lisätään käyttäjän kaveriksi. Kaveripyynnön voi myös halutessaan hylätä.
 
-#### Profiilikuva ####
+**Kuva-albumi**
 
-Käyttäjä voi määritellä profiilikuvan.
+Jokaisella käyttäjällä on kuva-albumi. Käyttäjä voi lisätä albumiinsa kuvia ja myös poistaa niitä. Kunkin käyttäjän kuva-albumi voi sisältää korkeintaan 10 kuvaa. Jokaiseen kuvaan liittyy myös tekstimuotoinen kuvaus, joka lisätään kuvaan kuvan lisäyksen yhteydessä.
 
-#### Henkilökohtainen etusivu ####
+**Profiilikuva**
 
-Jokaisella käyttäjällä on henkilökohtainen "seinä", joka sisältää yllä henkilön nimen sekä mahdollisesti määritellyn profiilikuvan. Tämän lisäksi seinällä on lista taidoista joita henkilöllä on. Käyttäjä voi lisätä taitoja omalta sivultaan. Muut käyttäjät voivat käydä kehumassa toisen käyttäjän taitoja hänen etusivullaan - tällöin taidon vieressä oleva kehujen lukumäärä kasvaa. Taidoista korostetaan 3 kaikkein kehuttua taitoa, ja loput ovat erillään.
+Käyttäjä voi määritellä yhden kuva-albumissa olevan kuvan profiilikuvaksi.
 
-#### Postaaminen ####
+**Henkilökohtainen seinä**
 
-Kirjautuneet käyttäjät voivat lähettää postauksia yhteisellä sivulla. Postaussivulla näkyy yhteydessä olevien henkilöiden postaukset. Jokaisesta viestistä näytetään viestin lähettäjän nimi, viestin lähetysaika, sekä viestin tekstimuotoinen sisältö. Viestit näytetään postauslistassa niiden saapumisjärjestyksessä siten, että postauslistassa näkyy aina korkeintaan 25 uusinta viestiä.
+Jokaisella käyttäjällä on henkilökohtainen “seinä”, joka sisältää henkilön nimen sekä mahdollisesti määritellyn profiilikuvan. Sekä käyttäjä että käyttäjän kaverit voivat lähettää seinälle tekstimuotoisia viestejä. Jokaisesta viestistä näytetään viestin lähettäjän nimi, viestin lähetysaika, sekä viestin tekstimuotoinen sisältö. Viestit näytetään seinällä niiden saapumisjärjestyksessä siten, että seinällä näkyy aina korkeintaan 25 uusinta viestiä.
 
-### Postausten tykkääminen ###
+**Tykkääminen**
 
-Kirjautuneet käyttäjät voivat tykätä postauksista. Tykkääminen tapahtuu viestin yhteydessä olevaa tykkäysnappia painamalla. Kukin käyttäjä voi tykätä tietystä viestistä korkeintaan kerran (sama käyttäjä ei saa lisätä useampaa tykkäystä tiettyyn viestiin). Viestien näytön yhteydessä näytetään niihin liittyvä tykkäysten lukumäärä.
+Käyttäjän kaverit voivat tykätä kuvista ja seinällä olevista viesteistä. Tykkääminen tapahtuu viestin ja kuvan yhteydessä olevaa tykkäysnappia painamalla. Kukin käyttäjä voi tykätä tietystä kuvasta ja tietystä viestistä korkeintaan kerran (sama käyttäjä ei saa lisätä useampaa tykkäystä tiettyyn kuvaan tai viestiin). Viestien ja kuvien näytön yhteydessä näytetään niihin liittyvä tykkäysten lukumäärä.
 
-#### Kommentointi ####
+**Kommentointi**
 
-Käyttäjät voivat kommentoida viestejä. Kommentointi tapahtuu viestin yhteydessä olevan kommentointikentän avulla. Viestien yhteydessä näytetään aina korkeintaan 10 uusinta kommenttia.
+Samalla tavalla kuin tykkääminen, kaverit voivat myös kommentoida kuvia ja viestejä. Kommentointi tapahtuu viestin ja kuvan yhteydessä olevan kommentointikentän avulla. Kuvien ja viestien yhteydessä näytetään aina korkeintaan 10 uusinta kommenttia.
 
 #### Apuresursseja: ####
 
-Apumateriaalia tietokannassa olevan ajan käsittelyyn: https://web-palvelinohjelmointi-20.mooc.fi/ekstra/ajan-kasittely-tietokannassa
+Apumateriaalia tietokannassa olevan ajan käsittelyyn: https://web-palvelinohjelmointi-s20.mooc.fi/ekstra/ajan-kasittely-tietokannassa
 
 ## Työn tekeminen ja palautus ##
 
