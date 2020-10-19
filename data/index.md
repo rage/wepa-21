@@ -23,15 +23,15 @@ Kurssin sisältö tarkentuu kurssin edetessä. Kurssin aikatauluun saattaa tulla
 
 | Aikataulu | Julkaisu   | Deadline   |
 | ----------|------------|------------|
-| Osa 1     | 23.10.2019 | 02.11.2019 |
-| Osa 2     | 30.10.2019 | 09.11.2019 |
-| Osa 3     | 06.11.2019 | 16.11.2019 |
-| Osa 4     | 13.11.2019 | 23.11.2019 |
-| Osa 5     | 20.11.2019 | 30.11.2019 |
-| Osa 6     | 27.11.2019 | 07.12.2019 |
-| Osa 7     | 4.12.2019  | 14.12.2019 |
+| Osa 1     | 23.10.2020 | 02.11.2020 |
+| Osa 2     | 30.10.2020 | 09.11.2020 |
+| Osa 3     | 06.11.2020 | 16.11.2020 |
+| Osa 4     | 13.11.2020 | 23.11.2020 |
+| Osa 5     | 20.11.2020 | 30.11.2020 |
+| Osa 6     | 27.11.2020 | 07.12.2020 |
+| Osa 7     | 4.12.2020  | 14.12.2020 |
 
-**Määräajat ovat aina maanantaisin. Määräaikojen kellonajat ovat aina 23:59:00 – osan 1 tehtävät tulee palauttaa siis viimeistään 02.11.2019 klo 23:59:00. Virallisena määräaikana käytetään tehtäväpalvelimen kelloa, joka on Suomen ajassa. Huomaa, että oman koneesi kello voi olla jäljessä tai edellä, joten älä jätä tehtävien tekemistä ja palauttamista viime hetkeen.**
+**Määräajat ovat aina maanantaisin. Määräaikojen kellonajat ovat aina 23:59:00 – osan 1 tehtävät tulee palauttaa siis viimeistään 02.11.2020 klo 23:59:00. Virallisena määräaikana käytetään tehtäväpalvelimen kelloa, joka on Suomen ajassa. Huomaa, että oman koneesi kello voi olla jäljessä tai edellä, joten älä jätä tehtävien tekemistä ja palauttamista viime hetkeen.**
 
 ## Ilmoittautuminen ##
 
