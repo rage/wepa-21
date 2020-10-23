@@ -30,7 +30,7 @@ const courseSettings = {
     { separator: true, title: "Web-palvelinohjelmointi Java" },
   ],
   sidebarFuturePages: [
-    { title: "Osa 1", tba: "23.10.20" },
+//    { title: "Osa 1", tba: "23.10.20" },
     { title: "Osa 2", tba: "30.10.20" },
     { title: "Osa 3", tba: "06.11.20" },
     { title: "Osa 4", tba: "13.11.20" },
