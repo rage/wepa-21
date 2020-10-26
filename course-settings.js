@@ -4,7 +4,7 @@ const courseSettings = {
   siteUrl: "https://web-palvelinohjelmointi-s20.mooc.fi",
   subtitle: "Opi tekemään verkossa toimivia sovelluksia",
   slug: "web-palvelinohjelmointi-syksy-20",
-  tmcCourse: "wepa-syksy-2020",
+  tmcCourse: "wepa-s20",
   quizzesId: "17d9683d-d127-4721-9a6e-bbf63414b0d7",
   tmcOrganization: "mooc",
   bannerPath: "banner.jpg",
