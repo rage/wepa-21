@@ -13,6 +13,8 @@ toteuttamiseen. Kurssin käyminen edellyttää kurssien Ohjelmoinnin
 perusteet (TKT10002), Ohjelmoinnin jatkokurssi (TKT10003) ja
 Tietokantojen perusteet (TKT10004) tuntemisen.
 
+Aloitusluento zoomissa tiistaina 27.10 kello 10: [https://helsinki.zoom.us/j/62393295296](https://helsinki.zoom.us/j/62393295296)
+
 ## Sisältö ja aikataulu ##
 
 Kurssi koostuu seitsemästä tehtäväsarjasta, ohjelmointiprojektista sekä kokeesta.
