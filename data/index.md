@@ -23,7 +23,7 @@ Kurssin sisältö tarkentuu kurssin edetessä. Kurssin aikatauluun saattaa tulla
 
 | Aikataulu | Julkaisu   | Deadline   |
 | ----------|------------|------------|
-| Osa 1     | 23.10.2020 | 02.11.2020 |
+| Osa 1     | 26.10.2020 | 02.11.2020 |
 | Osa 2     | 30.10.2020 | 09.11.2020 |
 | Osa 3     | 06.11.2020 | 16.11.2020 |
 | Osa 4     | 13.11.2020 | 23.11.2020 |
