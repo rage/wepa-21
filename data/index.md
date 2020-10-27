@@ -13,7 +13,9 @@ toteuttamiseen. Kurssin käyminen edellyttää kurssien Ohjelmoinnin
 perusteet (TKT10002), Ohjelmoinnin jatkokurssi (TKT10003) ja
 Tietokantojen perusteet (TKT10004) tuntemisen.
 
-Aloitusluento zoomissa tiistaina 27.10 kello 10: [https://helsinki.zoom.us/j/62393295296](https://helsinki.zoom.us/j/62393295296)
+Aloitusluennon slidet: [https://docs.google.com/presentation/d/10PFnsl7bDhXmAqPI0BNTwYnL1xR2YdPyFOYTkDXZKL8/edit?usp=sharing](https://docs.google.com/presentation/d/10PFnsl7bDhXmAqPI0BNTwYnL1xR2YdPyFOYTkDXZKL8/edit?usp=sharing)
+
+Zoom pajaa pidetään perjantaisin kello 12-14. Viimeinen paja järjestetään 11.12. Linkki tulee tähän
 
 ## Sisältö ja aikataulu ##
 
