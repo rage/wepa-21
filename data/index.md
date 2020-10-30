@@ -15,7 +15,7 @@ Tietokantojen perusteet (TKT10004) tuntemisen.
 
 Aloitusluennon slidet: [https://docs.google.com/presentation/d/10PFnsl7bDhXmAqPI0BNTwYnL1xR2YdPyFOYTkDXZKL8/edit?usp=sharing](https://docs.google.com/presentation/d/10PFnsl7bDhXmAqPI0BNTwYnL1xR2YdPyFOYTkDXZKL8/edit?usp=sharing)
 
-Zoom pajaa pidetään perjantaisin kello 12-14. Viimeinen paja järjestetään 11.12. Linkki tulee tähän
+Zoom pajaa pidetään perjantaisin kello 12-14. Viimeinen paja järjestetään 11.12. [https://helsinki.zoom.us/j/64232777892](https://helsinki.zoom.us/j/64232777892)
 
 ## Sisältö ja aikataulu ##
 
@@ -36,6 +36,12 @@ Kurssin sisältö tarkentuu kurssin edetessä. Kurssin aikatauluun saattaa tulla
 | Osa 7     | 4.12.2020  | 14.12.2020 |
 
 **Määräajat ovat aina maanantaisin. Määräaikojen kellonajat ovat aina 23:59:00 – osan 1 tehtävät tulee palauttaa siis viimeistään 02.11.2020 klo 23:59:00. Virallisena määräaikana käytetään tehtäväpalvelimen kelloa, joka on Suomen ajassa. Huomaa, että oman koneesi kello voi olla jäljessä tai edellä, joten älä jätä tehtävien tekemistä ja palauttamista viime hetkeen.**
+
+| Aikataulu     | Julkaisu   | Deadline   |
+| --------------|------------|------------|
+| Tentti        | 15.12.2020 | 15.12.2020 |
+| Projekti      | 13.11.2020 | 14.12.2020 |
+| Vertaisarvio  | 15.12.2020 | 22.12.2020 |
 
 ## Ilmoittautuminen ##
 
