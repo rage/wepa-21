@@ -25,7 +25,7 @@ Kurssin laskennallinen työkuorma on noin 135 tuntia. Kunkin tehtäväsarjan tek
 
 Kurssin sisältö tarkentuu kurssin edetessä. Kurssin aikatauluun saattaa tulla pieniä muutoksia ja muutoksista ilmoitetaan tällä sivulla.
 
-**Lisätty 3.11.**: TMCllä on ollut vaikeuksia muutamien osan 2 tehtävien kanssa. Osan 2 deadlinea pidennetään seuraavan osan deadlineen asti mikäli ongelma ei 06.11 mennessä ole korjaantunut. Voit yrittää palauttaa osan tehtävää useamman kerran, noin joka 20. submit näyttäisi menevän läpi. Muutokset tulevat näkyviin alla olevaan taulukkoon, mutta vahdi että palautat kuitenkin epäonnistuneet tehtävät lopulta vähintään kerran onnistuneesti (Tunnistat onnistuneen palautuksen Netbeansin vihreästä täplästä tai osoitteessa [tmc.mooc.fi](https://tmc.mooc.fi) näkyvistä pisteistä)
+**Lisätty 4.11.**: TMCllä oli ongelmia muutamien osan 2 tehtävien kanssa. Kyseinen ongelma ratkaistiin ja kaikki ongelmaan törmänneet palautukset on automaattisesti suoritettu uudelleen, joten mitään toimenpiteitä ei pitäisi tarvita.
 
 | Aikataulu | Julkaisu   | Deadline   |
 | ----------|------------|------------|
