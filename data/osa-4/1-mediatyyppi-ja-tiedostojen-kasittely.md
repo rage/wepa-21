@@ -130,6 +130,8 @@ Toteuta toiminnallisuus, jonka avulla seuraavat toiminnot ovat käytössä.
 
 HTML-sivulla on myös lomake, jonka avulla palvelimelle voi lähettää uusia kuvia. Toteuta palvelimelle toiminnallisuus, jonka avulla osoitteeseen `/gifs` tehdystä POST-pyynnöstä otetaan sisältö talteen ja tallennetaan se tietokantaa. Huom! Tallenna sisältö vain jos sen mediatyyppi on `image/gif`. Pyyntö uudelleenohjataan aina lopuksi osoitteeseen `/gifs`.
 
+Lisätty 18.11: TMCssä olevan bugin takia nimeä kontrollerisi "GifController.java"
+
 </programming-exercise>
 
 
@@ -256,5 +258,6 @@ Toteuta toiminnallisuus, jonka avulla seuraavat toiminnot ovat käytössä.
 - Kun käyttäjä lähettää lomakkeella tiedoston osoitteeseen `/files`, pyynnöstä otetaan talteen kaikki tiedot mitä näkymässä halutaan näyttää, ja tallennetaan ne tietokantaan. Pyyntö ohjataan lopuksi uudelleen osoitteeseen `/files`.
 - Kun käyttäjä klikkaa yksittäiseen tiedostoon liittyvää nimeä sen lataamista varten, tulee tiedosto lähettää käyttäjälle. Aseta pyyntöön datan lisäksi myös tiedoston mediatyyppi että ja ehdotus tiedoston tallennusnimestä.
 
+Lisätty 18.11: TMCssä olevan bugin takia nimeä kontrollerisi "FileController.java". Myöhemmissä tehtävissä saattaa olla vastaavia ongelmia ennen kuin bugi on saatu korjattua. Telegram kanavalla löydät nopeasti apua.
 
 </programming-exercise>
