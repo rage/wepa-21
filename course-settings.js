@@ -34,7 +34,7 @@ const courseSettings = {
 //    { title: "Osa 2", tba: "30.10.20" },
 //    { title: "Osa 3", tba: "06.11.20" },
 //    { title: "Osa 4", tba: "13.11.20" },
-    { title: "Osa 5", tba: "20.11.20" },
+//    { title: "Osa 5", tba: "20.11.20" },
     { title: "Osa 6", tba: "27.11.20" },
     { title: "Osa 7", tba: "04.12.20" },
   ],
