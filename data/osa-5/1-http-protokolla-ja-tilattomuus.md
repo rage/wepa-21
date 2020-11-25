@@ -271,6 +271,8 @@ Muokkaa luokkaa `euroshopper.OrderController` siten, että kun käyttäjä tekee
 
 Kun tilaus on tehty, tyhjennä myös ostoskori.
 
+Lisätty 25.11: TMCssä olevan bugin takia nimeä ostoskoria käsittelevä kontrollerisi "CartController.java"
+
 </programming-exercise>
 
 
