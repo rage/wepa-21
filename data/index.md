@@ -15,7 +15,7 @@ Tietokantojen perusteet (TKT10004) tuntemisen.
 
 Aloitusluennon slidet: [https://docs.google.com/presentation/d/10PFnsl7bDhXmAqPI0BNTwYnL1xR2YdPyFOYTkDXZKL8/edit?usp=sharing](https://docs.google.com/presentation/d/10PFnsl7bDhXmAqPI0BNTwYnL1xR2YdPyFOYTkDXZKL8/edit?usp=sharing)
 
-Zoom pajaa pidetään perjantaisin kello 12-14. Viimeinen paja järjestetään 11.12. [https://helsinki.zoom.us/j/64232777892](https://helsinki.zoom.us/j/64232777892)
+Zoom pajaa pidetään perjantaisin kello 12-14. Viimeinen paja järjestetään 11.12. poikkeuksellisesti kello 10-12 [https://helsinki.zoom.us/j/64232777892](https://helsinki.zoom.us/j/64232777892)
 
 ## Sisältö ja aikataulu ##
 
