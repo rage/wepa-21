@@ -7,8 +7,6 @@ information_page: true
 
 Kurssilla on vertaistukeen perustuva keskustelukanava.
 
-<!--, jonka lisäksi kaikilla kurssilaisilla on mahdollisuus ohjaukseen Helsingin yliopiston kumpulan kampuksella. -->
-
 ## Keskustelukanava
 
 Kurssilla on käytössä Telegram-keskusteluhuone. Suosittelemme, että käytät tukikanavaa joko Telegramin selaimessa toimivalla versiolla tai Telegrammin työpöytäohjelmalla.
@@ -19,26 +17,6 @@ Kanavan osallistujat ovat kanssaopiskelijoita sekä vapaaehtoisia ohjaajia. Kana
 
 Kaikki epäasialliset, halventavat ja jotain ihmisryhmää syrjivät kommentit kanavalla ovat kiellettyjä ja tälläisten kommenttien esittäjät poistetaan kanavalta.
 
-<!--
-
-## Pajaohjaus
-
-Kurssilla on mahdollisuus saada hyvää ohjelmointiseuraa sekä saada apua tehtäviin, ohjelmointiin ja teknisiin ongelmiin tulemalla kurssin pajaan! Paja sijaitsee Helsingin yliopiston kumpulan kampuksella olevassa Exactum-rakennuksessa. Kaikki ovat tervetulleita pajaan!
-
-Katso Exactum-rakennuksen tarkempi sijainti seuraavasta linkistä: https://www.google.com/maps?hl=en&q=Exactum,+Kumpula+Campus,+Pietari+Kalmin+katu+5,+00560+Helsinki
-
-Tarkat paja-ajat selviävät myöhemmin
-
-Ohjausta järjestetään Exactum-rakennuksen salissa B221 seuraavasti:
-
- - Maanantaisin 12-14 (28.10.-16.12.)
- - Keskiviikkoisin 12-16 (30.10.-11.12.)
-
-Pääsiäistauon aikana ohjausta ei ole (18.4.-24.4.
-
-Exactum-rakennuksen aulassa olevasta infonäytöstä löytää salin tarkemman sijainnin. Voit myös kysyä salin sijaintia aulan vahtimestareilta sekä kampuksen henkilökunnalta ja opiskelijoilta.
-
- -->
 
 ## Vinkkejä avun kysymiseen
 

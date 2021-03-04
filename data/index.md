@@ -13,37 +13,31 @@ toteuttamiseen. Kurssin käyminen edellyttää kurssien Ohjelmoinnin
 perusteet (TKT10002), Ohjelmoinnin jatkokurssi (TKT10003) ja
 Tietokantojen perusteet (TKT10004) tuntemisen.
 
-Aloitusluennon slidet: [https://docs.google.com/presentation/d/10PFnsl7bDhXmAqPI0BNTwYnL1xR2YdPyFOYTkDXZKL8/edit?usp=sharing](https://docs.google.com/presentation/d/10PFnsl7bDhXmAqPI0BNTwYnL1xR2YdPyFOYTkDXZKL8/edit?usp=sharing)
-
-Zoom pajaa pidetään perjantaisin kello 12-14. Viimeinen paja järjestetään 11.12. poikkeuksellisesti kello 10-12 [https://helsinki.zoom.us/j/64232777892](https://helsinki.zoom.us/j/64232777892)
-
 ## Sisältö ja aikataulu ##
 
 Kurssi koostuu seitsemästä tehtäväsarjasta, ohjelmointiprojektista sekä kokeesta.
 
 Kurssin laskennallinen työkuorma on noin 135 tuntia. Kunkin tehtäväsarjan tekemiseen kannattaa varata noin 12 tuntia, projektiin ja siihen liittyviin vertaisarviointeihin noin 40 tuntia, ja kokeeseen kertaamiseen noin 8 tuntia. Varaamme oikeuden aikataulun ja aiheiden muutoksiin.
 
-Kurssin sisältö tarkentuu kurssin edetessä. Kurssin aikatauluun saattaa tulla pieniä muutoksia ja muutoksista ilmoitetaan tällä sivulla.
+Kurssilla ei ole viikkokohtaisia deadlineja. Kurssin suorittamiselle on kuitenkin kolme vaihtoehtoista deadlinea. Ilmoittautuminen tehdään vasta kun olet päässyt jo pidemmälle kurssissa.
 
-**Lisätty 4.11.**: TMCllä oli ongelmia muutamien osan 2 tehtävien kanssa. Kyseinen ongelma ratkaistiin ja kaikki ongelmaan törmänneet palautukset on automaattisesti suoritettu uudelleen, joten mitään toimenpiteitä ei pitäisi tarvita.
+| Projekti deadline | Tentti | Vertaisarviointi deadline |
+|---|---|---|
+| Tulee | Tähän | Myöhemmin |
+| Tulee | Tähän | Myöhemmin |
+| Tulee | Tähän | Myöhemmin |
 
-| Aikataulu | Julkaisu   | Deadline   |
-| ----------|------------|------------|
-| Osa 1     | 26.10.2020 | 02.11.2020 |
-| Osa 2     | 30.10.2020 | 09.11.2020 |
-| Osa 3     | 06.11.2020 | 16.11.2020 |
-| Osa 4     | 13.11.2020 | 23.11.2020 |
-| Osa 5     | 20.11.2020 | 30.11.2020 |
-| Osa 6     | 27.11.2020 | 07.12.2020 |
-| Osa 7     | 4.12.2020  | 14.12.2020 |
+**Tehtävien deadline** on samassa kuin vertaisarvioinnin deadline.
 
-**Määräajat ovat aina maanantaisin. Määräaikojen kellonajat ovat aina 23:59:00 – osan 1 tehtävät tulee palauttaa siis viimeistään 02.11.2020 klo 23:59:00. Virallisena määräaikana käytetään tehtäväpalvelimen kelloa, joka on Suomen ajassa. Huomaa, että oman koneesi kello voi olla jäljessä tai edellä, joten älä jätä tehtävien tekemistä ja palauttamista viime hetkeen.**
+Huomioithan työmäärän ja projektin deadlinen suunnitellessasi omaa aikatauluasi kurssin osalta.
 
-| Aikataulu     | Julkaisu   | Deadline   |
-| --------------|------------|------------|
-| Tentti        | 15.12.2020 | 15.12.2020 |
-| Projekti      | 13.11.2020 | 14.12.2020 |
-| Vertaisarvio  | 15.12.2020 | 22.12.2020 |
+## Arvosanan korottaminen ##
+
+Opintosuorituksen on päätyttävä tenttiin tai projektipalautukseen, joten arvosanan korotus pelkästään lisätehtäviä tekemällä ei ole mahdollista. Voit kuitenkin tehdä lisätehtäviä ja palauttaa parannellun projektin + vertaisarvionnin tai vaihtoehtoisesti tehdä uusintatentin, vaikka edellinen olisi jo hyväksytty. 
+
+Kurssi arvioidaan kokonaisuutena, eli tehdessäsi uuden loppupalautuksen lasketaan uudestaan tehtävistä, projektista ja sen vertaisarvioinnista saadut pisteet. Uusi pistemäärä ei voi laskea kurssin arvosanaasi. **HUOM**: Projekti arvioidaan kokonaisuutena vertaisarvioinnin kanssa (yhteensä 30% pisteistä), eli mikäli palautat projektin paranneltuna uudestaan on syytä myös tehdä uusi vertaisarviointi.
+
+Mikäli olet korottamassa arvosanaa kurssin aiemmasta versiosta, esimerkiksi keväältä 2019, joudut palauttamaan kaiken uudestaan. Voit kuitenkin uusiokäyttää aiemman projektipalautuksesi lähdekoodia ja submitoida vanhoja tehtäväsuorituksia, joten ei ole tarpeellista tehdä aivan kaikkea uudestaan.
 
 ## Ilmoittautuminen ##
 

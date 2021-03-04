@@ -1,7 +1,7 @@
 ---
 path: "/ilmoittautuminen"
 title: "Ilmoittautuminen"
-hidden: true
+hidden: false
 information_page: true
 ---
 

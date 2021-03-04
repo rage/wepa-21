@@ -7,7 +7,7 @@ information_page: true
 
 Kurssin arvostelu perustuu materiaalin tehtäviin sekä laajempaan ohjelmointiprojektiin. Tehtävien painoarvo on 70% kurssin arvostelussa ja projektin sekä sen yhteydessä tehtävien vertaisarvioiden painoarvo on 30% kurssin arvostelussa.
 
-Projekti julkaistaan viikolla 4.
+Projekti julkaistaan muutama viikko kurssin alkamisen jälkeen ja se tulee palauttaa ennen haluamaasi deadlinea. Palautus itse- ja vertaisarvioidaan -- itse- ja vertaisarviointimahdollisuus aukeaa deadlinesta seuraavana päivänä. Arvioinnit tulee tehdä etusivulla ilmoitettuun deadlineen mennessä.
 
 Kurssin suorituksen lopussa on lisäksi koe, joka arvostellaan skaalalla hyväksytty / hylätty. Arvosana muodostuu tehdyistä tehtävistä ja projektista.
 
@@ -56,15 +56,8 @@ Kurssin arvosana muodostuu seuraavalla asteikolla:
     </tbody>
 </table>
 
-## Ilmoittautuminen
+## Ilmoittautuminen ja opintosuoritusmerkintä
 
-Kurssilla käytetään Moodlea keskustelualustana, kurssiprojektin palautus- ja vertaisarviointialustana, ja koealustana.
-
-Kurssille ilmoittaudutaan weboodissa kuten muillekin kursseille, linkit löytyvät kurssin studies sivuilta: <https://studies.helsinki.fi/opintotarjonta/cur/hy-opt-cur-2021-e4fa83b4-a3f6-4df3-b049-d335557f8f6e>
-
-Pääset Moodleen osoitteessa <https://moodle.helsinki.fi/course/view.php?id=41867>.
-
-<!--
 Kurssille ilmottaudutaan vasta suorituksen lopussa. Ilmoittautuminen tapahtuu siis vasta kun olet palauttamassa projektia. Projekti palautetaan kurssin Moodle alustalle, jossa myös tehdään vertaisarvioinnit ja koe.
 
 Sinun tulee olla ilmoittautunut kurssille, jotta voit saada kurssista opintosuoritusmerkinnän Helsingin yliopiston opintorekisteriin, osallistua kurssin mahdollisiin verkkotentteihin ja palauttaa tehtäviä verkko-oppimisympäristö Moodlessa.
@@ -77,6 +70,4 @@ Avoimen yliopiston kurssi-ilmoittautumisen ohjeet saat kurssimateriaalin viimeis
 
 <!-- Avoimen opintoihin ilmoittaudutaan kurssin avoimen yliopiston opinto-ohjelman (=kurssisivun) kautta, josta löydät tarkemmat ohjeet ilmoittautumiseen, Moodlen kurssiavaimen ja lisätietoja opintosuorituksen rekisteröinnistä. Ilmoittautuminen on auki vain määritellyn ajan, joka on ilmoitettu kurssin opinto-ohjelmassa. -->
 
-<!--
 Avoimen kurssin opinto-ohjelma: https://courses.helsinki.fi/fi/aytkt21007/133000902
--->
