@@ -13,3 +13,6 @@ Vastaa lopuksi seuraavaan itsearviointikyselyyn ja keksi kurssimateriaalin seits
 
 <quiz id="59100788-a460-5407-9270-b319713fb777"></quiz>
 
+### Nyt on sopiva hetki ilmoittautua kurssille
+
+Jos et ole jo ilmoittautunut, käy lukemassa ohjeet täältä https://web-palvelinohjelmointi-21.mooc.fi/ilmoittautuminen

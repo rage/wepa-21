@@ -11,7 +11,7 @@ Kurssille ei tarvitse ilmoittautua ennen kuin olet jo suorituksesi loppusuoralla
 
 Kurssin projektipalautus ja tentti tehdään Moodlessa. Seuraavaksi ilmoittaudu kurssille ja varmenna pääsysi Moodleen toimimalla seuraavien ohjeiden mukaisesti:
 
-1. Ilmoittautuminen. Tee Avoimen yliopiston kurssi-ilmoittautuminen 09.11.2020 mennessä täällä: https://www.avoin.helsinki.fi/palvelut/esittely.aspx?o=133000902
+1. Ilmoittautuminen. Tee Avoimen yliopiston kurssi-ilmoittautuminen XX.YY.2021 mennessä täällä: TODO
 
 2. Linkki ja avain. Linkin ja kurssiavaimen opintojakson Moodleen saat sähköpostitse 24 tunnin sisään kurssi-ilmoittautumisesi jälkeen.
 
@@ -23,7 +23,7 @@ Kurssin projektipalautus ja tentti tehdään Moodlessa. Seuraavaksi ilmoittaudu 
 
 4. Mene Moodleen. Käytä Helsingin yliopiston / HAKA-korkeakoulun käyttäjätunnusta Moodleen kirjautumiseen.
 
-5. Opiskelijanumero. Kurssi-ilmoittautumisen jälkeen: Syötä Helsingin yliopiston opiskelijanumerosi kenttään “Helsingin yliopiston opiskelijanumero” sivulle https://web-palvelinohjelmointi-20.mooc.fi/profile.
+5. Opiskelijanumero. Kurssi-ilmoittautumisen jälkeen: Syötä Helsingin yliopiston opiskelijanumerosi kenttään “Helsingin yliopiston opiskelijanumero” sivulle https://web-palvelinohjelmointi-21.mooc.fi/profile.
 
 · Mikäli käytit muun kuin Helsingin yliopiston HAKA-tunnuksia kirjautumiseen, pyydä Helsingin yliopiston opiskelijanumerosi avoin-student@helsinki.fi -osoitteesta.
 
