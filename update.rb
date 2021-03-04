@@ -7,8 +7,8 @@ paths.each do |path|
 
   updates.split("\n").each do |line|
     split = line.split(" ")
-    new_id = split[0]
-    old_id = split[1]
+    old_id = split[0]
+    new_id = split[1]
     input = input.gsub(old_id, new_id)
   end
 

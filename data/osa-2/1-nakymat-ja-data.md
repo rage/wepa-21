@@ -186,7 +186,7 @@ Palauta tehtävä TMC:lle kun olet valmis.
 
 </programming-exercise>
 
-<quiz id="83e74551-e0fc-515e-9187-400cf4e91683"></quiz>
+<quiz id="fe43f6a9-ed94-5fba-8f91-f590601d2807"></quiz>
 
 
 ## Kokoelmien näyttäminen Thymeleaf-sivulla

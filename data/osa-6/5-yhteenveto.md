@@ -11,6 +11,6 @@ Tässä osassa harjoittelit toistuvien sivurakenteiden määrittelyä sekä käy
 Vastaa lopuksi seuraavaan itsearviointikyselyyn ja keksi kurssimateriaalin kuudennesta osasta monivalintakysymys.
 
 
-<quiz id="92257b3f-0ff3-5db6-b23e-559b9c35b176"></quiz>
+<quiz id="68e761b5-a95e-5253-807b-17489a7b0556"></quiz>
 
-<quiz id="1681b5f0-3a13-5181-aa3f-571402acd781"></quiz>
+<quiz id="ffaa2cf3-48c9-5195-b19e-c858b042ff1b"></quiz>

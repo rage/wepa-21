@@ -241,7 +241,7 @@ Tehtävässä ei ole testejä.
 
 </programming-exercise>
 
-<quiz id="fa292ffb-2588-595b-b44d-5bf59993f209"></quiz>
+<quiz id="06043931-3256-56c2-90b1-e5331c4d23c6"></quiz>
 
 
 Kun käyttäjä on kirjautuneena, saa häneen liittyvän käyttäjätunnuksen ns. tietoturvakontekstista.
@@ -251,7 +251,7 @@ Authentication auth = SecurityContextHolder.getContext().getAuthentication();
 String username = auth.getName();
 ```
 
-<quiz id="1aa0d7ff-1ade-5e8e-97e0-f247d3a851fd"></quiz>
+<quiz id="1b9a8219-bd69-5ffe-ac21-3c41b68fe032"></quiz>
 
 
 Autentikaation tarpeen voi määritellä myös pyyntökohtaisesti. Alla olevassa esimerkissä GET-tyyppiset pyynnöt ovat sallittuja juuriosoitteeseen, mutta POST-tyyppiset pyynnöt juuriosoitteeseen eivät ole sallittuja.
