@@ -9,7 +9,7 @@ Neljännen osan jälkeen tunnet käsitteen mediatyyppi ja osaat tallentaa tiedos
 
 <text-box variant='hint' name='Projekti'>
 
-Kurssin neljännen osan yhteydessä julkaistaan myös kurssin ohjelmointiprojekti. Ohjelmointiprojekti sekä siihen liittyvän itse- ja vertaisarviointi muodostaa 30% kurssin arvosanasta. Ohjelmointiprojektissa luodaan *vanhan ajan Facebook*. Ohjelmointiprojektin tarkempi tehtävänanto löytyy [tämän linkin takaa](https://web-palvelinohjelmointi-s20.mooc.fi/projekti).
+Kurssin neljännen osan yhteydessä julkaistaan myös kurssin ohjelmointiprojekti. Ohjelmointiprojekti sekä siihen liittyvän itse- ja vertaisarviointi muodostaa 30% kurssin arvosanasta. Ohjelmointiprojektissa luodaan *vanhan ajan Twitter*. Ohjelmointiprojektin tarkempi tehtävänanto löytyy [tämän linkin takaa](https://web-palvelinohjelmointi-21.mooc.fi/projekti).
 
 </text-box>
 

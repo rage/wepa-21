@@ -1,11 +1,11 @@
 const courseSettings = {
   language: "fi",
-  name: "Web-palvelinohjelmointi Java, Syksy 2020",
-  siteUrl: "https://web-palvelinohjelmointi-s20.mooc.fi",
+  name: "Web-palvelinohjelmointi Java, 2021",
+  siteUrl: "https://web-palvelinohjelmointi-21.mooc.fi",
   subtitle: "Opi tekemään verkossa toimivia sovelluksia",
-  slug: "web-palvelinohjelmointi-syksy-20",
-  tmcCourse: "wepa-s20",
-  quizzesId: "17d9683d-d127-4721-9a6e-bbf63414b0d7",
+  slug: "web-palvelinohjelmointi-21",
+  tmcCourse: "wepa-21",
+  quizzesId: "3f581eee-cf43-42fa-999c-46fdf14bc961",
   tmcOrganization: "mooc",
   bannerPath: "banner.jpg",
   sidebarEntries: [
