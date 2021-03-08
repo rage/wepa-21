@@ -11,7 +11,7 @@ Kurssille ei tarvitse ilmoittautua ennen kuin olet jo suorituksesi loppusuoralla
 
 Kurssin projektipalautus ja tentti tehdään Moodlessa. Seuraavaksi ilmoittaudu kurssille ja varmenna pääsysi Moodleen toimimalla seuraavien ohjeiden mukaisesti:
 
-1. Ilmoittautuminen. Tee Avoimen yliopiston kurssi-ilmoittautuminen XX.YY.2021 mennessä täällä: TODO
+1. Ilmoittautuminen. Tee Avoimen yliopiston kurssi-ilmoittautuminen 9.11.2021 mennessä täällä: <https://www.avoin.helsinki.fi/palvelut/esittely.aspx?o=135644312>
 
 2. Linkki ja avain. Linkin ja kurssiavaimen opintojakson Moodleen saat sähköpostitse 24 tunnin sisään kurssi-ilmoittautumisesi jälkeen.
 

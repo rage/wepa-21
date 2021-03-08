@@ -11,7 +11,7 @@ ilmainen web-palvelinohjelmoinnin perusteet opettava verkkokurssi.
 Kurssilla perehdytään web-sovellusten perusideoihin sekä niiden
 toteuttamiseen. Kurssin käyminen edellyttää kurssien Ohjelmoinnin
 perusteet (TKT10002), Ohjelmoinnin jatkokurssi (TKT10003) ja
-Tietokantojen perusteet (TKT10004) tuntemisen sekä Javan osaamista.
+Tietokantojen perusteet (TKT10004) tuntemisen sekä Java-ohjelmointikielen osaamista tai innokkuutta opetella sitä kurssin aikana.
 
 ## Sisältö ja aikataulu ##
 
@@ -23,9 +23,9 @@ Kurssilla ei ole viikkokohtaisia deadlineja. Kurssin suorittamiselle on kuitenki
 
 | Projekti deadline | Tentti | Vertaisarviointi deadline |
 |---|---|---|
-| Tulee | Tähän | Myöhemmin |
-| Tulee | Tähän | Myöhemmin |
-| Tulee | Tähän | Myöhemmin |
+| 3.5.2021 | 6.5.2021 | 10.5.2021 |
+| 24.6.2021 | 24.6.2021 | 29.6.2021 |
+| 10.11.2021 | 11.11.2021 | 17.11.2021 |
 
 **Tehtävien deadline** on samassa kuin vertaisarvioinnin deadline.
 
