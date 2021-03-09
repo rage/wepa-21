@@ -68,6 +68,6 @@ Ilmoittautuminen koskee kaikkia kurssilaisia eli myös Helsingin yliopiston opis
 
 Avoimen yliopiston kurssi-ilmoittautumisen ohjeet saat kurssimateriaalin viimeisten osioiden yhteydessä. Kurssille siis ilmoittaudutaan vasta edettyäsi tehtävissä.
 
-<!-- Avoimen opintoihin ilmoittaudutaan kurssin avoimen yliopiston opinto-ohjelman (=kurssisivun) kautta, josta löydät tarkemmat ohjeet ilmoittautumiseen, Moodlen kurssiavaimen ja lisätietoja opintosuorituksen rekisteröinnistä. Ilmoittautuminen on auki vain määritellyn ajan, joka on ilmoitettu kurssin opinto-ohjelmassa. -->
+Avoimen opintoihin ilmoittaudutaan kurssin avoimen yliopiston opinto-ohjelman (=kurssisivun) kautta, josta löydät tarkemmat ohjeet ilmoittautumiseen, Moodlen kurssiavaimen ja lisätietoja opintosuorituksen rekisteröinnistä. Ilmoittautuminen on auki vain määritellyn ajan, joka on ilmoitettu kurssin opinto-ohjelmassa.
 
-Avoimen kurssin opinto-ohjelma: https://courses.helsinki.fi/fi/aytkt21007/133000902
+Avoimen kurssin opinto-ohjelma: https://studies.helsinki.fi/opintotarjonta/cur/hy-CUR-135644312/Avoin_yo_Web_palvelinohjelmointi_Java_2021
