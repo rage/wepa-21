@@ -30,9 +30,9 @@ const courseSettings = {
     { separator: true, title: "Web-palvelinohjelmointi Java" },
   ],
   sidebarFuturePages: [
-    { title: "Osa 1"/*, tba: "15.03.21"*/ },
-    { title: "Osa 2"/*, tba: "15.03.21"*/ },
-    { title: "Osa 3"/*, tba: "15.03.21"*/ },
+    /*{ title: "Osa 1", tba: "15.03.21" },*/
+    /*{ title: "Osa 2", tba: "15.03.21" },*/
+    /*{ title: "Osa 3", tba: "15.03.21" },*/
     { title: "Osa 4", tba: "22.03.21" },
     { title: "Osa 5", tba: "22.03.21" },
     { title: "Osa 6", tba: "22.03.21" },
