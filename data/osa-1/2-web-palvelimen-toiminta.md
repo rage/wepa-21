@@ -80,7 +80,7 @@ Lisää verkkoliikenteen käsittelystä löytyy mm. <a href="https://docs.oracle
 
 Tästä eteenpäin materiaalissa on myös ohjelmointitehtäviä. Ohjelmointitehtävät tehdään NetBeans with TMC -järjestelmässä, jonka käyttöä on harjoiteltu esitietovaatimuksena olevilla kursseilla.
 
-Mikäli et ole aiemmin käyttänyt NetBeans with TMC -järjestelmää, tutustu sen käyttöön osoitteessa <a href="https://materiaalit.github.io/tmc-asennus/netbeans/" target="_blank">https://materiaalit.github.io/tmc-asennus/netbeans/</a> olevia ohjeita noudattaen. Toisin kuin ohjeissa, kurssiksi tulee valita "Web-palvelinohjelmointi 2021" (löytyy organisaatiosta "MOOC").
+Mikäli et ole aiemmin käyttänyt NetBeans with TMC -järjestelmää, tutustu sen käyttöön osoitteessa <a href="https://materiaalit.github.io/tmc-asennus/netbeans/" target="_blank">https://materiaalit.github.io/tmc-asennus/netbeans/</a> olevia ohjeita noudattaen. Toisin kuin ohjeissa, kurssiksi tulee valita "Web-palvelinohjelmointi Java 2021" (löytyy organisaatiosta "MOOC").
 
 Toisin kuin aiemmilla ohjelmointikursseilla, monissa tehtävistä ei ole automaattisia testejä. Yritä saada tehtävä tehtyä ennen sen palauttamista.
 
