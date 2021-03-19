@@ -39,7 +39,7 @@ Lue lisää aiheesta <a href="https://www.jamesshore.com/Blog/Dependency-Injecti
 ## Spring Boot -projektin luominen
 
 
-Uudet Spring Boot -projektit luodaan tyypillisesti <a href="https://start.spring.io/">Spring Initializr</a>-sivulla, missä käyttäjä voi valita käännökseen käytettävän työvälineen (<a href="https://maven.apache.org/" target="_blank">Maven</a>, <a href="https://gradle.org/" target="_blank">Gradle</a>), projektin käyttämän ohjelmointikielen (Java, Kotlin, Groovy), Spring Bootin version, sekä projektin käyttämät komponentit (esim. tietokannnat, kirjautuminen, ...).
+Uudet Spring Boot -projektit luodaan tyypillisesti <a href="https://start.spring.io/">Spring Initializr</a> -sivulla, missä käyttäjä voi valita käännökseen käytettävän työvälineen (<a href="https://maven.apache.org/" target="_blank">Maven</a>, <a href="https://gradle.org/" target="_blank">Gradle</a>), projektin käyttämän ohjelmointikielen (Java, Kotlin, Groovy), Spring Bootin version, sekä projektin käyttämät komponentit (esim. tietokannat, kirjautuminen, ...).
 
 <br/>
 
@@ -52,7 +52,7 @@ Käytämme tällä kurssilla <a href="https://maven.apache.org/" target="_blank"
 
 <br/>
 
-Kun Spring-sovellus on konfiguroitu oikein (esim. Spring Initializr -palvelun avulla), Spring-projektin käynnistäminen onnistuu komentoriviltä komennolla `mvn spring-boot:run`. Tällöin  -- kun käytössä on <a href="http://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-devtools.html" target="_blank">Spring Devtools</a>-projekti -- sovellus käynnistyy muutosten yhteydessä automaattisesti uudestaan.
+Kun Spring-sovellus on konfiguroitu oikein (esim. Spring Initializr -palvelun avulla), Spring-projektin käynnistäminen onnistuu komentoriviltä komennolla `mvn spring-boot:run`. Tällöin  -- kun käytössä on <a href="http://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-devtools.html" target="_blank">Spring Devtools</a> -projekti -- sovellus käynnistyy muutosten yhteydessä automaattisesti uudestaan.
 
 <br/>
 
@@ -61,7 +61,7 @@ Ohjelmat voi ladata myös NetBeansiin, jossa ne toimivat kuten muidenkin ohjelmo
 
 ## Ensimmäinen palvelinohjelmisto
 
-Ensimmäinen palvelinohjelmisto -- tai sovelluksen koodi -- voi tuntia aluksi hieman monimutkaiselta. Sovellus, joka käynnistää palvelimen ja palauttaa käyttäjälle selaimen kautta tarkasteltuna tekstin "Hei Maailma!", näyttää seuraavalta.
+Ensimmäinen palvelinohjelmisto -- tai sovelluksen koodi -- voi tuntua aluksi hieman monimutkaiselta. Sovellus, joka käynnistää palvelimen ja palauttaa käyttäjälle selaimen kautta tarkasteltuna tekstin "Hei Maailma!", näyttää seuraavalta.
 
 
 ```java
@@ -89,7 +89,7 @@ public class HeiMaailmaController {
 }
 ```
 
-Luokka sisältää sekä sovelluskehyksen käynnistämiseen tarvittavan `main`-metodin että pyyntöjen käsittelyyn käytettävän `home`-metodin. Pilkotaan sovellus pienempiin osiin ja eriytetään pyyntöjä vastaanottava luokka ja sovelluksen käynnistämiseen käytettävä luokan toisistaan.
+Luokka sisältää sekä sovelluskehyksen käynnistämiseen tarvittavan `main`-metodin että pyyntöjen käsittelyyn käytettävän `home`-metodin. Pilkotaan sovellus pienempiin osiin ja eriytetään pyyntöjä vastaanottava luokka ja sovelluksen käynnistämiseen käytettävä luokka toisistaan.
 
 
 ```java
@@ -109,7 +109,7 @@ public class HeiMaailmaApplication {
 
 Spring Boot -sovellukset tarvitsevat käynnistyäkseen `main`-metodin, jossa kutsutaan `SpringApplication`-luokan `run`-metodia. Metodille annetaan parametrina luokka, joka sisältää `@SpringBootApplication`-annotaation -- annotaatiota käytetään sovelluksen konfigurointiin; tässä mennään oletusasetuksilla.
 
-Sovelluksen käynnistäminen etsii luokkia, joita se lataa käyttöönsä. Luokat on merkitty esim `@Controller`-annotaatiolla, mikä kertoo luokan sisältävän palvelimelle tulevia pyyntöjä käsitteleviä metodeja.
+Sovelluksen käynnistäminen etsii luokkia, joita se lataa käyttöönsä. Luokat on merkitty esim. `@Controller`-annotaatiolla, mikä kertoo luokan sisältävän palvelimelle tulevia pyyntöjä käsitteleviä metodeja.
 
 Alla on esimerkki tällaisesta luokasta.
 
@@ -166,9 +166,9 @@ Palvelin sammutetaan NetBeansissa punaista nappia painamalla -- vain yksi sovell
 
 <text-box variant='hint' name='Apua! Palvelimeni ei suostu sammumaan!'>
 
-Palvelimen sammuttaminen tapahtuu NetBeansissa punaista neliötä klikkaamalla, joka sammuttaa suoritettavan ohjelman. Joissakin MacOs-käyttöjärjestelmän versioissa tämä on kuitenkin bugista, jolloin palvelin tulee sammuttaa komentoriviltä.
+Palvelimen sammuttaminen tapahtuu NetBeansissa punaista neliötä klikkaamalla, joka sammuttaa suoritettavan ohjelman. Joissakin MacOS-käyttöjärjestelmän versioissa tämä on kuitenkin bugista, jolloin palvelin tulee sammuttaa komentoriviltä.
 
-Saat portissa 8080 käynnissä olevan prosessin tunnuksen tietoon terminaalissa komennolla `lsof -i :8080`. Etsi komennon palauttamasta tulosteesta prosessin tunnus, jonka jälkeen voit sammuttaa prosessin komennolla `kill -9 prosessin-tunnus`.
+Saat portissa 8080 käynnissä olevan prosessin tunnuksen tietoon terminaalissa komennolla `lsof -i :8080`. Etsi komennon palauttamasta tulosteesta prosessin tunnus, minkä jälkeen voit sammuttaa prosessin komennolla `kill -9 prosessin-tunnus`.
 
 Esimerkiksi:
 
@@ -352,7 +352,7 @@ Esimerkiksi pyyntö `/greet?greeting=Greetings&name=Earthling` palauttaa merkkij
 </programming-exercise>
 
 
-Mikäli parametreja ei tunneta, saa pyynnössä olevat parametrit saa käyttöön mm. `@RequestParam`-annotaatiolla, mitä seuraa `Map`-tietorakenne. Allaolevassa esimerkissä pyynnön parametrit asetetaan `Map`-tietorakenteeseen, jonka jälkeen kaikki pyyntöparametrien avaimet palautetaan kysyjälle.
+Mikäli parametreja ei tunneta, saa pyynnössä olevat parametrit käyttöön mm. `@RequestParam`-annotaatiolla, mitä seuraa `Map`-tietorakenne. Allaolevassa esimerkissä pyynnön parametrit asetetaan `Map`-tietorakenteeseen, jonka jälkeen kaikki pyyntöparametrien avaimet palautetaan kysyjälle.
 
 
 ```java
@@ -388,7 +388,7 @@ Alla olevassa kuvassa on esimerkki tilanteesta, missä selaimella on tehty pyynt
 </programming-exercise>
 
 
-Parametrien tyypit voidaan määritellä pyynnön käsittelevään metodiin. Mikäli tiedämme, että metodi saa parametrinaan kokonaislukumuotoisen arvon, voidaan se käsitellä määritellä kokonaisluvuksi. Esimerkiksi nimen ja iän vastaanottava metodi määriteltäisiin seuraavalla tavalla.
+Parametrien tyypit voidaan määritellä pyynnön käsittelevään metodiin. Mikäli tiedämme, että metodi saa parametrinaan kokonaislukumuotoisen arvon, voidaan se määritellä kokonaisluvuksi. Esimerkiksi nimen ja iän vastaanottava metodi määriteltäisiin seuraavalla tavalla.
 
 ```java
 @GetMapping("/tervehdi")
