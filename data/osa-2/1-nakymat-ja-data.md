@@ -216,7 +216,7 @@ public class ListaController {
 
     @GetMapping(value = "/")
     public String home(Model model) {
-        model.addAttribute("list", lista);
+        model.addAttribute("lista", lista);
         return "index";
     }
 }
