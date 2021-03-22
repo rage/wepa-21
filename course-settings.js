@@ -33,10 +33,10 @@ const courseSettings = {
     /*{ title: "Osa 1", tba: "15.03.21" },*/
     /*{ title: "Osa 2", tba: "15.03.21" },*/
     /*{ title: "Osa 3", tba: "15.03.21" },*/
-    { title: "Osa 4", tba: "22.03.21" },
-    { title: "Osa 5", tba: "22.03.21" },
-    { title: "Osa 6", tba: "22.03.21" },
-    { title: "Osa 7", tba: "22.03.21" },
+    /*{ title: "Osa 4", tba: "22.03.21" },*/
+    /*{ title: "Osa 5", tba: "22.03.21" },*/
+    /*{ title: "Osa 6", tba: "22.03.21" },*/
+    /*{ title: "Osa 7", tba: "22.03.21" },*/
   ],
   splitCourses: false,
 }
