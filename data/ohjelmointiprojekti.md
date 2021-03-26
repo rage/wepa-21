@@ -1,7 +1,7 @@
 ---
 path: "/projekti"
 title: "Projekti"
-hidden: true
+hidden: false
 information_page: true
 ---
 
