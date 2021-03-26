@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://web-palvelinohjelmointi-21.mooc.fi/usein-kysytyt-kysymykset</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://web-palvelinohjelmointi-21.mooc.fi/tukivaylat</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://web-palvelinohjelmointi-21.mooc.fi/projekti</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://web-palvelinohjelmointi-21.mooc.fi/osaamistavoitteet</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://web-palvelinohjelmointi-21.mooc.fi/osa-7/5-yhteenveto</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://web-palvelinohjelmointi-21.mooc.fi/osa-7/4-reaktiivinen-ohjelmointi</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
