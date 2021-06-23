@@ -14,11 +14,9 @@ Kurssin projektipalautus ja tentti tehdään Moodlessa. Seuraavaksi ilmoittaudu 
 1. Ilmoittautuminen. Tee Avoimen yliopiston kurssi-ilmoittautuminen. Valitse ilmoittautumislinkki sen mukaan milloin ilmoittaudut.  
 </p>
 
-* Välillä 15.3.2021 - 14.5.2021:  https://www.avoin.helsinki.fi/palvelut/esittely.aspx?o=135644312
-
 * Välillä 31.5.2021 - 31.8.2021: https://www.avoin.helsinki.fi/palvelut/esittely.aspx?o=142479938 
     
-* Välillä 1.9.2021 - 9.11.2021: Linkki lisätään myöhemmin. 
+* Välillä 1.9.2021 - 9.11.2021: https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-614efbd4-b0e5-4459-862a-6172076626b4
 
 <p> 2. Linkki ja avain. Linkin ja kurssiavaimen opintojakson Moodleen saat sähköpostitse 24 tunnin sisään kurssi-ilmoittautumisesi jälkeen.</p>
 
