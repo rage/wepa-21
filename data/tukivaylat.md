@@ -9,14 +9,13 @@ Kurssilla on vertaistukeen perustuva keskustelukanava.
 
 ## Keskustelukanava
 
-Kurssilla on käytössä Telegram-keskusteluhuone. Suosittelemme, että käytät tukikanavaa joko Telegramin selaimessa toimivalla versiolla tai Telegrammin työpöytäohjelmalla.
+Kurssilla on käytössä Discord-keskusteluhuone. Suosittelemme, että käytät tukikanavaa joko Discordin selaimessa toimivalla versiolla tai Discordin työpöytäohjelmalla.
 
-Pääset kanavalle tästä linkistä: [https://t.me/tkt_wepa](https://t.me/tkt_wepa). Pääset Telegrammin selaimessa toimivaan versioon täältä: [https://web.telegram.org](https://web.telegram.org/).
+Pääset kanavalle tästä linkistä: [https://discord.gg/HBCC5X7HMg](https://discord.gg/HBCC5X7HMg). Pääset Discordin selaimessa toimivaan versioon täältä: [https://discord.com/](https://discord.com/).
 
 Kanavan osallistujat ovat kanssaopiskelijoita sekä vapaaehtoisia ohjaajia. Kanavan toiminta perustuu vapaaehtoisuuteen. Autathan muita myös vastavuoroisesti.
 
 Kaikki epäasialliset, halventavat ja jotain ihmisryhmää syrjivät kommentit kanavalla ovat kiellettyjä ja tälläisten kommenttien esittäjät poistetaan kanavalta.
-
 
 ## Vinkkejä avun kysymiseen
 
