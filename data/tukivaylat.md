@@ -11,7 +11,7 @@ Kurssilla on vertaistukeen perustuva keskustelukanava.
 
 Kurssilla on käytössä Discord-keskusteluhuone. Suosittelemme, että käytät tukikanavaa joko Discordin selaimessa toimivalla versiolla tai Discordin työpöytäohjelmalla.
 
-Pääset kanavalle tästä linkistä: [https://discord.gg/HBCC5X7HMg](https://discord.gg/HBCC5X7HMg). Pääset Discordin selaimessa toimivaan versioon täältä: [https://discord.com/](https://discord.com/).
+Pääset kanavalle tästä linkistä: [https://ohtup-staging.cs.helsinki.fi/discord/join/wepa](https://ohtup-staging.cs.helsinki.fi/discord/join/wepa). Pääset Discordin selaimessa toimivaan versioon täältä: [https://discord.com/](https://discord.com/).
 
 Kanavan osallistujat ovat kanssaopiskelijoita sekä vapaaehtoisia ohjaajia. Kanavan toiminta perustuu vapaaehtoisuuteen. Autathan muita myös vastavuoroisesti.
 
