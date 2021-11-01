@@ -64,7 +64,7 @@ Yhdessä edellisten avulla tunnistetaan protokolla ja kone sekä koneesta haetta
 <quiz id="3a945ea7-4c3b-53b4-b91a-c17182a52a70"></quiz>
 
 
-Kun käyttäjä kirjoittaa web-selaimen osoitekenttään osoitteen ja painaa enteriä, web-selain tekee kyselyn annettuun osoitteeseen. Koska tekstimuotoiset osoitteet ovat käytännössä vain ihmisiä varten, kääntää selain ensiksi halutun tekstimuotoisen osoitteen IP-osoitteeksi. Jos IP-osoite on jo tietokoneen tiedossa esimerkiksi aiemmin osoitteeseen tehdyn kyselyjen takia, selain voi ottaa yhteyden IP-osoitteeseen. Jos IP-osoite taas ei ole tiedossa, tekee selain ensin kyselyn <a href="https://fi.wikipedia.org/wiki/DNS" target="_blank">DNS</a>-palvelimelle (*Domain Name System*), jonka tehtävänä on muuntaa tekstuaaliset osoitteet IP-osoitteiksi (esim. Helsingin yliopiston kotisivu `https://www.helsinki.fi` on IP-osoitteessa `128.214.189.90`).
+Kun käyttäjä kirjoittaa web-selaimen osoitekenttään osoitteen ja painaa enteriä, web-selain tekee kyselyn annettuun osoitteeseen. Koska tekstimuotoiset osoitteet ovat käytännössä vain ihmisiä varten, kääntää selain ensiksi halutun tekstimuotoisen osoitteen IP-osoitteeksi. Jos IP-osoite on jo tietokoneen tiedossa esimerkiksi aiemmin osoitteeseen tehtyjen kyselyjen takia, selain voi ottaa yhteyden IP-osoitteeseen. Jos IP-osoite taas ei ole tiedossa, tekee selain ensin kyselyn <a href="https://fi.wikipedia.org/wiki/DNS" target="_blank">DNS</a>-palvelimelle (*Domain Name System*), jonka tehtävänä on muuntaa tekstuaaliset osoitteet IP-osoitteiksi (esim. Helsingin yliopiston kotisivu `https://www.helsinki.fi` on IP-osoitteessa `128.214.189.90`).
 
 <br/>
 
