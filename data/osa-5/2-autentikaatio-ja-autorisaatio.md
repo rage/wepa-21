@@ -118,7 +118,7 @@ Yllä oleva tietoturvakonfiguraatio koostuu kahdesta osasta.
 
 Ensimmäisessä osassa `configure(HttpSecurity http)` määritellään sovelluksen osoitteet, joihin on pääsy kielletty tai pääsy sallittu. Yllä todetaan, että käyttäjä tulee tunnistaa jokaisen pyynnön yhteydessä (`anyRequest().authenticated()`), mutta kirjautumiseen käytettyyn lomakkeeseen on kaikilla pääsy (`formLogin().permitAll()`). Vastaavasti uloskirjautumistoiminnallisuus on kaikille sallittu.
 
-Toisessa osassa `public UserDetailsService userDetailsService()` määritellään käyttäjätietojen hakemiseen tarkoitetun `UserDetailsService`-rajapinnan toteuttava olio. Yllä luodaan ensin käyttäjätunnus `hei` salasanalla `maailma`. Käyttäjätunnuksella on rooli `USER` (tarkemmin pääsy resursseihin, joihin `USER`-käyttäjällä on pääsy -- palaamme näihin myöhemmin). Luotu käyttäjätunnus lisätään uuteen olevaan käyttäjien hallinnasta vastaavaan `InMemoryUserDetailsManager`-olioon -- olio toteuttaa `UserDetailsService`-rajapinnan.
+Toisessa osassa `public UserDetailsService userDetailsService()` määritellään käyttäjätietojen hakemiseen tarkoitetun `UserDetailsService`-rajapinnan toteuttava olio. Yllä luodaan ensin käyttäjätunnus `hei` salasanalla `maailma`. Käyttäjätunnuksella on rooli `USER` (tarkemmin pääsy resursseihin, joihin `USER`-käyttäjällä on pääsy -- palaamme näihin myöhemmin). Luotu käyttäjätunnus lisätään uuteen käyttäjien hallinnasta vastaavaan `InMemoryUserDetailsManager`-olioon -- olio toteuttaa `UserDetailsService`-rajapinnan.
 
 <hr/>
 
