@@ -30,7 +30,7 @@ Web-sovelluksissa käsittelijän ohjelmakoodia suoritetaan vain kun selain lähe
 <figure>
   <img src="../img/web-mvcish.png"/>
   <figcaption>
-    Web-sovelluksissa käyttäjän pyyntö ohjautuu kontrollerille, joka sisältää sovelluslogiikkaa. Kontrolleri kutsuu pyynnöstä riippuen mallin toiminnallisuuksia ja hakee sieltä esimerkiksi tietoa. Tämän jälkeen pyyntö ohjataan näkymän luomisesta vastuulle olevalle komponentilla ja näkymä luodaan. Lopulta näkymä palautetaan vastauksena käyttäjän tekemälle pyynnölle.
+    Web-sovelluksissa käyttäjän pyyntö ohjautuu kontrollerille, joka sisältää sovelluslogiikkaa. Kontrolleri kutsuu pyynnöstä riippuen mallin toiminnallisuuksia ja hakee sieltä esimerkiksi tietoa. Tämän jälkeen pyyntö ohjataan näkymän luomisesta vastuussa olevalle komponentille ja näkymä luodaan. Lopulta näkymä palautetaan vastauksena käyttäjän tekemälle pyynnölle.
   </figcaption>
 </figure>
 
@@ -196,7 +196,7 @@ Yllä kontrolleriluokan metodi transfer on selkeä ja sen vastuulla on vain pyyn
 
 Ehkäpä oleellisimpana etuna yllä olevassa muunnoksessa on se, että jatkossa myös muut tilisiirtoa mahdollisesti tarvitsevat sovelluksen osat voivat hyödyntää suoraan `BankingService`-luokassa määriteltyä metodia.
 
-Tarkastellaan luokkaa `BankingController` vielä hieman. Luokkaan on injektoitu sekä aiemmin luomamme `BankingService` että `AccountRepository`. Tässä on esimerkki avoimesta arkkitehtuurista, jonka eräänä mahdollisena haittana on injektoitujen olioiden määrän kasvaminen. Puhtaassa arkkitehtuurissa kontrolleri ei riippuisi suoraan tietokannan muokkaamiseen liittyvästä `AccountRepository`-luokasta, vaan palvelutason komponentti `BankingService` tarjoaisi myös metodi tilien hakemiseen.
+Tarkastellaan luokkaa `BankingController` vielä hieman. Luokkaan on injektoitu sekä aiemmin luomamme `BankingService` että `AccountRepository`. Tässä on esimerkki avoimesta arkkitehtuurista, jonka eräänä mahdollisena haittana on injektoitujen olioiden määrän kasvaminen. Puhtaassa arkkitehtuurissa kontrolleri ei riippuisi suoraan tietokannan muokkaamiseen liittyvästä `AccountRepository`-luokasta, vaan palvelutason komponentti `BankingService` tarjoaisi myös metodin tilien hakemiseen.
 
 Lisätään luokkaan `BankingService` toiminnallisuus tilien hakemiseen ja muokataan luokkaa `BankingController` hyödyntämään tätä toiminnallisuutta.
 
