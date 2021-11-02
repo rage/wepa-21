@@ -86,7 +86,7 @@ Annotaatiolle `@Transactional` voidaan määritellä parametri `readOnly`, jonka
 
 Kun metodille määritellään annotaatio `@Transactional`, tietokannasta ladatuista entiteeteistä pidetään kirjaa ja muutokset tallennetaan tietokantaan automaattisesti metodin suorituksen jälkeen.
 
-Tämä tarkoittaa sitä, että tilisiirron määrittevä metodi voidaan kirjoittaa suoraviivaisemmin. Yllä kuvattu metodi toimii samalla tavalla kuin seuraava metdi:
+Tämä tarkoittaa sitä, että tilisiirron määrittevä metodi voidaan kirjoittaa suoraviivaisemmin. Yllä kuvattu metodi toimii samalla tavalla kuin seuraava metodi:
 
 ```java
 @Transactional
