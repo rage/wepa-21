@@ -161,7 +161,7 @@ SQL-kielen spesifikaatiota heikosti tunteva aloitteleva web-ohjelmoija tekee use
 </text-box>
 
 
-Käyttäjätunnuksen ja salasanan noutamista varten luomme käyttäjälle entiteetin sekä sopivan repository-toteutuksen. Tarvitsemme lisäksi oman [UserDetailsService](https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/core/userdetails/UserDetailsService.html)-rajapinnan toteutuksen, jota käytetään käyttäjän hakemiseen tietokannasta. Allaolevassa esimerkissä rajapinta on toteutettu siten, että tietokannasta haetaan käyttäjää. Jos käyttäjä löytyy, luomme siitä [User](https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/core/userdetails/User.html)-olion, jonka palvelu palauttaa.
+Käyttäjätunnuksen ja salasanan noutamista varten luomme käyttäjälle entiteetin sekä sopivan repository-toteutuksen. Tarvitsemme lisäksi oman [UserDetailsService](https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/core/userdetails/UserDetailsService.html)-rajapinnan toteutuksen, jota käytetään käyttäjän hakemiseen tietokannasta. Alla olevassa esimerkissä rajapinta on toteutettu siten, että tietokannasta haetaan käyttäjää. Jos käyttäjä löytyy, luomme siitä [User](https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/core/userdetails/User.html)-olion, jonka palvelu palauttaa.
 
 
 ```java
@@ -229,7 +229,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 }
 ```
 
-Edellisessä esimerkissä salasanojen tallentamisessa käytetään [BCrypt](https://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/crypto/bcrypt/BCryptPasswordEncoder.html)-algoritmia, joka rakentaa merkkijonomuotoisesta salasanasta hajautusarvon. Tällöin salasanoja ei ole tallennettu selkokielisenä, mutta salasanojen mekaaninen arvaaminen on toki yhä mahdollista.
+Edellisessä esimerkissä salasanojen tallentamisessa käytetään [BCrypt](https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/crypto/bcrypt/BCryptPasswordEncoder.html)-algoritmia, joka rakentaa merkkijonomuotoisesta salasanasta hajautusarvon. Tällöin salasanoja ei ole tallennettu selkokielisenä, mutta salasanojen mekaaninen arvaaminen on toki yhä mahdollista.
 
 <programming-exercise name='Hello Db Authentication' tmcname='osa05-Osa05_05.HelloDbAuthentication'>
 
@@ -278,7 +278,7 @@ protected void configure(HttpSecurity http) throws Exception {
 
 Tehtävänäsi on täydentää kesken jäänyttä varaussovellusta siten, että kaikki käyttäjät näkevät varaukset, mutta vain kirjautuneet käyttäjät pääsevät lisäämään varauksia.
 
-Kun käyttäjä tekee pyynnön sovelluksen juuripolkuun `/reservations`, tulee hänen nähdä varaussivu. Allaolevassa esimerkissä tietokannassa ei ole varauksia, mutta jos niitä on, tulee ne listata kohdan Current reservations alla.
+Kun käyttäjä tekee pyynnön sovelluksen juuripolkuun `/reservations`, tulee hänen nähdä varaussivu. Alla olevassa esimerkissä tietokannassa ei ole varauksia, mutta jos niitä on, tulee ne listata kohdan Current reservations alla.
 
 
 <img src="../img/exercises/reservations-emptylist.png" />
