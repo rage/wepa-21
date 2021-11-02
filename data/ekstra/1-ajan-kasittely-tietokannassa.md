@@ -94,7 +94,7 @@ Vastaavasti lomake, jolla henkilö voidaan luoda, on melko suoraviivainen. Lomak
 
 <text-box variant='hint' name='Sovelluksen aikavyöhykkeen asettaminen'>
 
-Web-sovellukset voivat sijaita käytännössä lähes millä tahansa aikavyöhykkeellä. Sovellus käyttää oletuksena palvelimen asetuksissa asetettua aikavyöhykettä. Sovelluksen aikavyöhykkeen muutaminen onnistuu sekä ohjelmallisesti että käynnistyksen yhteydessä. Ohjelmallisesti aikavyöhyke asetetaan TimeZone-luokan metodilla `setDefault` -- tästä esimerkki alla.
+Web-sovellukset voivat sijaita käytännössä lähes millä tahansa aikavyöhykkeellä. Sovellus käyttää oletuksena palvelimen asetuksissa asetettua aikavyöhykettä. Sovelluksen aikavyöhykkeen muuttaminen onnistuu sekä ohjelmallisesti että käynnistyksen yhteydessä. Ohjelmallisesti aikavyöhyke asetetaan TimeZone-luokan metodilla `setDefault` -- tästä esimerkki alla.
 
 ```java
 import java.util.TimeZone;
