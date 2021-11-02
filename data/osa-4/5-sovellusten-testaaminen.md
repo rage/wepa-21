@@ -177,7 +177,7 @@ Voimme tuoda halutessamme testien käyttöön koko web-sovelluksen kontekstin. T
 
 <br/>
 
-Alla oleva esimerkki käynnistää sovelluksen ja tekee kaksi GET-pyyntöä osoitteeseen `/messages`. Ensimmäinen pyyntö liittyy testiin, missä varmistetaan että vastaus sisältää statuskoodin `200` eli "OK". Toinen pyyntö liittyy testiin, joka tarkistaa tarkistaa että vastauksessa on merkkijono "Awesome".
+Alla oleva esimerkki käynnistää sovelluksen ja tekee kaksi GET-pyyntöä osoitteeseen `/messages`. Ensimmäinen pyyntö liittyy testiin, missä varmistetaan että vastaus sisältää statuskoodin `200` eli "OK". Toinen pyyntö liittyy testiin, joka tarkistaa, että vastauksessa on merkkijono "Awesome".
 
 
 ```java
