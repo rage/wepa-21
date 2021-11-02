@@ -154,7 +154,7 @@ Yllä oleva luokka määrittelee tietokantataulun, jolla on pääavaimena toimiv
 
 Kun käytössämme on tietokantataulua kuvaava luokka, voimme luoda tietokannan käsittelyyn käytettävän *rajapinnan*. Spring-sovelluskehystä ja JPA-standardia käyttäessämme tietokannan käsittelyyn tarkoitettu rajapintamme perii valmiin `JpaRepository`-rajapinnan, joka määrittelee normaalin CRUD-toiminnallisuuden (create, read, update, delete) sekä joukon muita metodeja.
 
-Perittävälle `JpaRepository`-rajapinnalle annetaan kaksi tyyppiparametria. Ensimmäisellä tyyppiparametrilla kerrotaan tietokantataulua kuvaava luokka ja toinella tyyppiparametrilla tietokantataulun pääavaimen tyyppi.
+Perittävälle `JpaRepository`-rajapinnalle annetaan kaksi tyyppiparametria. Ensimmäisellä tyyppiparametrilla kerrotaan tietokantataulua kuvaava luokka ja toisella tyyppiparametrilla tietokantataulun pääavaimen tyyppi.
 
 Kutsutaan tätä rajapintaoliota nimellä `HenkiloRepository`. Esimerkissä oletetaan, että luokka `Henkilo` sijaitsee pakkauksessa `domain`.
 
