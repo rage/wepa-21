@@ -385,7 +385,7 @@ Pääsemme oliomuuttujiin käsiksi `get*Muuttuja*`-metodien kautta. Jos haluamme
 
 ## Olioita listalla
 
-Perussyntaksiltaan `th:each` on tuli jo hetki sitten tutuksi: listan läpikäynti Thymeleafissa tapahtuu attribuutin `th:each` avulla. Sen määrittely saa muuttujan nimen, johon kokoelmasta otettava alkio kullakin iteraatiolla tallennetaan, sekä läpikäytävän kokoelman.
+Perussyntaksiltaan `th:each` tuli jo hetki sitten tutuksi: listan läpikäynti Thymeleafissa tapahtuu attribuutin `th:each` avulla. Sen määrittely saa muuttujan nimen, johon kokoelmasta otettava alkio kullakin iteraatiolla tallennetaan, sekä läpikäytävän kokoelman.
 
 ```xml
 <p th:each="alkio : ${lista}">
