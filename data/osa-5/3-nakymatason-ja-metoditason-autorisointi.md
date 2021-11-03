@@ -1,16 +1,16 @@
 ---
-path: '/osa-5/3-nakymatason-ja-metoditason-autorisointi'
-title: 'Näkymä- ja metoditason autorisointi'
+path: '/osa-5/3-nakymatason-ja-metoditason-auktorisointi'
+title: 'Näkymä- ja metoditason auktorisointi'
 hidden: false
 ---
 
 
-Tutustuimme juuri käyttäjän tunnistamiseen eli autentikointiin. Autentikoinnin lisäksi sovelluksissa on tärkeää varmistaa, että käyttäjä saa tehdä asioita, joita hän yrittää tehdä: autorisointi. Jos käyttäjän tunnistaminen toimii mutta sovellus ei tarkista oikeuksia tarkemmin, on mahdollista päätyä esimerkiksi tilanteeseen, missä [käyttäjä pääsee tekemään epätoivottuja asioita](https://www.telegraph.co.uk/technology/facebook/10251869/Mark-Zuckerberg-Facebook-profile-page-hacked.html).
+Tutustuimme juuri käyttäjän tunnistamiseen eli autentikointiin. Autentikoinnin lisäksi sovelluksissa on tärkeää varmistaa, että käyttäjä saa tehdä asioita, joita hän yrittää tehdä: auktorisointi. Jos käyttäjän tunnistaminen toimii mutta sovellus ei tarkista oikeuksia tarkemmin, on mahdollista päätyä esimerkiksi tilanteeseen, missä [käyttäjä pääsee tekemään epätoivottuja asioita](https://www.telegraph.co.uk/technology/facebook/10251869/Mark-Zuckerberg-Facebook-profile-page-hacked.html).
 
 
-### Näkymätason autorisointi
+### Näkymätason auktorisointi
 
-Määrittelimme aiemmin oikeuksia sovelluksen polkuihin liittyen. Tämä ei kuitenkaan aina riitä, vaan käyttöliitymissä halutaan usein rajoittaa toiminta esimerkiksi käyttäjäroolien perusteella. Thymeleaf-projektiin löytyy liitännäinen, jonka avulla voimme lisätä tarkistuksia HTML-sivuille. Liitännäisen saa käyttöön lisäämällä seuraavan riippuvuuden `pom.xml`-tiedostoon.
+Määrittelimme aiemmin oikeuksia sovelluksen polkuihin liittyen. Tämä ei kuitenkaan aina riitä, vaan käyttöliittymissä halutaan usein rajoittaa toiminta esimerkiksi käyttäjäroolien perusteella. Thymeleaf-projektiin löytyy liitännäinen, jonka avulla voimme lisätä tarkistuksia HTML-sivuille. Liitännäisen saa käyttöön lisäämällä seuraavan riippuvuuden `pom.xml`-tiedostoon.
 
 ```xml
 <dependency>
@@ -19,7 +19,7 @@ Määrittelimme aiemmin oikeuksia sovelluksen polkuihin liittyen. Tämä ei kuit
 </dependency>
 ```
 
-Kun näkymiien `html`-elementtiin lisätään `sec:`-nimiavaruuden määrittely, voidaan sivulle määritellä elementtejä, joiden sisältö näytetään vain esimerkiksi tietyllä roolilla kirjautuneelle käyttäjälle. Seuraavassa esimerkissä teksti "salaisuus" näkyy vain käyttäjälle, jolla on rooli "ADMIN".
+Kun näkymien `html`-elementtiin lisätään `sec:`-nimiavaruuden määrittely, voidaan sivulle määritellä elementtejä, joiden sisältö näytetään vain esimerkiksi tietyllä roolilla kirjautuneelle käyttäjälle. Seuraavassa esimerkissä teksti "salaisuus" näkyy vain käyttäjälle, jolla on rooli "ADMIN".
 
 
 ```xml
@@ -45,9 +45,9 @@ Tämä pätee oikeastaan kaikkeen selainpuolen toiminnallisuuteen. Web-sivuilla 
 
 </text-box>
 
-### Metoditason autorisointi
+### Metoditason auktorisointi
 
-Pelkän näkymätason autorisoinnin ongelmana on se, että usein toimintaa halutaan rajoittaa tarkemmin -- esimerkiksi siten, että tietyt operaatiot (esim. poisto tai lisäys) mahdollistetaan vain tietyille käyttäjille tai käyttäjien oikeuksille. Käyttöliittymän näkymää rajoittamalla ei voida rajoittaa käyttäjän tekemiä pyyntöjä, sillä pyynnöt voidaan tehdä myös "käyttöliittymän ohi" -- kukaan ei estä käyttäjää lähettämästä tietoa palvelimelle vaikkapa omaa ohjelmaa tai [Postmania](https://www.getpostman.com/downloads/) käyttäen.
+Pelkän näkymätason auktorisoinnin ongelmana on se, että usein toimintaa halutaan rajoittaa tarkemmin -- esimerkiksi siten, että tietyt operaatiot (esim. poisto tai lisäys) mahdollistetaan vain tietyille käyttäjille tai käyttäjien oikeuksille. Käyttöliittymän näkymää rajoittamalla ei voida rajoittaa käyttäjän tekemiä pyyntöjä, sillä pyynnöt voidaan tehdä myös "käyttöliittymän ohi" -- kukaan ei estä käyttäjää lähettämästä tietoa palvelimelle vaikkapa omaa ohjelmaa tai [Postmania](https://www.getpostman.com/downloads/) käyttäen.
 
 <text-box variant='hint' name='Näkymän muutokset liittyvät käytettävyyteen'>
     
@@ -55,7 +55,7 @@ Sovelluksen konfiguraatioista riippuen saatamme joskus joutua ottamaan `@Secured
 
 </text-box>
 
-Saamme sovellukseemme käyttöön myös metoditason autorisoinnin. Kun konfiguraatiotiedostoon on lisätty annotaatio, on käytössämme muunmuassa annotaatio [@Secured](https://docs.spring.io/spring-security/site/docs/current/reference/html/jc.html#jc-method). Annotaation avulla voidaan määritellä roolit (tai oikeudet), joiden kohdalla annotoidun metodin kutsuminen on sallittua. Alla olevassa esimerkissä `post`-metodin käyttöön vaaditaan "ADMIN"-oikeudet.
+Saamme sovellukseemme käyttöön myös metoditason auktorisoinnin. Kun konfiguraatiotiedostoon on lisätty annotaatio, on käytössämme muun muassa annotaatio [@Secured](https://docs.spring.io/spring-security/site/docs/current/reference/html/jc.html#jc-method). Annotaation avulla voidaan määritellä roolit (tai oikeudet), joiden kohdalla annotoidun metodin kutsuminen on sallittua. Alla olevassa esimerkissä `post`-metodin käyttöön vaaditaan "ADMIN"-oikeudet.
 
 
 ```java
