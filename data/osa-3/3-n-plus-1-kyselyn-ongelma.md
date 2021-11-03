@@ -151,7 +151,7 @@ public interface TiliRepository extends JpaRepository<Tili, Long> {
 }
 ```
 
-Tilanne ei ole vieläkään ideaali, sillä korvaamme metodin `findAll`. Jossain muualla metodia saatetaan haluta käyttää ilman, että tilien hakemisen yhteydessä haetaan tilin omistajat ja pankit. Yksi vaihtoehto on toteuttaa erillinen metodi -- vaikkapa `findByIdNotNull` -- joka ajaa saman asian.
+Tilanne ei ole vieläkään ihanteellinen, sillä korvaamme metodin `findAll`. Jossain muualla metodia saatetaan haluta käyttää ilman, että tilien hakemisen yhteydessä haetaan tilin omistajat ja pankit. Yksi vaihtoehto on toteuttaa erillinen metodi -- vaikkapa `findByIdNotNull` -- joka ajaa saman asian.
 
 
 ```java
