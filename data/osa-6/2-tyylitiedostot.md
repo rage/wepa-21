@@ -71,7 +71,7 @@ Twitter Bootstrapin käyttöönotossa lisäämme sivuillemme linkin tyylitiedost
 
 Kun `link`-elementille antaa `href`-attribuutiksi verkko-osoitteen, selain hakee verkko-osoitteen sivun latauksen yhteydessä. Tämän jälkeen verkko-osoitteessa ollut sisältö käsitellään, ja -- tyylitiedostojen tapauksessa -- sisältö tuodaan osaksi käyttäjälle näytettävää kokonaisuutta.
 
-Edellä käytetyssä `bootstrap.min.css`-tiedoston sisältävässä osoitteessa näkyi termi `cdn`. Termi CDN (Content Delivery Network) viittaa sisällön jakamiseen tarkoitettuun palveluun. Sovelluksia toteutettaessa erityisesti selaimen käyttämiä resursseja kuten yleisiä tyylitiedostoja ja javascript-kirjastoja haetaan tällaisista CDN-palveluista -- etuna on muunmuassa se, että tällöin sovelluksen ei tarvitse sisältää näitä kaikkia.
+Edellä käytetyssä `bootstrap.min.css`-tiedoston sisältävässä osoitteessa näkyi termi `cdn`. Termi CDN (Content Delivery Network) viittaa sisällön jakamiseen tarkoitettuun palveluun. Sovelluksia toteutettaessa erityisesti selaimen käyttämiä resursseja kuten yleisiä tyylitiedostoja ja javascript-kirjastoja haetaan tällaisista CDN-palveluista -- etuna on muun muassa se, että tällöin sovelluksen ei tarvitse sisältää näitä kaikkia.
 
 Sovelluksen kehittäjä voi halutessaan toki tuoda kirjastoja myös omaan sovellukseensa. Eräs näppärä palvelu kirjastojen löytämiseen on [WebJars](https://www.webjars.org/)-palvelu, joka tarjoaa selaimen käyttämiä resursseja valmiiksi paketoituna.
 
