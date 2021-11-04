@@ -5,7 +5,7 @@ hidden: false
 ---
 
 
-Tässä osassa tutustuttiin HTTP-protokollan tilattomuuteen sekä evästeiden käyttöön osana käyttäjän tunnistamista. Opimme käsitteet autentikaatio ja autorisaatio, ja harjoittelimme käyttäjiä tunnistavien sovellusten luomista. Opimme määrittelemään tietoturvakonfiguraation niin, että käyttäjien oikeuksia tarkastellaan sovelluksen poluissa, sovelluksen metodeissa, ja sovelluksen näkymissä.
+Tässä osassa tutustuttiin HTTP-protokollan tilattomuuteen sekä evästeiden käyttöön osana käyttäjän tunnistamista. Opimme käsitteet autentikaatio ja auktorisointi, ja harjoittelimme käyttäjiä tunnistavien sovellusten luomista. Opimme määrittelemään tietoturvakonfiguraation niin, että käyttäjien oikeuksia tarkastellaan sovelluksen poluissa, sovelluksen metodeissa, ja sovelluksen näkymissä.
 
 Vastaa lopuksi seuraavaan itsearviointikyselyyn ja keksi kurssimateriaalin viidennestä osasta monivalintakysymys.
 
