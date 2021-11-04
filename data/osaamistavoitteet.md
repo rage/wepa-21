@@ -62,10 +62,10 @@ Kurssilla Web-palvelinohjelmointi Java opit web-sovellusten toimintaperiaatteet 
     <tr>
         <td>5</td>
         <td>
-            HTTP-protokolla ja evästeet. Autentikaatio ja autorisaatio.
+            HTTP-protokolla ja evästeet. Autentikaatio ja auktorisointi.
         </td>
         <td>
-            Tunnet käsitteen tilattomuus. Tiedät mitä evästeet ovat ja mihin niitä käytetään. Tunnet evästeisiin liittyviä oleellisia lakiteknisia asioita. Osaat selittää autentikaation ja autorisaation erot. Osaat luoda sovelluksen, joka pyytää käyttäjää kirjautumaan. Osaat määritellä kirjautumista vaativia polkuja ja metodeja, sekä piilottaa näkymän osia erilaisilta käyttäjäryhmiltä.
+            Tunnet käsitteen tilattomuus. Tiedät mitä evästeet ovat ja mihin niitä käytetään. Tunnet evästeisiin liittyviä oleellisia lakiteknisia asioita. Osaat selittää autentikaation ja auktorisoinnin erot. Osaat luoda sovelluksen, joka pyytää käyttäjää kirjautumaan. Osaat määritellä kirjautumista vaativia polkuja ja metodeja, sekä piilottaa näkymän osia erilaisilta käyttäjäryhmiltä.
         </td>
     </tr>
     <tr>
