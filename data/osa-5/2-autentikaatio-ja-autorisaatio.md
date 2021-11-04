@@ -1,20 +1,20 @@
 ---
-path: '/osa-5/2-autentikaatio-ja-autorisaatio'
-title: 'Autentikaatio ja autorisaatio'
+path: '/osa-5/2-autentikaatio-ja-auktorisointi'
+title: 'Autentikaatio ja auktorisointi'
 hidden: false
 ---
 
 
 <text-box variant='learningObjectives' name='Oppimistavoitteet'>
 
-- Osaat selittää autentikaation ja autorisaation erot.
+- Osaat selittää autentikaation ja auktorisoinnin erot.
 - Osaat luoda sovelluksen, joka pyytää käyttäjää kirjautumaan.
 - Osaat määritellä kirjautumista vaativia polkuja ja metodeja, sekä piilottaa näkymän osia erilaisilta käyttäjäryhmiltä.
 
 </text-box>
 
 
-Autentikaatiolla tarkoitetaan käyttäjän tunnistamista esimerkiksi kirjautumisen yhteydessä, ja autorisaatiolla tarkoitetaan käyttäjän oikeuksien varmistamista käyttäjän haluamiin toimintoihin.
+Autentikaatiolla tarkoitetaan käyttäjän tunnistamista esimerkiksi kirjautumisen yhteydessä, ja valtuutuksella, tai tuttavallisemmin auktorisoinnilla, tarkoitetaan käyttäjän oikeuksien varmistamista käyttäjän haluamiin toimintoihin.
 
 Tunnistautumis- ja kirjautumistoiminnallisuus rakennetaan evästeiden avulla. Jos käyttäjällä ei ole evästettä, mikä liittyy kirjautuneen käyttäjän sessioon, hänet ohjataan kirjautumissivulle. Kirjautumisen yhteydessä käyttäjään liittyvään evästeeseen lisätään tieto siitä, että käyttäjä on kirjautunut -- tämän jälkeen sovellus tietää, että käyttäjä on kirjautunut.
 
