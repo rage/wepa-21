@@ -7,7 +7,7 @@ hidden: false
 <text-box variant='learningObjectives' name='Oppimistavoitteet'>
 
 - Tiedät mitä tyylitiedostot ovat ja tiedät mikä Twitter Bootstrap on.
-- Osaat tuota Twitter Bootstrapin omaan sovellukseesi.
+- Osaat tuoda Twitter Bootstrapin omaan sovellukseesi.
 - Osaat määritellä Twitter Bootstrapia käyttäen sovellukseesi alueita ja ruudukkoja.
 - Osaat tyylitellä sovelluksessasi olevia elementtejä (napit, taulukot, lomake-elementit) Twitter Bootstrapia käyttäen.
 
@@ -36,7 +36,7 @@ Bootstrapin tyylitiedoston lisäksi `head`-elementin sisälle lisätään pieni 
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 ```
 
-Olemme juuri oppineet käyttämään fragmentteja, joten Twitter Bootstrapin käyttöönotto fragmenttien kautta on luontevaa. Seuraava fragmentti sisältää kummatkin edellä olevat askeleet sekä parameterisoidun otsikon.
+Olemme juuri oppineet käyttämään fragmentteja, joten Twitter Bootstrapin käyttöönotto fragmenttien kautta on luontevaa. Seuraava fragmentti sisältää kummatkin edellä olevat askeleet sekä parametrisoidun otsikon.
 
 ```html
 <!DOCTYPE html>
@@ -154,7 +154,7 @@ Tehtävässä ei ole automaattisia testejä. Palauta tehtävä kun olet muokannu
 
 ## Käyttöliittymäelementtien tyylittely
 
-Bootstrap tarjoaa valmiit tyylit lähes kaikkiin käyttöliittymäelementteihin. Taulu `table` tyylitellään tyyliluokalla `table`, lomake-elementit (esim `input`) tyyliluokalla `form-control`, ja napit tyyliluokalla `btn` sekä siihen liittyvillä lisätyyleillä kuten ensisijaista nappia kuvaavalla tyylillä `btn-primary`.
+Bootstrap tarjoaa valmiit tyylit lähes kaikkiin käyttöliittymäelementteihin. Taulu `table` tyylitellään tyyliluokalla `table`, lomake-elementit (esim. `input`) tyyliluokalla `form-control`, ja napit tyyliluokalla `btn` sekä siihen liittyvillä lisätyyleillä kuten ensisijaista nappia kuvaavalla tyylillä `btn-primary`.
 
 Alla kuvattuna esimerkki näiden yhteiskäytöstä.
 
