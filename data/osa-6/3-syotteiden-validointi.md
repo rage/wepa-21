@@ -29,13 +29,13 @@ public class Person {
 }
 ```
 
-Luokan oliomuuttujiin liittyvien validaatiosääntöjen määrittely tapahtuu annotaatioilla. Muokataan luokkaa `Person` siten, että henkilöllä tulee olla henkilötunnus, nimi ja sähköpostiosoite.
+Luokan oliomuuttujiin liittyvien validointisääntöjen määrittely tapahtuu annotaatioilla. Muokataan luokkaa `Person` siten, että henkilöllä tulee olla henkilötunnus, nimi ja sähköpostiosoite.
 
-Sovitaan että henkilötunnus ei saa koskaan olla tyhjä ja sen tulee olla tasan 11 merkkiä pitkä. Nimen tulee olla vähintään 5 merkkiä pitkä ja korkeintaan 30 merkkiä pitkä, ja sähköpostiosoitteen tulee olla validi sähköpostiosoite.
+Sovitaan, että henkilötunnus ei saa koskaan olla tyhjä ja sen tulee olla tasan 11 merkkiä pitkä. Nimen tulee olla vähintään 5 merkkiä pitkä ja korkeintaan 30 merkkiä pitkä, ja sähköpostiosoitteen tulee olla validi sähköpostiosoite.
 
 Tämä onnistuu seuraavilla annotaatioilla. Annotaatio `@NotEmpty` varmistaa ettei annotoitu attribuutti ole tyhjä -- lisätään se kaikkiin kenttiin. Annotaatiolla `@Size` voidaan määritellä pituusrajoitteita muuttujalle, ja annotaatiolla `@Email` varmistetaan, että attribuutin arvo on varmasti sähköpostiosoite.
 
-Kun lisäämme `dependencies`-osioon riippuvuuden `spring-boot-starter-validation`, pääsemme käyttämään validaatioita.
+Kun lisäämme `dependencies`-osioon riippuvuuden `spring-boot-starter-validation`, pääsemme käyttämään validointeja.
 
 
 ```xml
@@ -121,7 +121,7 @@ Tehtävässä ei ole automaattisia testejä. Palauta tehtävä kun olet tehnyt t
 ## Olion validointi kontrollerissa
 
 
-Kontrollerimetodit validoivat olion jos kontrollerimetodissa olevalle `@ModelAttribute`-annotaatiolla merkatulle oliolle on asetettu myös annotaatio `@Valid` (`javax.validation.Valid`).
+Kontrollerimetodit validoivat olion, jos kontrollerimetodissa olevalle `@ModelAttribute`-annotaatiolla merkatulle oliolle on asetettu myös annotaatio `@Valid` (`javax.validation.Valid`).
 
 
 ```java
@@ -181,7 +181,7 @@ public String create(@Valid @ModelAttribute Person person, BindingResult binding
 ```
 
 
-Yllä oletetaan että lomake lähetettiin näkymästä "*personform*": käytännössä validoinnin epäonnistuminen johtaa nyt siihen, että pyyntö ohjataan takaisin lomakesivulle.
+Yllä oletetaan, että lomake lähetettiin näkymästä "*personform*": käytännössä validoinnin epäonnistuminen johtaa nyt siihen, että pyyntö ohjataan takaisin lomakesivulle.
 
 
 ## Thymeleaf-lomakkeet ja BindingResult
