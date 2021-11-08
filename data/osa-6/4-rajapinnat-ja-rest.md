@@ -63,7 +63,7 @@ Tarkastellaan tätä kirjojen käsittelyyn liittyvän esimerkin kautta.  Kirjoje
 
 - `POST` osoitteeseen `/books` luo uuden kirjan pyynnössä lähetettävän datan pohjalta.
 
-Osoitteissa käytetään tyypillisesti substantiivejä -- ei `books?id={id}` vaan `/books/{id}`. HTTP-pyynnön tyyppi määrittelee operaation -- `DELETE`-tyyppisellä pyynnöllä poistetaan, `POST`-tyyppisellä pyynnöllä lisätään, `PUT`-tyyppisellä pyynnöllä päivitetään, ja `GET`-tyyppisellä pyynnöllä haetaan tietoja.
+Osoitteissa käytetään tyypillisesti substantiiveja -- ei `books?id={id}` vaan `/books/{id}`. HTTP-pyynnön tyyppi määrittelee operaation -- `DELETE`-tyyppisellä pyynnöllä poistetaan, `POST`-tyyppisellä pyynnöllä lisätään, `PUT`-tyyppisellä pyynnöllä päivitetään, ja `GET`-tyyppisellä pyynnöllä haetaan tietoja.
 
 Datan muoto on toteuttajan päätettävissä. Tällä hetkellä suosituin datamuoto on [JSON](https://en.wikipedia.org/wiki/JSON), sillä sen käyttäminen selainohjelmistoissa käytettävällä JavaScriptilla on suoraviivaista. Myös palvelinohjelmistot tukevat olioiden muuttamista JSON-muotoon.
 
@@ -143,7 +143,7 @@ public Book postBook(@RequestBody Book book) {
 
 ## RestController
 
-Kun toteutat omaa REST-rajapintaa, kontrolleriluokan annotaatioksi kannattaa määritellä annotaation `@Controller` sijaan annotaatio `@RestController`. Tällöin jokaiseen polkua kuuntelevaan metodiin tulee automaattisesti annotaatio `@ResponseBody` sekä oikea mediatyyppi -- tässä tapauksessa "application/json". Annotaatiota
+Kun toteutat omaa REST-rajapintaa, kontrolleriluokan annotaatioksi kannattaa määritellä annotaation `@Controller` sijaan annotaatio `@RestController`. Tällöin jokaiseen polkua kuuntelevaan metodiin tulee automaattisesti annotaatio `@ResponseBody` sekä oikea mediatyyppi -- tässä tapauksessa "application/json".
 
 Toteutetaan seuraavaksi kaikki tarvitut metodit kirjojen tallentamiseen. Kontrolleri hyödyntää erillistä luokkaa, joka tallentaa kirjaolioita tietokantaan ja tarjoaa tuen aiemmin määrittelemiemme books-osoitteiden ja pyyntöjen käsittelyyn -- PUT-metodi on jätetty rajapinnasta pois.
 
@@ -308,9 +308,9 @@ Martin Fowler käsittelee artikkelissaan [Richardson Maturity Model](http://mart
 
 Aloituspiste on tason 0 palvelut, joita ei pidetä REST-palveluina. Näissä palveluissa HTTP-protokollaa käytetään lähinnä väylänä viestien lähettämiseen ja vastaanottamiseen, ja HTTP-protokollan käyttötapaan ei juurikaan oteta kantaa. Esimerkki tason 0 palvelusta on yksittäinen kontrollerimetodi, joka päättelee toteutettavan toiminnallisuuden pyynnössä olevan sisällön perusteella.
 
-Tason 1 palvelut käsittelevät palveluita resursseina. Resurssit kuvataan palvelun osoitteena (esimerkiksi `/books`-resurssi sisältää kirjoja), ja resursseja voidaan hakea tunnisteiden perusteella (esim. `/books/nimi`). Edelliseen tasoon verrattuna käytössä on nyt konkreettisia resursseja; olio-ohjelmoijan kannalta näitä voidaan pitää myös olioina joilla on tila.
+Tason 1 palvelut käsittelevät palveluita resursseina. Resurssit kuvataan palvelun osoitteena (esimerkiksi `/books`-resurssi sisältää kirjoja), ja resursseja voidaan hakea tunnisteiden perusteella (esim. `/books/nimi`). Edelliseen tasoon verrattuna käytössä on nyt konkreettisia resursseja; olio-ohjelmoijan kannalta näitä voidaan pitää myös olioina, joilla on tila.
 
-Tasolla 2 resurssien käsittelyyn käytetään kuvaavia HTTP-pyyntötyyppejä. Esimerkiksi resurssin pyyntö tapahtuu GET-metodilla, ja resurssin tilan muokkaaminen esimerkiksi PUT, POST, tai DELETE-metodilla. Näiden lisäksi palvelun vastaukset kuvaavat tapahtuneita toimintoja. Esimerkiksi jos palvelu luo resurssin, vastauksen tulee olla statuskoodi `201`, joka viestittää selaimelle resurssin luomisen onnistumisesta. Oleellista tällä tasolla on pyyntötyyppien erottaminen sen perusteella että muokkaavatko ne palvelimen dataa vai ei (GET vs. muut).
+Tasolla 2 resurssien käsittelyyn käytetään kuvaavia HTTP-pyyntötyyppejä. Esimerkiksi resurssin pyyntö tapahtuu GET-metodilla, ja resurssin tilan muokkaaminen esimerkiksi PUT, POST, tai DELETE-metodilla. Näiden lisäksi palvelun vastaukset kuvaavat tapahtuneita toimintoja. Esimerkiksi jos palvelu luo resurssin, vastauksen tulee olla statuskoodi `201`, joka viestittää selaimelle resurssin luomisen onnistumisesta. Oleellista tällä tasolla on pyyntötyyppien erottaminen sen perusteella, että muokkaavatko ne palvelimen dataa vai eivät (GET vs. muut).
 
 
 Kolmas taso sisältää tasot 1 ja 2, mutta lisää käyttäjälle mahdollisuuden ymmärtää palvelun tarjoama toiminnallisuus palvelimen vastausten perusteella. [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS) määrittelee miten web-resursseja tulisi löytää webistä.
@@ -319,7 +319,7 @@ Kolmas taso sisältää tasot 1 ja 2, mutta lisää käyttäjälle mahdollisuude
 Roy Fielding kokee vain tason 3 sovelluksen oikeana REST-sovelluksena. Ohjelmistosuunnittelun näkökulmasta jokainen taso parantaa sovelluksen ylläpidettävyyttä -- *Level 1 tackles the question of handling complexity by using divide and conquer, breaking a large service endpoint down into multiple resources; Level 2 introduces a standard set of verbs so that we handle similar situations in the same way, removing unnecessary variation; Level 3 introduces discoverability, providing a way of making a protocol more self-documenting.* ([lähde](http://martinfowler.com/articles/richardsonMaturityModel.html))
 
 
-**Huom!** Sovellusta suunniteltaessa ja toteuttaessa ei tule olettaa että RMM-tason 3 sovellus olisi parempi kuin RMM-tason 2 sovellus. Sovellus voi olla huono riippumatta toteutetusta REST-rajapinnan muodosta -- jossain tapauksissa rajapintaa ei oikeasti edes tarvita; asiakkaan tarpeet ja toiveet määräävät mitä sovelluskehittäjän kannattaa tehdä.
+**Huom!** Sovellusta suunniteltaessa ja toteuttaessa ei tule olettaa, että RMM-tason 3 sovellus olisi parempi kuin RMM-tason 2 sovellus. Sovellus voi olla huono riippumatta toteutetusta REST-rajapinnan muodosta -- jossain tapauksissa rajapintaa ei oikeasti edes tarvita; asiakkaan tarpeet ja toiveet määräävät, mitä sovelluskehittäjän kannattaa tehdä.
 
 
 ## Spring Data REST
@@ -337,7 +337,7 @@ Spring-sovelluskehys sisältää projektin [Spring Data REST](https://spring.io/
 
 Kun riippuvuus lisätään projektiin, `Repository`-rajapinnat tarjoavat automaattisesti REST-rajapinnan, jonka kautta resursseihin pääsee käsiksi. Riippuvuus tekee muutakin, kuten ottaa käyttöön rajapinnan käyttäjän elämää helpottavan [HAL-selaimen](https://github.com/mikekelly/hal-browser) -- tästä esimerkki osoitteessa [https://haltalk.herokuapp.com](https://haltalk.herokuapp.com).
 
-REST-rajapinta luodaan oletuksena sovelluksen juureen, joka ei aina ole tilanteena ideaali. Spring Data REST-projektin konfiguraatiota voi muokata erillisen [RepositoryRestMvcConfiguration](https://docs.spring.io/spring-data/rest/docs/current/api/org/springframework/data/rest/webmvc/config/RepositoryRestMvcConfiguration.html)-luokan kautta. Alla olevassa esimerkissä REST-rajapinta luodaan osoitteen `/api/v1`-alle. Annotaatio `@Component` kertoo Springille että luokka tulee ladata käyttöön käynnistysvaiheessa; rajapinta kertoo mistä luokasta on kyse.
+REST-rajapinta luodaan oletuksena sovelluksen juureen, joka ei aina ole tilanteena ideaali. Spring Data REST-projektin konfiguraatiota voi muokata erillisen [RepositoryRestMvcConfiguration](https://docs.spring.io/spring-data/rest/docs/current/api/org/springframework/data/rest/webmvc/config/RepositoryRestMvcConfiguration.html)-luokan kautta. Alla olevassa esimerkissä REST-rajapinta luodaan osoitteen `/api/v1`-alle. Annotaatio `@Component` kertoo Springille, että luokka tulee ladata käyttöön käynnistysvaiheessa; rajapinta kertoo, mistä luokasta on kyse.
 
 
 ```java
@@ -377,7 +377,7 @@ public interface BookRepository extends JpaRepository<Message, Long> {
 
 ## Spring Data REST ja RestTemplate
 
-Spring Data RESTin avulla luotavien rajapintojen hyödyntäminen onnistuu RestTemplaten avulla. Esimerkiksi yllä luotavasta rajapinnasta voidaan hakea `Resource`-olioita, jotka sisältävät kirjoja. RestTemplaten metodi [exchange](http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/client/RestTemplate.html#exchange-java.lang.String-org.springframework.http.HttpMethod-org.springframework.http.HttpEntity-java.lang.Class-java.lang.Object...-) palauttaa vastausentiteetin, mikä sisältää hakemamme olion tiedot. Kyselyn mukana annettava `ParameterizedTypeReference` taas kertoo minkälaiseksi olioksi vastaus tulee muuntaa.
+Spring Data RESTin avulla luotavien rajapintojen hyödyntäminen onnistuu RestTemplaten avulla. Esimerkiksi yllä luotavasta rajapinnasta voidaan hakea `Resource`-olioita, jotka sisältävät kirjoja. RestTemplaten metodi [exchange](http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/client/RestTemplate.html#exchange-java.lang.String-org.springframework.http.HttpMethod-org.springframework.http.HttpEntity-java.lang.Class-java.lang.Object...-) palauttaa vastausentiteetin, mikä sisältää hakemamme olion tiedot. Kyselyn mukana annettava `ParameterizedTypeReference` taas kertoo, minkälaiseksi olioksi vastaus tulee muuntaa.
 
 
 ```java
@@ -397,7 +397,7 @@ if (response.getStatusCode() == HttpStatus.OK) {
 
 <text-box variant='hint' name='Avoin data'>
 
-Verkko on täynnä avoimia (ja osittain avoimia) ohjelmointirajapintoja, jotka odottavat niiden hyödyntämistä. Tällaisia kokoelmia löytyy muunmuassa osoitteista [https://www.avoindata.fi/fi](https://www.avoindata.fi/fi), [https://data.europa.eu/euodp/en/home](https://data.europa.eu/euodp/en/home), [https://index.okfn.org/dataset/](https://index.okfn.org/dataset/), [https://github.com/toddmotto/public-apis](https://github.com/toddmotto/public-apis), [https://www.programmableweb.com/category/open-data/api](https://www.programmableweb.com/category/open-data/api), jne..
+Verkko on täynnä avoimia (ja osittain avoimia) ohjelmointirajapintoja, jotka odottavat niiden hyödyntämistä. Tällaisia kokoelmia löytyy muun muassa osoitteista [https://www.avoindata.fi/fi](https://www.avoindata.fi/fi), [https://data.europa.eu/euodp/en/home](https://data.europa.eu/euodp/en/home), [https://index.okfn.org/dataset/](https://index.okfn.org/dataset/), [https://github.com/toddmotto/public-apis](https://github.com/toddmotto/public-apis), [https://www.programmableweb.com/category/open-data/api](https://www.programmableweb.com/category/open-data/api), jne..
 
 </text-box>
 
