@@ -47,9 +47,9 @@ Jos selaimen käyttäjä käyttää sovellusta avoimen (salasanattoman) langatto
 
 Vuoden 2017 lista löytyy [tästä linkistä](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_Top_10.html). Vuoden 2013 ja 2017 versiossa osa top 10 -listan tietoturvauhkista on muuttunut, mutta ensimmäisellä ja toisella sijalla ovat yhä samat tietoturvauhkat.
 
-Listan ensimmäisellä sijalla -- eli yleisimpänä -- sijaitsee erilaiset injektiohyökkäykset. Tällaisia ovat esimerkiksi SQL:n syöttäminen osaksi tietokantaan syötettävää lomakedataa (toimii mikäli SQL-injektioihin ei ole varauduttu). Valmiita tietokanta-abstraktioita käytettäessä riski SQL-injektioiden onnistumiseen on pienempi kuin mikäli tietokanta-abstraktiot toteuttaa itse -- olemassaolevien tietokanta-abstraktioiden tietoturvaa [tarkastelevat myös muut](https://pivotal.io/security/cve-2016-6652), mikä edesauttaa ongelmien löytymistä.
+Listan ensimmäisellä sijalla -- eli yleisimpänä -- sijaitsee erilaiset injektiohyökkäykset. Tällaisia ovat esimerkiksi SQL:n syöttäminen osaksi tietokantaan syötettävää lomakedataa (toimii mikäli SQL-injektioihin ei ole varauduttu). Valmiita tietokanta-abstraktioita käytettäessä riski SQL-injektioiden onnistumiseen on pienempi kuin mikäli tietokanta-abstraktiot toteuttaa itse -- olemassaolevien tietokanta-abstraktioiden tietoturvaa [tarkastelevat myös muut](https://tanzu.vmware.com/security/cve-2016-6652), mikä edesauttaa ongelmien löytymistä.
 
-Listan toisella sijalla on rikkinäinen autentikaatio, jonka kautta hyökkääjä pääsee käsiksi esimerkiksi salasanoihin, tai jonka kautta hyökkääjä voi esittäytyä jonain muuna käyttäjänä. Tämä on mahdollista muunmuassa mikäli käyttäjien tunnistamiseen käytetty komponentti on huonosti toteutettu, evästeet ovat arvattavissa ym.
+Listan toisella sijalla on rikkinäinen autentikaatio, jonka kautta hyökkääjä pääsee käsiksi esimerkiksi salasanoihin, tai jonka kautta hyökkääjä voi esittäytyä jonain muuna käyttäjänä. Tämä on mahdollista muun muassa mikäli käyttäjien tunnistamiseen käytetty komponentti on huonosti toteutettu, evästeet ovat arvattavissa ym.
 
 <quiz id="ee0fb863-1bb3-5df3-adb7-52622edb73bf"></quiz>
 
