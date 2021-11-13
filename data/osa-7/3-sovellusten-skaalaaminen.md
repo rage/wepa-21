@@ -45,7 +45,7 @@ Tarkastellaan tässä muutamia tapoja sovellusten optimointiin.
 
 Tyypillisissä palvelinohjelmistoissa huomattava osa kyselyistä on GET-tyyppisiä pyyntöjä. GET-tyyppiset pyynnöt hakevat tietoa mutta eivät muokkaa palvelimella olevaa dataa. Esimerkiksi tietokannasta dataa hakevat GET-tyyppiset pyynnöt luovat yhteyden tietokantasovellukseen, josta data haetaan. Mikäli näitä pyyntöjä on useita, eikä tietokannassa oleva data juurikaan muutu, kannattaa turhat tietokantakyselyt karsia.
 
-Spring Bootia käytettäessä sovelluksiin voi lisätä [välimuistitoiminnallisuuden](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-caching.html) melko helposti. Tämä tapahtuu lisäämällä konfiguraatiotiedostoon tai sovelluksen käynnistävän `main`-metodin sisältävän luokaan annotaation `@EnableCaching`.
+Spring Bootia käytettäessä sovelluksiin voi lisätä [välimuistitoiminnallisuuden](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-caching.html) melko helposti. Tämä tapahtuu lisäämällä konfiguraatiotiedostoon tai sovelluksen käynnistävän `main`-metodin sisältävään luokkaan annotaation `@EnableCaching`.
 
 Kun välimuisti on konfiguroitu eli annotaatio on paikallaan, voimme lisätä välimuistitoiminnallisuuden `@Service`-annotaatiolla merkityille metodeille `@Cacheable`-annotaation avulla. Annotaatiolle annetaan parametrina välimuistin avain -- välimuistin voi ajatella toimivan käytännössä hajautustauluna, missä avain vastaa aina jotain välimuistiin tallennettavaa arvoa.
 
@@ -103,9 +103,9 @@ Eräs mahdollisuus on myös [entiteettitagin](https://en.wikipedia.org/wiki/HTTP
 
 ## Palvelinmäärän kasvattaminen
 
-Skaalautumisesta puhuttaessa puhutaan käytännössä lähes aina horisontaalisesta skaalautumisesta, jossa käyttöön hankitaan esimerkiksi lisää palvelimia. Vertikaalinen skaalautumisen on mahdollista tietyissä tapauksissa, esimerkiksi tietokantapalvelimen ja -kyselyiden toimintaa suunniteltaessa, mutta yleisesti ottaen horisontaalinen skaalautuminen on kustannustehokkaampaa. Käytännöllisesti ajatellen kahden viikon ohjelmointityö kymmenen prosentin tehonparannukseen on tyypillisesti kalliimpaa kuin muutaman päivän konfiguraatiotyö ja uuden palvelimen hankkiminen. Käyttäjien määrän kasvaessa uusien palvelinten hankkiminen on joka tapauksessa vastassa.
+Skaalautumisesta puhuttaessa puhutaan käytännössä lähes aina horisontaalisesta skaalautumisesta, jossa käyttöön hankitaan esimerkiksi lisää palvelimia. Vertikaalinen skaalautuminen on mahdollista tietyissä tapauksissa, esimerkiksi tietokantapalvelimen ja -kyselyiden toimintaa suunniteltaessa, mutta yleisesti ottaen horisontaalinen skaalautuminen on kustannustehokkaampaa. Käytännöllisesti ajatellen kahden viikon ohjelmointityö kymmenen prosentin tehonparannukseen on tyypillisesti kalliimpaa kuin muutaman päivän konfiguraatiotyö ja uuden palvelimen hankkiminen. Käyttäjien määrän kasvaessa uusien palvelinten hankkiminen on joka tapauksessa vastassa.
 
-Pyyntöjen määrän kasvaessa yksinkertainen ratkaisu on palvelinmäärän eli käytössä olevan raudan kasvattaminen. Tällöin pyyntöjen jakaminen palvelinten kesken hoidetaan erillisellä kuormantasaajalla ([load balancer](https://en.wikipedia.org/wiki/Load_balancing_(computing))), joka ohjaa pyyntöjä palvelimille. Kuormantasaus ei ole skaalattavan sovelluksen vastuulla, vaan kuormantasaus tehdään erillisessä sovelluksessa. Myös Spring tarjoaa mahdollisuuden kuormantasaukseen esimerkiksi [NetFlix Ribbon](https://spring.io/guides/gs/client-side-load-balancing/)-projektin avulla.
+Pyyntöjen määrän kasvaessa yksinkertainen ratkaisu on palvelinmäärän eli käytössä olevan raudan kasvattaminen. Tällöin pyyntöjen jakaminen palvelinten kesken hoidetaan erillisellä kuormantasaajalla ([load balancer](https://en.wikipedia.org/wiki/Load_balancing_(computing))), joka ohjaa pyyntöjä palvelimille. Kuormantasaus ei ole skaalattavan sovelluksen vastuulla, vaan kuormantasaus tehdään erillisessä sovelluksessa. Myös Spring tarjoaa mahdollisuuden kuormantasaukseen esimerkiksi [NetFlix Ribbon](https://spring.io/guides/gs/spring-cloud-loadbalancer/)-projektin avulla.
 
 Jos sovellukseen ei liity tilaa (esimerkiksi käyttäjän tunnistaminen tai ostoskori), kuormantasaaja voi ohjata pyyntöjä kaikille käytössä oleville palvelimille round-robin -tekniikalla. Jos sovellukseen liittyy tila, tulee tietyn asiakkaan tekemät pyynnöt ohjata aina samalle palvelimelle, sillä evästeet tallennetaan oletuksena palvelinkohtaisesti. Tämän voi toteuttaa esimerkiksi siten, että kuormantasaaja lisää pyyntöön evästeen, jonka avulla käyttäjä identifioidaan ja ohjataan oikealle palvelimelle. Tätä lähestymistapaa kutsutaan termillä *sticky session*.
 
@@ -155,7 +155,7 @@ Kun sovelluksen kasvu saavuttaa pisteen, missä yksittäisestä tietokantapalvel
 
 Jos tietokantataulussa on numeerinen tunnus ja useampi sovellus luo uusia tietokantarivejä, tarvitaan erillinen palvelu tunnusten antamiselle -- tämän palvelun kaatuessa koko sovellus voi kaatua. Toisaalta, jos palvelua ei ole toteutettu hyvin, on tunnusten törmäykset (eli sama tunnus useammassa tietokannassa) mahdollisia, mikä johtaa helposti tiedon katoamiseen.
 
-Yhtenä vaihtoehtona numeerisille tunnuksille on ehdotettu [UUID](http://docs.oracle.com/javase/7/docs/api/java/util/UUID.html)-pohjaisia satunnaisua merkkijonoavaimia. Näiden ongelmana on toki se, että niiden indeksointi on tehottomampaa kuin esimerkiksi numeromuodossa olevien avainten.
+Yhtenä vaihtoehtona numeerisille tunnuksille on ehdotettu [UUID](http://docs.oracle.com/javase/7/docs/api/java/util/UUID.html)-pohjaisia satunnaisia merkkijonoavaimia. Näiden ongelmana on toki se, että niiden indeksointi on tehottomampaa kuin esimerkiksi numeromuodossa olevien avainten.
 
 Aihetta käsitellään mm. osoitteessa [https://vladmihalcea.com/uuid-identifier-jpa-hibernate/](https://vladmihalcea.com/uuid-identifier-jpa-hibernate/) olevassa blogissa.
 
@@ -234,7 +234,7 @@ Koostepalvelut, eli palvelut jotka keräävät tietoa useammasta palvelusta ja y
 
 Näissä tilanne on usein se, että palveluita on useita, ja niiden peräkkäinen suorittaminen on tyypillisesti hidasta. Suoritusta voi nopeuttaa ottamalla käyttöön rinnakkaisen suorituksen, joka onnistuu esimerkiksi Javan [ExecutorService](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/ExecutorService.html)-luokan avulla. Voimme käytännössä lisätä tehtäviä niitä suorittavalle palvelulle, jolta saamme viitteen tulevaa vastausta varten.
 
-Spring tarjoaa myös tähän apuvälineitä. Kun lisäämme sovellukselle [AsyncTaskExecutor](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/core/task/AsyncTaskExecutor.html)-rajapinnan toteuttaman olion (esimerkiksi [ThreadPoolTaskExecutor](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/scheduling/concurrent/ThreadPoolTaskExecutor.html)), voimme injektoida sen sovelluksemme käyttöön tarvittaessa. Tietynlaisen olion sovellukseen tapahtuu luomalla `@Bean`-annotaatiolla merkitty olio konfiguraatiotiedostossa. Alla esimerkiksi luodaan edellämainitut oliot.
+Spring tarjoaa myös tähän apuvälineitä. Kun lisäämme sovellukselle [AsyncTaskExecutor](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/core/task/AsyncTaskExecutor.html)-rajapinnan toteuttaman olion (esimerkiksi [ThreadPoolTaskExecutor](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/scheduling/concurrent/ThreadPoolTaskExecutor.html)), voimme injektoida sen sovelluksemme käyttöön tarvittaessa. Tietynlaisen olion lisäys sovellukseen tapahtuu luomalla `@Bean`-annotaatiolla merkitty olio konfiguraatiotiedostossa. Alla esimerkiksi luodaan edellä mainitut oliot.
 
 
 ```java
@@ -277,7 +277,7 @@ Kun palvelinohjelmistoja skaalataan siten, että osa laskennasta siirretään er
 
 Viestijonoja käyttävät sovellukset kommunikoivat viestijonon välityksellä. Tuottaja lisää viestejä viestijonoon, josta käyttäjä niitä hakee. Kun viestin sisältämän datan käsittely on valmis, prosessoija lähettää viestin takaisin. Viestijonoissa on yleensä varmistustoiminnallisuus: jos viestille ei ole vastaanottajaa, jää viesti viestijonoon ja se tallennetaan esimerkiksi viestijonopalvelimen levykkeelle. Viestijonojen konkreettinen toiminnallisuus riippuu viestijonon toteuttajasta.
 
-Viestijonosovelluksia on useita, esimerkiksi [ActiveMQ](https://activemq.apache.org/) ja [RabbitMQ](https://www.rabbitmq.com/). Spring tarjoaa komponentteja viestijonojen käsittelyyn, tutustu lisää aiheeseen esimerkiksi osoitteessa [hhttps://spring.io/guides/gs/messaging-rabbitmq/](https://spring.io/guides/gs/messaging-rabbitmq/). Myös Springin projekti [Spring Cloud Stream](https://spring.io/projects/spring-cloud-stream) tarjoaa välineitä skaalaautuvien sovellusten tekemiseen.
+Viestijonosovelluksia on useita, esimerkiksi [ActiveMQ](https://activemq.apache.org/) ja [RabbitMQ](https://www.rabbitmq.com/). Spring tarjoaa komponentteja viestijonojen käsittelyyn, tutustu lisää aiheeseen esimerkiksi osoitteessa [https://spring.io/guides/gs/messaging-rabbitmq/](https://spring.io/guides/gs/messaging-rabbitmq/). Myös Springin projekti [Spring Cloud Stream](https://spring.io/projects/spring-cloud-stream) tarjoaa välineitä skaalautuvien sovellusten tekemiseen.
 
 
 ## Palvelukeskeiset arkkitehtuurit
@@ -288,7 +288,7 @@ Monoliittisten "minä sisällän kaiken mahdollisen"-sovellusten ylläpitokustan
 Yrityksen toiminta-alueiden laajentuessa sekä uusien sovellustarpeiden ilmentyessä aiemmin toteutettuihin toiminnallisuuksiin olisi hyvä päästä käsiksi, mutta siten, että toiminnallisuuden käyttäminen ei vaadi juurikaan olemassaolevan muokkausta. Koostamalla sovellus erillisistä palveluista saadaan luotua tilanne, missä palvelut ovat tarvittaessa myös uusien sovellusten käytössä. Palvelut tarjoavat rajapinnan (esim. REST) minkä kautta niitä voi käyttää. Samalla rajapinta kapseloi palvelun toiminnan, jolloin muiden palvelua käyttävien sovellusten ei tarvitse tietää sen toteutukseen liittyvistä yksityiskohdista. Oleellista on, että yksikään palvelu ei yritä tehdä kaikkea. Tämä johtaa myös siihen, että yksittäisen palvelun toteutuskieli tai muut teknologiset valinnat ei vaikuta muiden komponenttien toimintaan -- oleellista on vain se, että palvelu tarjoaa rajapinnan jota voi käyttää ja joka löydetään.
 
 
-Yrityksen kasvaessa sen sisäiset toiminnat ja rakennettavat ohjelmistot sisältävät helposti päällekkäisyyksiä. Tällöin tilanne on käytännössä se, että aikaa käytetään samankaltaisten toimintojen ylläpitoon useammassa sovelluksessa -- pyörä keksitään yhä uudestaan ja uudestaan uudestaan uusia sovelluksia kehitettäessä.
+Yrityksen kasvaessa sen sisäiset toiminnat ja rakennettavat ohjelmistot sisältävät helposti päällekkäisyyksiä. Tällöin tilanne on käytännössä se, että aikaa käytetään samankaltaisten toimintojen ylläpitoon useammassa sovelluksessa -- pyörä keksitään yhä uudestaan ja uudestaan uusia sovelluksia kehitettäessä.
 
 
 Service Oriented Architecture ([SOA](https://en.wikipedia.org/wiki/Service-oriented_architecture)), eli palvelukeskeinen arkkitehtuuri, on suunnittelutapa, jossa sovelluksen komponentit on suunniteltu toimimaan itsenäisinä avoimen rajapinnan tarjoavina palveluina. Pilkkomalla sovellukset erillisiin palveluihin luodaan tilanne, missä palveluita voidaan käyttää myös tulevaisuudessa kehitettävien sovellusten toimesta. Palveluita käyttävät esimerkiksi toiset palvelut tai selainohjelmistot. Selainohjelmistot voivat hakea palvelusta `JSON`-muotoista dataa Javascriptin avulla ilman tarvetta omalle palvelinkomponentille. SOA-arkkitehtuurin avulla voidaan helpottaa myös ikääntyvien sovellusten jatkokäyttöä: ikääntyvät sovellukset voidaan kapseloida rajapinnan taakse, jonka kautta sovelluksen käyttö onnistuu myös jatkossa.
@@ -296,7 +296,7 @@ Service Oriented Architecture ([SOA](https://en.wikipedia.org/wiki/Service-orien
 
 <text-box variant='hint' name='Amazon ja palvelut'>
 
-Amazon on hyvä esimerkki yrityksestä, joka on menestynyt osittain sen takia, että se on toteuttanut tarjoamansa toiminnallisuudet palveluina. Siirtymä ei kuitenkaan ollut yksinkertainen, allaoleva viesti on katkelma Amazonin toimitusjohtajan, Jeff Bezosin, noin vuonna 2002 kirjoittamasta viestistä yritykselle (alkuperäinen lähde poistunut internetistä, kts. esim. [toissijainen lähde](https://medium.com/slingr-for-slack/what-year-did-bezos-issue-the-api-mandate-at-amazon-57f546994ca2)).
+Amazon on hyvä esimerkki yrityksestä, joka on menestynyt osittain sen takia, että se on toteuttanut tarjoamansa toiminnallisuudet palveluina. Siirtymä ei kuitenkaan ollut yksinkertainen, alla oleva viesti on katkelma Amazonin toimitusjohtajan, Jeff Bezosin, noin vuonna 2002 kirjoittamasta viestistä yritykselle (alkuperäinen lähde poistunut internetistä, ks. esim. [toissijainen lähde](https://medium.com/slingr-for-slack/what-year-did-bezos-issue-the-api-mandate-at-amazon-57f546994ca2)).
 
 1. All teams will henceforth expose their data and functionality through service interfaces.
 
@@ -310,7 +310,7 @@ Amazon on hyvä esimerkki yrityksestä, joka on menestynyt osittain sen takia, e
 
 6. Anyone who doesn't do this will be fired.
 
-Oikeastaan, hyvin suuri syy sille, että Amazon tarjoaa nykyään erilaisia pilvipalveluita (kts. [Amazon Web Services](https://aws.amazon.com/)) liittyy siihen kokemukseen, mitä yrityksen työntekijät sekä yritys on kerännyt kun yrityksen sisäistä toimintaa kehitettiin kohti palveluja tarjoavia ohjelmistotiimejä.
+Oikeastaan, hyvin suuri syy sille, että Amazon tarjoaa nykyään erilaisia pilvipalveluita (ks. [Amazon Web Services](https://aws.amazon.com/)) liittyy siihen kokemukseen, mitä yrityksen työntekijät sekä yritys on kerännyt kun yrityksen sisäistä toimintaa kehitettiin kohti palveluja tarjoavia ohjelmistotiimejä.
 
 </text-box>
 
