@@ -78,7 +78,7 @@ public String create(@RequestParam String name,
 }
 ```
 
-Edellä oleva muoto DateTimeFormat.ISO.DATE olettaa, että päivämäärä lähetetään palvelimelle muodossa `yyyy-MM-dd`. Tässä on ensin vuosi (4 numeroa), sitten viiva, sitten kuukausi (2 numeroa), sitten viiva, ja lopulta päivä (2 numeroa). Tämä muoto liittyy [RFC3339-spesifikaatioon](https://tools.ietf.org/html/rfc3339#section-5.6), joka määrittelee muodon, mitä päivämäärissä *pitäisi* käyttää kun tietoa lähetetään palvelimelle. Spesifikaation takia voimme olettaa (tai toivoa), että esimerkiksi HTML:n [date](https://www.w3.org/TR/html-markup/input.date.html" target="_blank)-elementtiin syötettävä päivämäärä lähetetään palvelimelle em. muodossa.
+Edellä oleva muoto DateTimeFormat.ISO.DATE olettaa, että päivämäärä lähetetään palvelimelle muodossa `yyyy-MM-dd`. Tässä on ensin vuosi (4 numeroa), sitten viiva, sitten kuukausi (2 numeroa), sitten viiva, ja lopulta päivä (2 numeroa). Tämä muoto liittyy [RFC3339-spesifikaatioon](https://tools.ietf.org/html/rfc3339#section-5.6), joka määrittelee muodon, mitä päivämäärissä *pitäisi* käyttää kun tietoa lähetetään palvelimelle. Spesifikaation takia voimme olettaa (tai toivoa), että esimerkiksi HTML:n [date](https://www.w3.org/TR/2011/WD-html-markup-20110525/input.date.html)-elementtiin syötettävä päivämäärä lähetetään palvelimelle em. muodossa.
 
 
 Vastaavasti lomake, jolla henkilö voidaan luoda, on melko suoraviivainen. Lomake-elementin tyyppi `date` toimii joissakin selaimissa -- jonkinlainen ohjeistus käyttäjälle on kuitenkin hyvä olla olemassa.
