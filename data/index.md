@@ -13,6 +13,10 @@ toteuttamiseen. Kurssin käyminen edellyttää kurssien Ohjelmoinnin
 perusteet (TKT10002), Ohjelmoinnin jatkokurssi (TKT10003) ja
 Tietokantojen perusteet (TKT10004) tuntemisen sekä Java-ohjelmointikielen osaamista tai innokkuutta opetella sitä kurssin aikana.
 
+## Kurssi on päättynyt lopullisesti
+
+Kurssin ylläpito on päättynyt eikä kurssia olla pitämässä uudestaan. Mikäli olet kiinnostunut web-palvelimista käytävissäsi on avoin kurssi https://fullstackopen.com. Tämän lisäksi tämän kurssin materiaali pysyy kaikille avoimena.
+
 ## Sisältö ja aikataulu ##
 
 Kurssi koostuu seitsemästä tehtäväsarjasta, ohjelmointiprojektista sekä kokeesta.
